@@ -1,3 +1,4 @@
+import './Staff.css'
 const Staff = () => {
     return (
         <div>

@@ -1,0 +1,66 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: black;
+    height: 10vh;
+    background-color: transparent;
+}
+
+ul {
+    display: flex;
+    justify-content: space-between;
+    padding-right: 5vw;
+    align-items: center;
+
+  }
+  
+li {
+    list-style: none;
+
+}
+
+a{
+    text-decoration: none;
+    color: white;
+    font-size: 1.2rem;
+    font-weight: bold;
+}
+
+.logoDiv{
+    width: 45%;
+    padding-left: 3em;
+}
+
+.logoDiv img{
+    width: 30%;
+    padding-left: 3em;
+}
+
+.navDiv{
+    width: 55%;
+
+}
+
+.contactButton{
+    color: white;
+    font-size: 1.2rem;
+    border-radius: 5px;
+    border: white solid 1px;
+    background-color: transparent;
+    font-weight: bold;
+    padding: 10px 30px;;
+}
+
+.contactButton:hover{
+    background-color: blueviolet;
+    border: blueviolet solid 1px;
+}
+
+
+

@@ -1,0 +1,43 @@
+
+.heroDiv{
+    background-image: url("../../Assets/Imagenes/home-imagenPrincipal.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: local;
+    background-position:  center -100px;
+    height: 95vh;
+    color: #fafafa;
+    padding-left: 3em;
+    margin: -100px 0 0 0;
+}
+
+.heroText{
+    padding: 20vh 0 60vh 3vw;
+    width: 50vw;
+    display: block;
+    
+}
+
+h2{
+    display: block;
+    font-size: 3rem;
+    margin-bottom: 20px;
+
+}
+
+.heroDiv p{
+    font-size: 1.3rem;
+    margin-bottom: 50px;
+    line-height: 30px;
+    color: lightgrey;
+}
+
+.heroButton {
+    background-color: #bc29a4;
+    border-radius: 5px;
+    border: #bc29a4 solid;
+    padding: 10px 30px;
+    color: white;
+    font-weight: bold;
+    font-size: 1rem;
+}

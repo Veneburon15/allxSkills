@@ -1,0 +1,15 @@
+.footerContainer{
+    display: flex;
+    justify-content: space-evenly;
+    padding: 10em 3em 10em 3em;
+    background-color: black;
+
+}
+
+.secciones h3{
+    font-weight: lighter;
+}
+
+.secciones p{
+    font-weight: lighter;
+}

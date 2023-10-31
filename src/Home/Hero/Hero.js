@@ -1,13 +1,20 @@
+import './Hero.css'
+
 const Hero = () => { 
     return(
-    <div> 
-        <div> 
-            <h2>¡Explora y desarrolla tus habilidades al máximo!</h2>
-            <p>Contar con habilidades blandas o “soft skills” es fundamental en el mundo laboral y en la vida en general, ya que afectan la forma en que interactuamos con los demás, resolvemos problemas, y manejamos nuestras propias emociones.</p> 
-            <button>MÁS INFORMACIÓN</button>
+    <div className='heroDiv'> 
+        <div className='heroText'> 
+            <h2>Tu <strong>Éxito Profesional</strong><br/> comienza con AllxSkills</h2>
+            <p>Aumenta tu potencial aprendiendo <br/> Habilidades Blandas de alto impacto</p> 
+            <button className='heroButton'>¡Comienza Ahora!</button>
         </div>
     </div> 
     );
 }
 
 export default Hero;
+
+
+// fabricio macchi
+// juan Vidal 
+// faq franco
