@@ -5,6 +5,9 @@
     background-color: black;
 
 }
+.footerContainer a{
+    color:  white;
+}
 
 .secciones h3{
     font-weight: lighter;
