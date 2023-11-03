@@ -1,6 +1,6 @@
 *{
     margin: 0;
-    padding: 0;
+    padding: 0;  
 }
 
 nav {
@@ -27,7 +27,7 @@ li {
 
 a{
     text-decoration: none;
-    color: white;
+    /* color: white; */
     font-size: 1.2rem;
     font-weight: bold;
 }
@@ -43,7 +43,8 @@ a{
 }
 
 .navDiv{
-    width: 55%;
+    width: 55%;  
+    color: black;
 
 }
 

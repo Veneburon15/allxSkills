@@ -3,8 +3,14 @@ const Staff = () => {
     return (
         <div>
             <div>
-            <h2>Nuestro Staff</h2>
-            <p>Somos un Equipo de Profesionales comprometidos en crear la experiencia de aprendizaje más excepcional con la firme intención de compartir nuestra pasión por el crecimiento y desarrollo de las personas.</p> 
+                <h4>Una experiencia única</h4>
+                <div>
+                    <p>Enfoque interactivo</p> 
+                    <p>Aprende haciendo</p> 
+                    <p>Material exclusivo</p> 
+                    <p>Simulacion y Roleplay</p> 
+                    <p>Juegos y Desafios</p> 
+                </div>
             </div>
         </div> 
     )
