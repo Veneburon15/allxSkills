@@ -5,7 +5,7 @@ const HeroOferta = () => {
             <div>
                 <div>
                     <div>
-                        <img src="" alt="Grupo de jovenes" />
+                        <img src="" alt="Grupo de jóvenes" />
                         <div>
                             <h3>Impulsa tu carrerra profesional</h3>
                         </div>
@@ -22,17 +22,17 @@ const HeroOferta = () => {
                 </div>
                 <div>
                     <div>
-                        <h3>Benfecios</h3>
+                        <h3>Benefecios</h3>
                         <p>teoría</p>
                         <p>clases en vivo</p>
-                        <p>dinamico</p>
+                        <p>dinámico</p>
                         <p>feedback</p>
-                        <p>practica</p>
-                        <p>desafios de aprendizaje</p>
+                        <p>práctica</p>
+                        <p>desafíos de aprendizaje</p>
                     </div>
                     <div>
                         <h2>Aprende haciendo</h2>
-                        <p>Nuestros Workshops te ofrecen una forma diferente y dinamica para aprender ¡Descubre una educacion innovadora!</p>
+                        <p>Nuestros Workshops te ofrecen una forma diferente y dinámica para aprender ¡Descubre una educación innovadora!</p>
                     </div>
                 </div>
             </div>
