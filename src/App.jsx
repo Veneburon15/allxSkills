@@ -1,11 +1,11 @@
 import './App.css';
-// import Home from './Home/Home'
-import OfertaAcademica from './Oferta Academica/OfertaAcademica'
+import Home from './Home/Home'
+// import OfertaAcademica from './Oferta Academica/OfertaAcademica'
 function App() {
   return (
-    <div>
-      {/* <Home/>   */}
-      <OfertaAcademica/>
+    <div className='appMain'>
+      <Home/>  
+      {/* <OfertaAcademica/> */}
     </div>
   );
 }

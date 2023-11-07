@@ -5,7 +5,7 @@ import Staff from './Staff/Staff'
 import Workshop from './Workshop/Workshop'
 import Form from './Form/Form'
 import './Home.css'
-import SoftSkills from './Soft Skills/SofsSkills'
+import SoftSkills from './SoftSkills/SoftSkills'
 
 function Home() {
   return (

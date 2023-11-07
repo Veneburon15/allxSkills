@@ -1,22 +1,121 @@
-.footerContainer{
-    display: flex;
-    justify-content: space-evenly;
-    padding: 10em 3em 10em 3em;
-    background-color: black;
 
+footer{
+    padding: 3em 4em 3em 6em;
+    background-color: #302a2f;
+    color: #fafafa;
+    display: flex;
+    flex-direction: column;
+}
+.text{
+    font-size: 1.4em;
 }
 .footerContainer a{
-    color:  white;
+    color:  #fafafa;
+}
+.secciones {
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 4em;
+    padding: 0 0 6em 4em;
 }
 
-.secciones h3{
+
+/* Estilos seccion 1 (derecha) */
+.footerSection1{
+    width: 40%;
+}
+.footerSection1 ul {
+    display: flex;
+    gap: 10px;
+    justify-content: flex-start;
+}
+.footerLogo{
+    width: 28%;
+}
+.footerPartnerP{
+    margin-bottom: 2em;
+}
+.phoneNumber {
+    margin-bottom: 1em;
+}
+
+/* Estilos Sección 2 (centro) */
+.footerSection2{
+    width: 30%;
+}
+.footerSection2 h3 {
+    font-size: 1.6em;
+    margin-bottom: 15px;
+}
+.footerSection2 ul{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+.footerSection2 ul a{
     font-weight: lighter;
+    text-decoration: none;
 }
 
-.secciones p{
+/* Estilos sección 3 (izquierda) */
+.footerSection3{
+    width: 30%;
+}
+.topRightSection{
+    display: flex;
+    flex-direction: column;
+    height: 50%;
+}
+.footerh2{
+    font-size: 2.5em;
+}
+.emailInput{
+    width: 80%;
+    height: 35%;
+    display: flex;
+    align-items: center;
+}
+.emailInput input {
+    width: 90%;
+    height: 80%;
+    border-radius: 5px;
+    padding: 7px;
+    background-color: #302a2f;
+    border-color: aliceblue;
+    color: #fafafa;
+}
+.emailInput button {
+    width: 9%;
+    height: 115%;
+    border-radius: 5px;
+    background-color: purple;
+    color: #fafafa;
+}
+
+
+/* Estilos del bloque de los Copyrights*/
+.copyrights{
+    border-top: 1px solid aliceblue;
+    display: flex;
+    justify-content: center;
+    padding: .5em ;
+    width: 94%;
+}
+
+.copyrights p {
+    width: 55%;
+    text-align: end;
+}
+
+.belowRightSection{
+    display: flex;
+    gap: 45px;
+    justify-content: flex-end;
+    width: 45%;
+}
+.belowRightSection a {
     font-weight: lighter;
-}
-
-footer p {
-    color: white;
+    text-decoration: none;
 }
