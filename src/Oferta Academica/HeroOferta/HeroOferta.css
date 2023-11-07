@@ -1,0 +1,64 @@
+*{
+    border: solid 1px purple;
+}
+.heroSection {
+    display: flex;
+    padding: 5% 0 ;
+    gap: 15px;
+    justify-content: center;
+
+}
+
+/****Código de referencia, hay que eliminarlo*****/
+.heroSection div{
+    border: solid 1px gray;
+    border-radius: 10px;
+}
+/****Código de referencia, hay que eliminarlo*****/
+
+.leftDiv{
+    width: 40%;
+}
+
+.rightDiv{
+    display: flex;
+    flex-direction: column;
+    width: 60%;
+    gap: 15px;
+}
+
+/***Sección de arriba a la derecha***/
+.rightTopDiv{
+    display: flex;
+    flex-direction: row;
+    height: 10em;
+    width: 100%;
+    gap: 15px;
+}
+.learnSoft{
+    width: 67%;
+}
+.rightTopDiv figure {
+    width: 30%;
+}
+
+
+/**Sección de abajo a la derecha**/
+.rightBelowDiv{
+    display: flex;
+    flex-direction: row;
+    height: 10em;
+    width: 100%;
+    gap: 15px;
+}
+.benefits {
+    display: flex;
+    flex-wrap: wrap;
+    width: 45%;
+}
+.learnDoing {
+    width: 50%;
+}
+.learnDoing img{
+    max-width: 90%;
+}

@@ -3,18 +3,3 @@
     background-color: #141414;
     color: #fafafa;
 }
-
-.mainH2 {
-    font-size: 2.5em;
-    padding: 100px 0 0 0;
-}
-
-.heroButton {
-    background-color: #bc29a4;
-    border-radius: 5px;
-    border: #bc29a4 solid;
-    padding: 10px 30px;
-    color: white;
-    font-weight: bold;
-    font-size: 1rem;
-}
