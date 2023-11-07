@@ -7,7 +7,7 @@ import Navbar from './Navbar/Navbar';
 
 function App() {
   return (
-    <div>
+    <html>
     {/* // <BrowserRouter> */}
       <Navbar/>
     {/* //   <Routes>
@@ -17,7 +17,7 @@ function App() {
     {/* //   </Routes> */}
     {/* // </BrowserRouter> */}
 
-    </div>
+    </html>
 
   );
 }

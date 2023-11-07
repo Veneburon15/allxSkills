@@ -2,7 +2,7 @@ import './HeroOferta.css'
 
 const HeroOferta = () => {
     return(
-        <div>
+        <section className='heroSection'>
             <div>
                 <div>
                     <div>
@@ -37,7 +37,7 @@ const HeroOferta = () => {
                     </div>
                 </div>
             </div>
-         </div>
+        </section>
     )
 }
 

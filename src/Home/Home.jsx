@@ -7,13 +7,14 @@ import SoftSkills from './SoftSkills/SoftSkills'
 
 function Home() {
   return (
-    <div className='homeContainer'>
+    <main className='homeContainer'>
       <Hero/>
       <Staff/> 
+      <h2>Elige tu siguiente curso</h2>
       <Workshop/>
       <SoftSkills/>
       <Form/>  
-    </div>
+    </main>
   );
 }
 

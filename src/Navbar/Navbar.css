@@ -7,7 +7,6 @@ nav {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    background-color: black;
     height: 10vh;
     background-color: transparent;
 }
@@ -22,12 +21,10 @@ ul {
   
 li {
     list-style: none;
-
 }
 
 a{
     text-decoration: none;
-    /* color: white; */
     font-size: 1em;
     font-weight: bold;
 }
@@ -44,7 +41,6 @@ a{
 .navDiv{
     width: 55%;  
     color: black;
-
 }
 
 .contactButton{

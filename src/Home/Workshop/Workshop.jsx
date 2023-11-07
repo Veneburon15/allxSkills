@@ -1,8 +1,7 @@
 import './Workshop.css'
 const Workshop = () => {
     return (
-        <div className='workShopContainer'>
-            <h2>Elige tu siguiente curso</h2>
+        <section className='workShopContainer'>
             <div className='mainCardDiv'> {/* CONTIENE LAS CARDS*/}
                 <div className='cardDiv'> {/* ESTAS CARDS LAS QUISE HACER EN OTRO COMPONENTE PERO NECESITAMOS UNA DB PARA ESO PARA SACAR LA INFO*/}
                     <h4>Workshop</h4>
@@ -47,7 +46,7 @@ const Workshop = () => {
                     <div className="coloredDiv"></div>
                 </div>
             </div>
-        </div> 
+        </section> 
     )
 } 
 

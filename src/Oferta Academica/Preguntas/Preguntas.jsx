@@ -2,7 +2,7 @@ import './Preguntas.css'
 
 const Preguntas = () => {
     return (
-        <section className='preguntasMainSection'>
+        <section className='preguntasSection'>
             <h2>Preguntas Frecuentes</h2>
             <div className='questionMainDiv'>
                 <div className='questionDiv bottomBorder'>
