@@ -1,3 +1,4 @@
+import './HeroOferta.css'
 
 const HeroOferta = () => {
     return(

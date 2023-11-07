@@ -1,0 +1,23 @@
+.preguntasMainSection {
+    margin: 0px 0 80px 0;
+
+}
+
+.preguntasMainSection h2{
+    font-size: 2.5em;
+    margin: 50px 0 20px 0;
+}
+
+.questionMainDiv{
+    display: flex;
+    flex-direction: column;
+}
+
+.questionDiv{
+    display: flex;
+    padding: 1.2em 0;
+}
+
+.bottomBorder {
+    border-bottom: 1px gray solid;
+}

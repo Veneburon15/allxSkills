@@ -22,6 +22,7 @@ footer{
 /* Estilos seccion 1 (derecha) */
 .footerSection1{
     width: 40%;
+    padding-left: 1em;
 }
 .footerSection1 ul {
     display: flex;
@@ -67,6 +68,7 @@ footer{
     display: flex;
     flex-direction: column;
     height: 50%;
+    gap: 15px;
 }
 .footerh2{
     font-size: 1.6em;
@@ -102,7 +104,7 @@ footer{
     border-top: 1px solid aliceblue;
     display: flex;
     justify-content: center;
-    margin: 0 4% ;
+    margin: 0 5% ;
     padding: .5em 0;
     width: 94%;
 }
