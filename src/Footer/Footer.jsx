@@ -7,7 +7,7 @@ const Footer = () => {
                 <section className='secciones'>
                     <section className='footerSection1'>
                         <img src={Logo} alt="AllxSkillz Logo" className='footerLogo'/>
-                        <p className='footerPartnerP text'>Tu Socio en el Desarrollo de <br/> Habilidades Blandas</p> 
+                        <p className='footerPartnerP text'>Tu Socio en el Desarrollo <br/> de Habilidades Blandas</p> 
                         <p className='phoneNumber text'>(+54) 911 3921-4786</p>
                         <ul>
                             <li><img src="#" alt="WhatsApp Icon"/></li>
@@ -39,7 +39,7 @@ const Footer = () => {
             <section className='copyrights'>
                 <p className='text'>Copyright © 2023 Allskills</p>
                 <div className='belowRightSection'>
-                    <a className='text'>Terminos y Condiciones</a>
+                    <a className='text'>Términos y Condiciones</a>
                     <a className='text'>Privacidad</a>
                 </div>
             </section>
