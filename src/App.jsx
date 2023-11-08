@@ -4,6 +4,7 @@ import OfertaAcademica from './Oferta Academica/OfertaAcademica'
 import './App.css';
 import Footer from './Footer/Footer';
 import Navbar from './Navbar/Navbar';
+import Curso from './Oferta Academica/Curso/Curso';
 
 function App() {
   return (
@@ -12,10 +13,12 @@ function App() {
       <Navbar/>
     {/* //   <Routes>
     //     <Route exact path='/' element={<Home/>}/> */}
-        <OfertaAcademica/>
+        {/* <OfertaAcademica/> */}
+        <Curso/>
         <Footer/>
     {/* //   </Routes> */}
-    {/* // </BrowserRouter> */}
+    {/* // </BrowserRouter> */} 
+
 
     </html>
 
