@@ -1,0 +1,11 @@
+.staffSection {
+    display: flex;
+    flex-direction: row;
+    padding: 56px 0px;
+    justify-content: space-evenly;
+}
+
+.staffSection div {
+    display: flex;
+    flex-direction: row;
+}

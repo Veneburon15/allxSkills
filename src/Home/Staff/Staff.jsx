@@ -1,18 +1,28 @@
 import './Staff.css'
 const Staff = () => {
     return (
-        <div>
+        <section className='staffSection'>
             <div>
-                <h4>Una experiencia única</h4>
-                <div>
-                    <p>Enfoque interactivo</p> 
-                    <p>Aprende haciendo</p> 
-                    <p>Material exclusivo</p> 
-                    <p>Simulacion y Roleplay</p> 
-                    <p>Juegos y Desafios</p> 
-                </div>
+                <img src="" alt="ícono Check" />
+                <p>Enfoque <br/> interactivo</p> 
             </div>
-        </div> 
+            <div>
+                <img src="" alt="ícono Check" />
+                <p>Aprende <br/> haciendo</p> 
+            </div>
+            <div>
+                <img src="" alt="ícono Check" />
+                <p>Material <br/> exclusivo</p> 
+            </div>
+            <div>
+                <img src="" alt="ícono Check" />
+                <p>Simulaciones <br/> y Roleplay</p> 
+            </div>
+            <div>
+                <img src="" alt="ícono Check" />
+                <p>Juegos <br/> y Desafíos</p> 
+            </div>
+        </section> 
     )
 } 
 

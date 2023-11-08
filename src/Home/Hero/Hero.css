@@ -1,13 +1,14 @@
+* {
+    border: solid 1px purple;
+}
 
 .heroDiv{
-    background-image: url("../../Assets/Imagenes/home-imagenPrincipal.jpg");
-    background-size: cover;
+    background-image: url("../../Assets/Imagenes/imagen-home-hero.jpg");
     background-repeat: no-repeat;
-    background-attachment: local;
-    background-position:  center -100px;
-    height: 95vh;
+    background-position: -20px;
+    height: 100vh;
     color: #fafafa;
-    padding-left: 3em;
+    padding: 120px 80px 0 80px;
     margin: -100px 0 0 0;
 }
 
@@ -17,7 +18,7 @@
     display: block;
     
 }
-
+/*
 h2{
     display: block;
     font-size: 3rem;
@@ -40,4 +41,4 @@ h2{
     color: white;
     font-weight: bold;
     font-size: 1rem;
-}
+} */
