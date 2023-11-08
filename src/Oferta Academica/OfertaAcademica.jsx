@@ -7,13 +7,13 @@ import './OfertaAcademica.css'
 
 const OfertaAcademica = () => {
     return(
-        <main className="ofertaAcademicaDiv">
+        <body className="ofertaAcademicaDiv">
             <HeadOferta/>
             <HeroOferta/>
             <NuestrosCursos/>
             <Preguntas/>
             <Form/>
-        </main>
+        </body>
     )
 }
 

@@ -1,3 +1,4 @@
+import './SoftSkills.css'
 
 const SoftSkills = () => {
     return (

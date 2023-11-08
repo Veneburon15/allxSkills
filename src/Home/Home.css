@@ -1,8 +1,20 @@
-.homeContainer{
+.homeBody {
     background-color: #141414;
     color: white;
 }
 
-.homeContainer h2 {
+.workshopH2 {
     font-size: 2.5em;
+    text-align: center;
+    padding: 48px 0;
+}
+
+.moreCourses{
+    margin: auto;
+    display: flex;
+    width: fit-content;
+    padding: 0 40px;
+    height: 48px;
+    align-items: center;
+    background-color: #5E4DCD;
 }
