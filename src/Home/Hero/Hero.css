@@ -7,35 +7,31 @@
     margin: -100px 0 0 0;
 }
 
+.heroTextGradient{
+    font-family: var(--fuente);
+    font-weight: var(--semibold-weight);
+    font-size: 44px;
+    display: inline;
+    background: linear-gradient(90deg, #D22EB6, #5E4DCD);
+    -webkit-background-clip: text;
+    background-clip: text; 
+    color: transparent;
+}
+
 .heroText{
     padding: 10% 0 ;
     width: 50vw;
     height: 60%;
     display: flex;
     flex-direction: column;
-    
 }
-/*
-h2{
+
+h1{
     display: block;
-    font-size: 3rem;
     margin-bottom: 20px;
-
 }
 
-.heroDiv p{
-    font-size: 1.3rem;
-    margin-bottom: 50px;
-    line-height: 30px;
-    color: lightgrey;
+.heroText p {
+    margin-bottom: 30px;
+    line-height: 22px;
 }
-
-.heroButton {
-    background-color: #bc29a4;
-    border-radius: 5px;
-    border: #bc29a4 solid;
-    padding: 10px 30px;
-    color: white;
-    font-weight: bold;
-    font-size: 1rem;
-} */

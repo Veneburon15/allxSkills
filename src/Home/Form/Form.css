@@ -1,21 +1,16 @@
-/* .contactSection{
-    width: 100%;
+.contactSection{
     display: flex;
     flex-direction: column;
     align-items: center;
     text-align: center;
-    padding: 2em 0 6em 0;
+    margin: 0 80px;
+    padding: 56px 0 136px 0;
 }
 
 .contactSection h2 {
     margin: 10px;
 }
 
-.heroButton {
-    background-color: #bc29a4;
-    border-radius: 5px;
-    border: #bc29a4 solid;
-    padding: 10px 30px;
-    color: white;
-    width: 200px;
-} */
+.contactSection p {
+    color: #FEFEFE;
+}

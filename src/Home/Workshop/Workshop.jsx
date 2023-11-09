@@ -3,8 +3,8 @@ const Workshop = () => {
     return (
         <section className='workShopContainer'>
             <div className='mainCardDiv'> {/* CONTIENE LAS CARDS*/}
-                <div className='cardDiv'> {/* ESTAS CARDS LAS QUISE HACER EN OTRO COMPONENTE PERO NECESITAMOS UNA DB PARA ESO PARA SACAR LA INFO*/}
-                    <h4>Workshop</h4>
+                <div className='cardDiv'> 
+                    <h4 className='tag'>Workshop</h4>
                     <div className='topCardDiv'>
                         <h3>Inteligencia Emocional:</h3>
                         <p className="cardTitle">Gestionando cambios con éxito</p>
@@ -17,8 +17,8 @@ const Workshop = () => {
                     <button className='cardButton'>conocer más</button>
                     <div className="coloredDiv"></div>
                 </div> 
-                <div className='cardDiv'> {/* ESTAS CARDS LAS QUISE HACER EN OTRO COMPONENTE PERO NECESITAMOS UNA DB PARA ESO PARA SACAR LA INFO*/}
-                    <h4>Workshop</h4>
+                <div className='cardDiv'> 
+                    <h4 className='tag'>Workshop</h4>
                     <div className='topCardDiv'>
                         <h3>Habilidades Interpersonales:</h3>
                         <p className="cardTitle">Encuentra el empleo que deseas</p>
@@ -31,8 +31,8 @@ const Workshop = () => {
                     <button className='cardButton'>conocer más</button>
                     <div className="coloredDiv"></div>
                 </div>
-                <div className='cardDiv'> {/* ESTAS CARDS LAS QUISE HACER EN OTRO COMPONENTE PERO NECESITAMOS UNA DB PARA ESO PARA SACAR LA INFO*/}
-                    <h4>Workshop</h4>
+                <div className='cardDiv'> 
+                    <h4 className='tag'>Workshop</h4>
                     <div className='topCardDiv'>
                         <h3>InfoProducto Nuevo</h3>
                         <p className="cardTitle">Pensando que poner aca</p>

@@ -1,9 +1,15 @@
-* {
+/* * {
     border: solid 1px purple;
-}
+} */
 
 .homeBody {
     background-color: #141414;
+}
+
+.workshopH2 {
+    text-align: center;
+    padding: 48px 0;
+    margin: 0 80px;
 }
 
 .moreCourses{
@@ -14,12 +20,5 @@
     height: 48px;
     align-items: center;
     background-color: #5E4DCD;
+    border: #5E4DCD solid 1px;
 }
-
-.homeTextGradient{
-    font-family: var(--fuente);
-    font-weight: var(--semibold-weight);
-    font-size: 44px;
-    display: inline;
-}
-

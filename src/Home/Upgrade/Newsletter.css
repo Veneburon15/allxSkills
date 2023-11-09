@@ -1,0 +1,51 @@
+.newsletterSection {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 128px 0 48px 0;
+    height: 330px;
+    background-image: url("../../Assets/Imagenes/imagen-home-suscribete.jpg");
+    background-repeat: no-repeat;
+    background-size: 100% auto;
+
+}
+
+.newsletterSection p{
+    width: 72%;
+    text-align: center;
+    color: var(--main-font-color);
+    margin: 15px 0 15px 0;
+}
+
+
+form{
+    width: 32%;
+}
+
+#email {
+    font-weight: var(--regular-weight);
+    color: var(--main-font-color);
+    font-size: 16px;
+    height: 40px;
+    width: 55.5%;
+    padding: 0 20px;
+    background-color: transparent;
+    line-height: auto;
+    border: solid gray 1px;
+    border-radius: 6px 0 0 6px;
+}
+
+.suscribeButton{
+    font-weight: var(--semibold-weight);
+    color: var(--main-font-color);
+    font-size: 16px;
+    height: 41px;
+    width: 34%;
+    text-align: center;
+    background-color: #D22EB6;
+    border-radius: 6px;
+    border: solid 1px #D22EB6;;
+    line-height: auto;
+    margin-left: -5px;
+}

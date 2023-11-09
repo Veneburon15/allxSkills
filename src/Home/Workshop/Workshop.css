@@ -1,14 +1,13 @@
-
-.workShopContainer h2{
-    text-align: center;
+.workShopContainer{
+    margin: 0 80px;
+    padding: 0 0 48px 0;
 }
 
 .mainCardDiv{
     display: flex;
     justify-content: center;
-    gap: 30px;
+    gap: 24px;
 }
-
 
 .cardDiv {
     display: inline-block;

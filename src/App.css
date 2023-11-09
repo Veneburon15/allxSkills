@@ -6,64 +6,78 @@
     --bold-weight: 700;
     --main-font-color: #FEFEFE;
     --secondary-font-color: #CFCFCF;
+    --line-height1: 120%;
+    --line-height2: 150%;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: var(--fuente);
 }
 
 h1 {
-    font-family: var(--fuente);
     font-weight: var(--semibold-weight);
     font-size: 44px;
-    color: var(--main-font-color);
+    color: var(--main-font-color);;
+    line-height: 120%;
 }
 
 h2 {
-    font-family: var(--fuente);
     font-weight: var(--medium-weight);
     font-size: 28px;
-    color: var(--main-font-color);
+    color: var(--main-font-color);;
+    line-height: 120%;
 }
 
 h3 {
-    font-family: var(--fuente);
     font-weight: var(--medium-weight);
     font-size: 24px;
-    color: var(--main-font-color);
+    color: var(--main-font-color);;
+    line-height: 120%;
 }
 
 .tag {
-    font-family: var(--fuente);
     font-weight: var(--regular-weight);
     font-size: 14px;
-    color: var(--secondary-font-color)
+    color: var(--secondary-font-color);
+    line-height: 150%;
 }
 
 p{
-    font-family: var(--fuente);
     font-weight: var(--regular-weight);
     font-size: 16px;
-    color: var(--secondary-font-color)
+    color: var(--secondary-font-color);
+    line-height: 150%;
 }
 
 a{
-    font-family: var(--fuente);
-    font-weight: var(--semibold-weight);
-    font-size: 16px;
-    color: var(--main-font-color)
-}
-
-li {
-    font-family: var(--fuente);
-    font-weight: var(--semibold-weight);
-    font-size: 16px;
-    color: var(--main-font-color)
-}
-
-button{
-    font-family: var(--fuente);
     font-weight: var(--semibold-weight);
     font-size: 16px;
     color: var(--main-font-color);
+    line-height: 120%;
 }
 
-.boldP{
-    font-weight: var(--regular-weight);
+li {
+    font-weight: var(--semibold-weight);
+    font-size: 16px;
+    color: var(--main-font-color);
+    line-height: 120%;
+}
+
+button {
+    font-weight: var(--semibold-weight);
+    font-size: 16px;
+    color: var(--main-font-color);
+    height: 40px;
+    width: max-content;
+    padding: 0 40px;
+    background-color: #D22EB6;
+    border-radius: 6px;
+    border: solid 1px #D22EB6;;
+    line-height: auto;
+}
+
+button:hover{
+    background-color: #A53692;
 }

@@ -1,26 +1,26 @@
-// import Home from './Home/Home'
-import OfertaAcademica from './Oferta Academica/OfertaAcademica'
+import Home from './Home/Home'
+// import OfertaAcademica from './Oferta Academica/OfertaAcademica'
 // import { BrowserRouter, Routes, Route } from 'react-router-dom';
 import './App.css';
 import Footer from './Footer/Footer';
 import Navbar from './Navbar/Navbar';
-import Curso from './Oferta Academica/Curso/Curso';
+// import Curso from './Oferta Academica/Curso/Curso';
 
 function App() {
   return (
-    <html>
+    <main>
     {/* // <BrowserRouter> */}
       <Navbar/>
+      <Home/>
     {/* //   <Routes>
-    //     <Route exact path='/' element={<Home/>}/> */}
         {/* <OfertaAcademica/> */}
-        <Curso/>
+        {/* <Curso/> */}
         <Footer/>
     {/* //   </Routes> */}
     {/* // </BrowserRouter> */} 
 
 
-    </html>
+    </main>
 
   );
 }

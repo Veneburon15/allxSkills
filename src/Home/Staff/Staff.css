@@ -1,11 +1,26 @@
 .staffSection {
     display: flex;
     flex-direction: row;
-    padding: 56px 0px;
+    padding: 56px 0;
+    margin: 0 80px;
     justify-content: space-evenly;
 }
 
 .staffSection div {
     display: flex;
     flex-direction: row;
+    gap: 8px;
+}
+
+.staffSection img {
+    color: #CFCFCF;
+}
+
+.checkIcon {
+    width: 24px;
+    height: 24px;
+}
+
+.staffText{
+    font-weight: 500;
 }
