@@ -1,70 +1,90 @@
 .workShopContainer{
     margin: 0 80px;
     padding: 0 0 48px 0;
-}
-
-.mainCardDiv{
     display: flex;
     justify-content: center;
-    gap: 24px;
+    gap: 15px;
 }
 
 .cardDiv {
-    display: inline-block;
-    border-radius: 15px;
-    border: solid gray 2px;
-    background-color: #302a2f;
-    width: 28vw;
+    border-radius: 15px 15px 8px;
+    border: solid gray 1px;
+    background: linear-gradient(30deg, #1B181B, #322C31);
+    width: 370px;
+    height: 425px;
+    padding: 32px 0 0 0;
+    border-bottom: none;
 }
 
-.topCardDiv{
-    margin: 15px 15px 40px 35px;
-    color: white;
+.cardDiv:hover{
+    background: linear-gradient(20deg, #171517, #423940);;
 }
 
 .workShopContainer h4{
-    display: inline-block;
+    width: max-content;
     background-color: rgba(130, 127, 127, 0.675);
     border-radius: 20px;
-    padding: 5px 15px;
-    color: white;
-    margin: 30px 0 0 35px ;
+    padding: 5px 24px;
+    margin: 0 24px 24px 24px;
 }
 
-.workShopContainer h3{
-    margin-bottom: 15px;
+.cardHeader{
+    margin: 0 24px 8px 24px;
+    font-size: 16px;
+    font-weight: var(--regular-weight);
 }
 
 .cardTitle {
-    line-height: 30px;
-    margin-bottom: 50px;
+    font-size: 28px;
+    font-weight: var(--medium-weight);
+    line-height: 120%;
+    margin: 0 24px 0 24px;
 }
 
 .cardSecondDiv{
-    color: #646264;
-    padding-bottom: 50px;
-    margin: 15px 15px 80px 35px;
+    display: flex;
+    flex-direction: column;
+    margin: 0 24px 0 24px;
+    padding: 40px 0 80px 0;
+    gap: 7px;
+}
+
+.cardSecondDiv div {
+    display: flex;
+    flex-direction: row;
+    gap: 5px;
+}
+
+.cardSecondDiv p{
+    width: max-content;
+}
+
+.body2 {
+    font-weight: var(--medium-weight);
 }
 
 .cardButton{
     padding: 7px 30px 10px 030px;
-    border: 3px solid rgb(144, 32, 172) ;
-    border-radius: 4px;
-    background-color: transparent;
-    color: rgb(144, 32, 172);
-    font-weight: bold;
-    margin: 15px 0 30px 35px;
+    margin: 0 0 20px 24px;
+    border: 2px solid;
+    border-image: linear-gradient(to right, #D22EB6, #5E4DCD);
+    border-image-slice: 1;
+    background: linear-gradient(90deg, #D22EB6, #5E4DCD);
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
 }
 
 .cardButton:hover{
-    background-color: rgb(144, 32, 172);
-    color: white;
+    color: var(--main-font-color);
+    background: linear-gradient(90deg, #D22EB6, #5E4DCD);
 }
 
-.coloredDiv{
-    width: 100%;
-    height: 10px;;
-    background-color: rgb(144, 32, 172);
-    border-radius: 0 0 15px 15px;
-    margin-bottom: -1px;
+.coloredDiv {
+    height: 10px;
+    width: 100.2%;
+    background: linear-gradient(90deg, #D22EB6, #5E4DCD);
+    border-radius: 0 0 100px 100px;
+    border: none;
 }
+

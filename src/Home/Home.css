@@ -22,3 +22,7 @@
     background-color: #5E4DCD;
     border: #5E4DCD solid 1px;
 }
+
+.moreCourses:hover {
+    background-color: #553f99;
+}

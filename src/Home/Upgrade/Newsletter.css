@@ -45,7 +45,13 @@ form{
     text-align: center;
     background-color: #D22EB6;
     border-radius: 6px;
-    border: solid 1px #D22EB6;;
+    border: solid 1px #D22EB6;
     line-height: auto;
     margin-left: -5px;
+}
+
+.suscribeButton:hover {
+    background-color: #A53692;
+    border: solid 1px #A53692;
+
 }
