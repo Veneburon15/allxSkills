@@ -1,30 +1,16 @@
-*{
-    margin: 0;
-    padding: 0;  
-}
-
 nav {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    height: 10vh;
+    height: 80px;
     background-color: transparent;
+    padding: 0 80px;
 }
 
 ul {
     display: flex;
     justify-content: space-between;
-    padding-right: 5vw;
     align-items: center;
-
-  }
-  
-li {
-    list-style: none;
-}
-
-a{
-    text-decoration: none;
 }
 
 .logoDiv{
@@ -33,7 +19,6 @@ a{
 
 .logoDiv img{
     width: 30%;
-    padding-left: 4em;
 }
 
 .navDiv{
@@ -42,7 +27,6 @@ a{
 }
 
 .contactButton{
-    color: white;
     font-size: 1.2rem;
     border-radius: 5px;
     border: white solid 1px;
@@ -55,6 +39,3 @@ a{
     background-color: blueviolet;
     border: blueviolet solid 1px;
 }
-
-
-

@@ -1,28 +1,22 @@
 footer{
-    background-color: #302a2f;
-    color: #fafafa;
+    background-color: #202020;
     display: flex;
     flex-direction: column;
-    padding: 1em 1.5em 1em 0 ;
+    padding: 1em 80px;
 }
 .text{
     font-size: .9em;
-}
-.footerContainer a{
-    color:  #fafafa;
 }
 .secciones {
     display: flex;
     flex-direction: row;
     margin-bottom: 8%;
-    padding: 2% 4% 2% 7%;
+    padding: 2% 0;
 }
-
 
 /* Estilos seccion 1 (derecha) */
 .footerSection1{
     width: 40%;
-    padding-left: 1em;
 }
 .footerSection1 ul {
     display: flex;
@@ -55,47 +49,45 @@ footer{
     justify-content: flex-start;
     align-items: flex-start;
 }
-.footerSection2 ul a{
-    font-weight: lighter;
-    text-decoration: none;
-}
 
 /* Estilos sección 3 (izquierda) */
 .footerSection3{
-    width: 30%;
-}
-.topRightSection{
     display: flex;
     flex-direction: column;
-    height: 50%;
     gap: 15px;
+    width: 30%;
 }
 .footerh2{
-    font-size: 1.6em;
+    font-size: 22px;
+    font-weight: var(--regular-weight);
 }
 .emailInput{
     width: 100%;
-    height: 35%;
+    height: 16%;
     display: flex;
     align-items: center;
+    justify-content: center;
 }
-.emailInput input {
-    width: 88%;
-    height: 80%;
+.emailLabel{
+    width: 100%;
+}
+#emailFooter {
+    width: 95%;
     border-radius: 5px;
-    padding: 7px;
-    border: 1px solid aliceblue;
+    padding: 7px 16px;
+    border: 1px solid gray;
     background-color: #302a2f;
-    color: #fafafa;
-
 }
-.emailInput button {
-    width: 10%;
-    height: 125%;
+#submitFooter {
+    width: 40px;
+    height: 100%;
     border-radius: 5px;
-    background-color: purple;
-    color: #fafafa;
-    border: solid 1px purple;
+    background-color: #D22EB6;
+    border: solid 1px #D22EB6;
+}
+#submitFooter:hover{
+    background-color: #A53692;
+    border: solid 1px #A53692;
 }
 
 
@@ -104,23 +96,15 @@ footer{
     border-top: 1px solid aliceblue;
     display: flex;
     justify-content: center;
-    margin: 0 5% ;
     padding: .5em 0;
-    width: 94%;
 }
-
 .copyrights p {
     width: 55%;
     text-align: end;
 }
-
 .belowRightSection{
-    display: flex;
     gap: 35px;
     justify-content: flex-end;
     width: 45%;
-}
-.belowRightSection a {
-    font-weight: lighter;
-    text-decoration: none;
+    padding-right: 3px;
 }

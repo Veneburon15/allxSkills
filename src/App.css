@@ -52,10 +52,11 @@ p{
 }
 
 a{
-    font-weight: var(--semibold-weight);
+    font-weight: var(--regular-weight);
     font-size: 16px;
-    color: var(--main-font-color);
+    color: var(--secondary-font-color);
     line-height: 120%;
+    text-decoration: none;
 }
 
 li {
@@ -63,6 +64,7 @@ li {
     font-size: 16px;
     color: var(--main-font-color);
     line-height: 120%;
+    list-style: none;
 }
 
 button {
@@ -80,4 +82,8 @@ button {
 
 button:hover{
     background-color: #A53692;
+}
+
+input {
+    color: #FEFEFE;
 }
