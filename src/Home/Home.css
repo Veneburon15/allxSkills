@@ -1,12 +1,9 @@
-.homeBody {
-    background-color: #141414;
-    color: white;
+* {
+    border: solid 1px purple;
 }
 
-.workshopH2 {
-    font-size: 2.5em;
-    text-align: center;
-    padding: 48px 0;
+.homeBody {
+    background-color: #141414;
 }
 
 .moreCourses{
@@ -18,3 +15,11 @@
     align-items: center;
     background-color: #5E4DCD;
 }
+
+.homeTextGradient{
+    font-family: var(--fuente);
+    font-weight: var(--semibold-weight);
+    font-size: 44px;
+    display: inline;
+}
+

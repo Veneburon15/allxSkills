@@ -1,7 +1,6 @@
 
 .workShopContainer h2{
     text-align: center;
-    font-size: 2.5em;
 }
 
 .mainCardDiv{
@@ -34,12 +33,10 @@
 }
 
 .workShopContainer h3{
-    font-weight: lighter;
     margin-bottom: 15px;
 }
 
 .cardTitle {
-    font-size: 2em;
     line-height: 30px;
     margin-bottom: 50px;
 }
@@ -50,10 +47,6 @@
     margin: 15px 15px 80px 35px;
 }
 
-.cardSecondDiv p {
-    font-size: 1rem;;
-}
-
 .cardButton{
     padding: 7px 30px 10px 030px;
     border: 3px solid rgb(144, 32, 172) ;
@@ -62,8 +55,6 @@
     color: rgb(144, 32, 172);
     font-weight: bold;
     margin: 15px 0 30px 35px;
-    font-size: 1em;
-
 }
 
 .cardButton:hover{

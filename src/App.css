@@ -1,0 +1,69 @@
+:root {
+    --fuente: 'Montserrat', sans-serif;
+    --regular-weight: 400;
+    --medium-weight: 500;
+    --semibold-weight: 600;
+    --bold-weight: 700;
+    --main-font-color: #FEFEFE;
+    --secondary-font-color: #CFCFCF;
+}
+
+h1 {
+    font-family: var(--fuente);
+    font-weight: var(--semibold-weight);
+    font-size: 44px;
+    color: var(--main-font-color);
+}
+
+h2 {
+    font-family: var(--fuente);
+    font-weight: var(--medium-weight);
+    font-size: 28px;
+    color: var(--main-font-color);
+}
+
+h3 {
+    font-family: var(--fuente);
+    font-weight: var(--medium-weight);
+    font-size: 24px;
+    color: var(--main-font-color);
+}
+
+.tag {
+    font-family: var(--fuente);
+    font-weight: var(--regular-weight);
+    font-size: 14px;
+    color: var(--secondary-font-color)
+}
+
+p{
+    font-family: var(--fuente);
+    font-weight: var(--regular-weight);
+    font-size: 16px;
+    color: var(--secondary-font-color)
+}
+
+a{
+    font-family: var(--fuente);
+    font-weight: var(--semibold-weight);
+    font-size: 16px;
+    color: var(--main-font-color)
+}
+
+li {
+    font-family: var(--fuente);
+    font-weight: var(--semibold-weight);
+    font-size: 16px;
+    color: var(--main-font-color)
+}
+
+button{
+    font-family: var(--fuente);
+    font-weight: var(--semibold-weight);
+    font-size: 16px;
+    color: var(--main-font-color);
+}
+
+.boldP{
+    font-weight: var(--regular-weight);
+}
