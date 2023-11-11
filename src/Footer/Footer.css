@@ -11,6 +11,9 @@ footer{
 }
 
 /* Estilos seccion 1 (derecha) */
+.footerSection1{
+    width: 25%;
+}
 .footerSection1 ul {
     display: flex;
     gap: 10px;
@@ -34,6 +37,7 @@ footer{
 
 /* Estilos Sección 2 (centro) */
 .footerSection2{
+    width: 17%;
     padding: 0 180px 0 140px;
 }
 .footerSection2 ul{
@@ -50,7 +54,7 @@ footer{
     display: flex;
     flex-direction: column;
     gap: 16px;
-    width: 370px;
+    width: 34%;
 }
 .suscribeH2{
     font-size: 22px;
