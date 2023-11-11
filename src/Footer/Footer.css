@@ -3,7 +3,6 @@ footer{
     display: flex;
     flex-direction: column;
     padding: 0 80px 50px 80px;
-    height: 430px;
 }
 .secciones {
     display: flex;

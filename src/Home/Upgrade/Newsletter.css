@@ -3,12 +3,12 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    margin: 128px 0 48px 0;
+    margin: 48px 0 48px 0;
     height: 330px;
     background-image: url("../../Assets/Imagenes/imagen-home-suscribete.jpg");
     background-repeat: no-repeat;
     background-size: 100% auto;
-
+    margin-left: -20px;
 }
 
 .newsletterSection p{

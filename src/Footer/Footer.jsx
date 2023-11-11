@@ -1,4 +1,4 @@
-import Logo from '../Assets/Imagenes/xSkills_Logo_TR.png'
+import Logo from '../Assets/Imagenes/xSkills_Logo_TR2.png'
 import LinkedIn from '../Assets/Iconos/LinkedIn-footerLogo.svg'
 import Facebook from '../Assets/Iconos/Facebook-footerLogo.svg'
 import WhatsApp from '../Assets/Iconos/WhatsApp-footerLogo.svg'

@@ -4,7 +4,7 @@ nav {
     height: 90px;
     margin-left: 80px;
     background-color: transparent;
-    gap: 310px;
+    justify-content: space-between;
 }
 
 .logoDiv img{
@@ -15,6 +15,7 @@ nav {
     display: flex;
     align-items: center;
     gap: 50px;
+    margin-right: 80px;
 }
 
 .navbarMenu li{

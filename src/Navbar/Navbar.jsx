@@ -1,4 +1,4 @@
-import Logo from '../Assets/Imagenes/xSkills_Logo_TR.png'
+import Logo from '../Assets/Imagenes/xSkills_Logo_TR2.png'
 import DropdownIcon from '../Assets/Iconos/arrow-navbarDropdown.svg'
 import './Navbar.css'
 
