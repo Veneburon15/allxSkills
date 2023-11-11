@@ -81,7 +81,7 @@ button {
     font-weight: var(--semibold-weight);
     font-size: 16px;
     color: var(--main-font-color);
-    height: 40px;
+    height: 48px;
     width: max-content;
     padding: 0 40px;
     background-color: #D22EB6;

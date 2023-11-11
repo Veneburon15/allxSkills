@@ -4,6 +4,7 @@ import Facebook from '../Assets/Iconos/Facebook-footerLogo.svg'
 import WhatsApp from '../Assets/Iconos/WhatsApp-footerLogo.svg'
 import Email from '../Assets/Iconos/Email-footerLogo.svg'
 import Instagram from '../Assets/Iconos/Instagram-footerLogo.svg'
+import Arrow from '../Assets/Iconos/send-footerNewsletter.svg'
 import './Footer.css'
 
 const Footer = () => {
@@ -36,7 +37,7 @@ const Footer = () => {
                             <label for="email" className='emailLabel'>
                                 <input className="body1" placeholder='Correo' id='emailFooter'/>
                             </label>
-                            <input type="submit" name='submit' value={">"} id='submitFooter'/>
+                            <button className='submitFooter'><img src={Arrow} alt="Arrow Icon" className='arrowIcon'/></button>
                         </form>
                 </section>
             </section>

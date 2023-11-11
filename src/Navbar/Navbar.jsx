@@ -1,4 +1,5 @@
 import Logo from '../Assets/Imagenes/xSkills_Logo_TR.png'
+import DropdownIcon from '../Assets/Iconos/arrow-navbarDropdown.svg'
 import './Navbar.css'
 
 const Navbar = () => {
@@ -11,7 +12,7 @@ const Navbar = () => {
                 <ul className='navbarMenu'>
                     <li>
                         <a href='#' className='menuFont'>Oferta académica</a>
-                        {/* <img src="#" alt="Dropdown Icon" className='dropdownIcon'/> */}
+                        <img src={DropdownIcon} alt="Dropdown Icon" className='dropdownIcon'/>
                         {/* <div>
                             <div>
                                 <a href='#'>Todos los Cursos</a>

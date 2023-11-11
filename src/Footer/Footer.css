@@ -35,9 +35,10 @@ footer{
 
 /* Estilos Sección 2 (centro) */
 .footerSection2{
-    padding: 0 190px 0 150px;
+    padding: 0 180px 0 140px;
 }
 .footerSection2 ul{
+    width: 165px;
     display: flex;
     flex-direction: column;
     gap: 16px;
@@ -74,19 +75,17 @@ footer{
     border: 1px solid gray;
     background-color: transparent;
 }
-#submitFooter {
+.arrowIcon {
+    width: 25px;
+}
+.submitFooter {
+    display: flex;
+    justify-content: center;
+    align-items: center;
     width: 40px;
     height: 40px;
-    border-radius: 5px;
-    background-color: #D22EB6;
-    border: solid 1px #D22EB6;
+    padding: 0;
 }
-#submitFooter:hover{
-    background-color: #A53692;
-    border: solid 1px #A53692;
-    cursor: pointer;
-}
-
 
 /* Estilos del bloque de los Copyrights*/
 .copyrights{

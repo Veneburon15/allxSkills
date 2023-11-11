@@ -11,10 +11,6 @@ nav {
     height: 34px;
 }
 
-.navDiv {
-    padding-right: 80px;
-}
-
 .navbarMenu {
     display: flex;
     align-items: center;
@@ -22,7 +18,10 @@ nav {
 }
 
 .navbarMenu li{
+    display: flex;
+    align-items: center;
     width: max-content;
+    gap: 5px;
 }
 
 .menuFont {
@@ -31,7 +30,7 @@ nav {
 }
 
 .dropdownIcon{
-    width: 10px;
+    width: 12px;
 }
 
 .contactButton{
