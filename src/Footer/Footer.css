@@ -1,51 +1,46 @@
 footer{
-    background-color: #202020;
+    background-color: #282828;
     display: flex;
     flex-direction: column;
-    padding: 1em 80px;
-}
-.text{
-    font-size: .9em;
+    padding: 0 80px 50px 80px;
+    height: 430px;
 }
 .secciones {
     display: flex;
     flex-direction: row;
-    margin-bottom: 8%;
-    padding: 2% 0;
+    margin: 60px 0 70px 0;
 }
 
 /* Estilos seccion 1 (derecha) */
-.footerSection1{
-    width: 40%;
-}
 .footerSection1 ul {
     display: flex;
     gap: 10px;
     justify-content: flex-start;
 }
 .footerLogo{
-    width: 28%;
-    margin-bottom: 10px;
+    width: 130px;
 }
 .footerPartnerP{
-    margin-bottom: 35px;
+    margin: 20px 0 48px 0;
 }
 .phoneNumber {
-    margin-bottom: 15px;
+    margin-bottom: 26px;
+}
+.footerIcon {
+    width: 24px;
+}
+.linkedIn{
+    border-radius: 3px;
 }
 
 /* Estilos Sección 2 (centro) */
 .footerSection2{
-    width: 30%;
-}
-.footerSection2 h3 {
-    font-size: 1em;
-    margin-bottom: 15px;
+    padding: 0 190px 0 150px;
 }
 .footerSection2 ul{
     display: flex;
     flex-direction: column;
-    gap: 15px;
+    gap: 16px;
     justify-content: flex-start;
     align-items: flex-start;
 }
@@ -54,16 +49,16 @@ footer{
 .footerSection3{
     display: flex;
     flex-direction: column;
-    gap: 15px;
-    width: 30%;
+    gap: 16px;
+    width: 370px;
 }
-.footerh2{
+.suscribeH2{
     font-size: 22px;
-    font-weight: var(--regular-weight);
+    line-height: 120%;
+    font-weight: var(--medium-weight);
 }
 .emailInput{
     width: 100%;
-    height: 16%;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -72,15 +67,16 @@ footer{
     width: 100%;
 }
 #emailFooter {
-    width: 95%;
+    width: 103%;
+    height: 38px;
+    padding: 0 0 0 16px;
     border-radius: 5px;
-    padding: 7px 16px;
     border: 1px solid gray;
-    background-color: #302a2f;
+    background-color: transparent;
 }
 #submitFooter {
     width: 40px;
-    height: 100%;
+    height: 40px;
     border-radius: 5px;
     background-color: #D22EB6;
     border: solid 1px #D22EB6;
@@ -88,6 +84,7 @@ footer{
 #submitFooter:hover{
     background-color: #A53692;
     border: solid 1px #A53692;
+    cursor: pointer;
 }
 
 
@@ -103,6 +100,8 @@ footer{
     text-align: end;
 }
 .belowRightSection{
+    display: flex;
+    flex-direction: row;
     gap: 35px;
     justify-content: flex-end;
     width: 45%;

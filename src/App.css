@@ -50,13 +50,23 @@ p{
     color: var(--secondary-font-color);
     line-height: 150%;
 }
+.body1{
+    font-weight: var(--regular-weight);
+    font-size: 16px;
+    color: var(--main-font-color);
+    line-height: 150%;
+}
 
 a{
     font-weight: var(--regular-weight);
     font-size: 16px;
-    color: var(--secondary-font-color);
+    color: var(--main-font-color);
     line-height: 120%;
     text-decoration: none;
+}
+
+a:hover{
+    cursor: pointer;
 }
 
 li {
@@ -82,6 +92,7 @@ button {
 
 button:hover{
     background-color: #A53692;
+    cursor: pointer;
 }
 
 input {

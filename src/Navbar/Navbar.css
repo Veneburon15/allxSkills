@@ -1,41 +1,49 @@
 nav {
     display: flex;
     align-items: center;
-    justify-content: space-between;
-    height: 80px;
+    height: 90px;
+    margin-left: 80px;
     background-color: transparent;
-    padding: 0 80px;
-}
-
-ul {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-}
-
-.logoDiv{
-    width: 45%;
+    gap: 310px;
 }
 
 .logoDiv img{
-    width: 30%;
+    height: 34px;
 }
 
-.navDiv{
-    width: 55%;  
-    color: black;
+.navDiv {
+    padding-right: 80px;
+}
+
+.navbarMenu {
+    display: flex;
+    align-items: center;
+    gap: 50px;
+}
+
+.navbarMenu li{
+    width: max-content;
+}
+
+.menuFont {
+    font-size: 14px;
+    font-weight: var(--semibold-weight);
+}
+
+.dropdownIcon{
+    width: 10px;
 }
 
 .contactButton{
-    font-size: 1.2rem;
-    border-radius: 5px;
-    border: white solid 1px;
+    height: 35px;
+    width: max-content;
+    padding: 0 10px;
+    font-size: 14px;
     background-color: transparent;
-    font-weight: bold;
-    padding: 10px 30px;;
+    border: #FEFEFE solid 1px;
 }
 
 .contactButton:hover{
-    background-color: blueviolet;
-    border: blueviolet solid 1px;
+    background-color: #D22EB6;
+    border: #D22EB6 solid 1px;
 }

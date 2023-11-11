@@ -53,5 +53,5 @@ form{
 .suscribeButton:hover {
     background-color: #A53692;
     border: solid 1px #A53692;
-
+    cursor: pointer;
 }

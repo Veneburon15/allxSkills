@@ -4,14 +4,15 @@ import './Navbar.css'
 const Navbar = () => {
     return(
         <nav>
-            <div className='logoDiv'>
-                <img src={Logo} alt="Logo allxskillz" width={120}/>
-            </div> 
+            <a src="#" className='logoDiv'>
+                <img src={Logo} alt="Logo Allxskills"/>
+            </a> 
             <div className='navDiv'>
-                <ul>
+                <ul className='navbarMenu'>
                     <li>
-                        <a href='#'>Oferta académica</a>
-                        <div>
+                        <a href='#' className='menuFont'>Oferta académica</a>
+                        {/* <img src="#" alt="Dropdown Icon" className='dropdownIcon'/> */}
+                        {/* <div>
                             <div>
                                 <a href='#'>Todos los Cursos</a>
                             </div>
@@ -24,11 +25,10 @@ const Navbar = () => {
                                 <h4>SkillPack</h4>
                                 <a href='#'>Proximamente...</a>
                             </div>
-                            
-                        </div>
+                        </div> */}
                     </li>
-                    <li><a href='#'>Sobre nosotros</a></li> 
-                    <li><a href='#'>¿Por qué Soft Skills?</a></li> 
+                    <li><a href='#' className='menuFont'>Sobre nosotros</a></li> 
+                    <li><a href='#' className='menuFont'>¿Por qué Soft Skills?</a></li> 
                     <button className='contactButton'>Contáctanos</button>
                 </ul>
             </div>
