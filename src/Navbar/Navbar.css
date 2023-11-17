@@ -18,14 +18,14 @@ nav {
     margin-right: 80px;
 }
 
-.navbarMenu li{
+.navFont{
     display: flex;
-    align-items: center;
-    width: max-content;
     gap: 5px;
-}
-
-.menuFont {
+    font-weight: var(--semibold-weight);
+    font-size: 16px;
+    color: var(--main-font-color);
+    line-height: 120%;
+    list-style: none;
     font-size: 14px;
     font-weight: var(--semibold-weight);
 }
@@ -35,12 +35,20 @@ nav {
 }
 
 .contactButton{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: var(--semibold-weight);
+    font-size: 16px;
+    color: var(--main-font-color);
     height: 35px;
     width: max-content;
     padding: 0 10px;
     font-size: 14px;
     background-color: transparent;
     border: #FEFEFE solid 1px;
+    border-radius: 6px;
+    line-height: auto;
 }
 
 .contactButton:hover{

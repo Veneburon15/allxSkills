@@ -1,3 +1,4 @@
+import { Link } from 'react-router-dom'
 import Logo from '../Assets/Imagenes/xSkills_Logo_TR2.png'
 import LinkedIn from '../Assets/Iconos/LinkedIn-footerLogo.svg'
 import Facebook from '../Assets/Iconos/Facebook-footerLogo.svg'
@@ -12,23 +13,25 @@ const Footer = () => {
         <footer className='footerContainer'>
             <section className='secciones'>
                 <section className='footerSection1'>
-                    <img src={Logo} alt="AllxSkillz Logo" className='footerLogo'/>
+                    <Link to='/' className='logoDiv'>
+                        <img src={Logo} alt="Logo Allxskills" className='footerLogo'/>
+                    </Link>
                     <p className='footerPartnerP body1'>Tu Socio en el Desarrollo de Soft Skills</p> 
                     <p className='phoneNumber body1'>(+54) 911 3921-4786</p>
                     <ul>
-                        <li><img src={WhatsApp} alt="WhatsApp Icon" className='footerIcon'/></li>
-                        <li><img src={Email} alt="Email Icon" className='footerIcon'/></li>
-                        <li><img src={Instagram} alt="Instagram Icon" className='footerIcon'/></li>
-                        <li><img src={LinkedIn} alt="LinkedIn Icon" className='footerIcon linkedIn'/></li>
-                        <li><img src={Facebook} alt="Facebook Icon" className='footerIcon'/></li>
+                        <li><a href='#' target='_blank'><img src={WhatsApp} alt="WhatsApp Icon" className='footerIcon'/></a></li>
+                        <li><a href='#' target='_blank'><img src={Email} alt="Email Icon" className='footerIcon'/></a></li>
+                        <li><a href='#' target='_blank'><img src={Instagram} alt="Instagram Icon" className='footerIcon'/></a></li>
+                        <li><a href='#' target='_blank'><img src={LinkedIn} alt="LinkedIn Icon" className='footerIcon linkedIn'/></a></li>
+                        <li><a href='#' target='_blank'><img src={Facebook} alt="Facebook Icon" className='footerIcon'/></a></li>
                     </ul>
                 </section>
                 <section className='footerSection2'>
                     <ul>
-                        <li><a href="#" className='body1'>Oferta Académica</a></li>
-                        <li><a href='#' className='body1'>Sobre Nosotros</a></li>
-                        <li><a href='#' className='body1'>¿Por qué Soft Skills?</a></li>
-                        <li><a href='#' className='body1'>Contacto</a></li>
+                        <li><Link to="/ofertaAcademica" className='body1'>Oferta Académica</Link></li>
+                        <li><Link to='/' className='body1'>Sobre Nosotros</Link></li>
+                        <li><Link to='/' className='body1'>¿Por qué Soft Skills?</Link></li>
+                        <li><Link to='/' className='body1'>Contacto</Link></li>
                     </ul>
                 </section>
                 <section className='footerSection3'>

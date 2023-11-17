@@ -1,28 +1,31 @@
-import Home from './Home/Home'
-// import OfertaAcademica from './Oferta Academica/OfertaAcademica'
-// import { BrowserRouter, Routes, Route } from 'react-router-dom';
+import { BrowserRouter, Routes, Route } from 'react-router-dom';
 import './App.css';
 import Footer from './Footer/Footer';
 import Navbar from './Navbar/Navbar';
+import Home from './Home/Home'
+import OfertaAcademica from './Oferta Academica/OfertaAcademica'
 // import Curso from './Oferta Academica/Curso/Curso';
 
 function App() {
   return (
-    <main>
-    {/* // <BrowserRouter> */}
+    <>
+    <BrowserRouter>
       <Navbar/>
-      <Home/>
-    {/* //   <Routes>
-        {/* <OfertaAcademica/> */}
-        {/* <Curso/> */}
-        <Footer/>
-    {/* //   </Routes> */}
-    {/* // </BrowserRouter> */} 
-
-
-    </main>
-
+      <Routes>
+        <Route path="/" element={<Home />} />
+        <Route path="/ofertaAcademica" element={<OfertaAcademica />}/>
+        {/* <Route path="/ofertaAcademica/AllCourses" element={</>}/> */}
+        {/* <Route path="/ofertaAcademica/InteligenciaEmocional" element={</>}/> */}
+        {/* <Route path="/ofertaAcademica/HabilidadesInterpersonales" element={</>}/> */}
+        {/* <Route path='/sobreNosotros' element={</>}/> */}
+        {/* <Route path='/softSkills' element={</>} /> */}
+        {/* <Route path='/contactanos' element={</>}/> */}
+        <Route path='*' element={<h2>Página en construcción</h2>}/>
+      </Routes>
+      <Footer/>
+    </BrowserRouter>
+    </>
   );
 }
-// COMENTO EL HOME PARA PODER VER LA PAGINA QUE ESTAMOS HACIENDO DESPUES HAY QUE USAR REACT ROUTER O OTRA COSA SI SE TE OCURRE
+
 export default App;

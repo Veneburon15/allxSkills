@@ -1,3 +1,4 @@
+import { Link } from 'react-router-dom'
 import Hero from './Hero/Hero'
 import Staff from './Staff/Staff'
 import Workshop from './Workshop/Workshop'
@@ -13,7 +14,9 @@ function Home() {
       <Staff/> 
       <h2 className='workshopH2'>Elige tu siguiente curso</h2>
       <Workshop/>
-      <button className='moreCourses'>Más cursos</button>
+      <Link>
+        <button className='moreCourses'>Más cursos</button>
+      </Link>
       <Newsletter/>
       <SoftSkills/>
       <Form/>  

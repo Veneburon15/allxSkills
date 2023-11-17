@@ -31,7 +31,8 @@ h1{
     margin-bottom: 20px;
 }
 
-.heroText p {
+.heroTextBottom {
+    font-size: 15px;
     margin-bottom: 30px;
     line-height: 22px;
 }

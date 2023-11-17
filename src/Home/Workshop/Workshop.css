@@ -7,11 +7,11 @@
 }
 
 .cardDiv {
-    border-radius: 15px 15px 8px;
+    border-radius: 15px 15px 8px 8px;
     border: solid gray 1px;
     background: linear-gradient(30deg, #1B181B, #322C31);
     width: 370px;
-    height: 425px;
+    height: 429px;
     padding: 32px 0 0 0;
     border-bottom: none;
 }
