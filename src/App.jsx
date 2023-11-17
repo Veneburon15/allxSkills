@@ -4,7 +4,8 @@ import Footer from './Footer/Footer';
 import Navbar from './Navbar/Navbar';
 import Home from './Home/Home'
 import OfertaAcademica from './Oferta Academica/OfertaAcademica'
-// import Curso from './Oferta Academica/Curso/Curso';
+// import Curso from './Oferta Academica/Curso/Curso'; 
+import Contactanos from './Contactanos/Contactanos';
 
 function App() {
   return (
@@ -19,7 +20,7 @@ function App() {
         {/* <Route path="/ofertaAcademica/HabilidadesInterpersonales" element={</>}/> */}
         {/* <Route path='/sobreNosotros' element={</>}/> */}
         {/* <Route path='/softSkills' element={</>} /> */}
-        {/* <Route path='/contactanos' element={</>}/> */}
+        <Route path='/contactanos' element={<Contactanos/>}/>
         <Route path='*' element={<h2>Página en construcción</h2>}/>
       </Routes>
       <Footer/>
