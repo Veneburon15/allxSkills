@@ -11,7 +11,6 @@ const OfertaAcademica = () => {
             <HeadOferta/>
             <HeroOferta/>
             <NuestrosCursos/>
-            <Preguntas/>
             <Form/>
         </section>
     )

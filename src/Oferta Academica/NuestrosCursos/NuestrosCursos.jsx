@@ -5,7 +5,24 @@ const NuestrosCursos = () => {
     return(
         <section className="nuestrosCursosSection">
             <h2 className="nuestrosh2">Explora Nuestros Cursos</h2>
-            <p>Entenedemos que la educación debe evolucionar contigo, por eso te ofrecemos un estilo innovador de aprendizaje. Explora nuestra oferta académica en la modalidad de Workshops o Taller Teórico Prácticos y lleva tu carrera al siguiente nivel.</p> 
+            <p>Sumérgete en nuestra oferta académica y <span>elige entre una amplia gama</span> de cursos diseñados para satisfacer tus necesidades de desarrollo profesional y personal.</p>
+            <p>Filtar por tipo de curso</p>
+            <div>
+                <button>Workshop</button>
+                <button>Cursos</button>
+                <button>Masterclass</button>
+            </div> 
+            <Workshop/> {/* HABRIA QUE SACAR EL H2 DEL COMPONENTE PARA QUE ESTO QUEDE IGUAL AL PROTOTIPO SI NO LO DEJAMOS*/}
+            <Workshop/> {/* HABRIA QUE SACAR EL H2 DEL COMPONENTE PARA QUE ESTO QUEDE IGUAL AL PROTOTIPO SI NO LO DEJAMOS*/}
+            <Workshop/> {/* HABRIA QUE SACAR EL H2 DEL COMPONENTE PARA QUE ESTO QUEDE IGUAL AL PROTOTIPO SI NO LO DEJAMOS*/}
+            <Workshop/> {/* HABRIA QUE SACAR EL H2 DEL COMPONENTE PARA QUE ESTO QUEDE IGUAL AL PROTOTIPO SI NO LO DEJAMOS*/}
+            <Workshop/> {/* HABRIA QUE SACAR EL H2 DEL COMPONENTE PARA QUE ESTO QUEDE IGUAL AL PROTOTIPO SI NO LO DEJAMOS*/}
+            <Workshop/> {/* HABRIA QUE SACAR EL H2 DEL COMPONENTE PARA QUE ESTO QUEDE IGUAL AL PROTOTIPO SI NO LO DEJAMOS*/}
+            <Workshop/> {/* HABRIA QUE SACAR EL H2 DEL COMPONENTE PARA QUE ESTO QUEDE IGUAL AL PROTOTIPO SI NO LO DEJAMOS*/}
+            <Workshop/> {/* HABRIA QUE SACAR EL H2 DEL COMPONENTE PARA QUE ESTO QUEDE IGUAL AL PROTOTIPO SI NO LO DEJAMOS*/}
+            <Workshop/> {/* HABRIA QUE SACAR EL H2 DEL COMPONENTE PARA QUE ESTO QUEDE IGUAL AL PROTOTIPO SI NO LO DEJAMOS*/}
+            <Workshop/> {/* HABRIA QUE SACAR EL H2 DEL COMPONENTE PARA QUE ESTO QUEDE IGUAL AL PROTOTIPO SI NO LO DEJAMOS*/}
+            <Workshop/> {/* HABRIA QUE SACAR EL H2 DEL COMPONENTE PARA QUE ESTO QUEDE IGUAL AL PROTOTIPO SI NO LO DEJAMOS*/}
             <Workshop/> {/* HABRIA QUE SACAR EL H2 DEL COMPONENTE PARA QUE ESTO QUEDE IGUAL AL PROTOTIPO SI NO LO DEJAMOS*/}
         </section>
     )
