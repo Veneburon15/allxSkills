@@ -7,32 +7,34 @@ const Formulario = () => {
     return (
         <section className='contactFormSection'>
             <div className='formContainer'>
-                <h1 className='heroTextGradient contactH1'>¡Hola! ¿Podemos ayudarte?</h1>
-                <form action="" className='contactForm'>
-                    <div className='topFormDiv'>
-                        <label htmlFor="name">
-                            <input type="text" placeholder="Nombre Completo*" name="nombre" id='nombre' className='body1'/> 
-                        </label>
-                        <label htmlFor="phone">
-                            <input type="tel" placeholder="Teléfono" name="telefono" id='phone' className='body1'/>
-                        </label>
-                    </div>
-                    <label htmlFor="contactEmail">
-                        <input type="text" placeholder="Correo*" name="email" id='contactEmail' className='body1 emailFormInput'/>
-                    </label>
-                    <label htmlFor="message" className='messageFormLabel'>
-                        <input type="text" placeholder="Mensaje*" name="mensaje" id='message' className='body1 messageFormInput'/>
-                    </label>
-                    <div className='belowFormDiv'>
-                        <div className='belowTextDiv'>
-                            <p>* Indica que los campos son obligatorios</p> 
-                            <p>Al hacer click en enviar autorizas el uso de datos personales</p> 
+                <div className='formChildren'>
+                    <h1 className='heroTextGradient contactH1'>¡Hola! ¿Podemos ayudarte?</h1>
+                    <form action="" className='contactForm'>
+                        <div className='topFormDiv'>
+                            <label htmlFor="name">
+                                <input type="text" placeholder="Nombre Completo*" name="nombre" id='nombre' className='body1'/> 
+                            </label>
+                            <label htmlFor="phone">
+                                <input type="tel" placeholder="Teléfono" name="telefono" id='phone' className='body1'/>
+                            </label>
                         </div>
-                        <button className='sendForm'> Enviar
-                            <img src={SendArrow} alt="" />
-                        </button>
+                        <label htmlFor="contactEmail">
+                            <input type="text" placeholder="Correo*" name="email" id='contactEmail' className='body1 emailFormInput'/>
+                        </label>
+                        <label htmlFor="message" className='messageFormLabel'>
+                            <input type="text" placeholder="Mensaje*" name="mensaje" id='message' className='body1 messageFormInput'/>
+                        </label>
+                    </form>
+                </div>
+                <div className='belowFormDiv'>
+                    <div className='belowTextDiv'>
+                        <p>* Indica que los campos son obligatorios</p> 
+                        <p>Al hacer click en enviar autorizas el uso de datos personales</p> 
                     </div>
-                </form>
+                    <button className='sendForm'> Enviar
+                        <img src={SendArrow} alt="" />
+                    </button>
+                </div>
                 <div className='socialMediaDiv'>
                     <h3>Síguenos en Redes Sociales</h3>
                     <SocialMedia/>

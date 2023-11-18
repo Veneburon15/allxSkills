@@ -2,16 +2,32 @@
     padding: 60px 80px 60px 80px;
     background-image: url(../../Assets/Imagenes/contact-section-background-removebg.png);
     background-repeat: no-repeat;
-    background-size: 80% auto;
-    background-position-x: 300px;
+    background-size: 1100px;
+    background-position-x: 150%;
+    background-position-y: bottom;
 }
+
+@media (min-width: 1350px) {
+    .contactFormSection{
+        background-position-x: 100%;
+    }
+  }
 
 .formContainer{
     width: 50%;
 }
 
+.formChildren{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
 .contactH1{
     font-size: 34px;
+    width: 540px;
+    text-align: left;
 }
 
 .contactForm {
@@ -20,6 +36,8 @@
     display: flex;
     flex-direction: column;
     gap: 24px;
+    justify-content: center;
+    align-items: center;
 }
 
 .contactForm input {
@@ -55,7 +73,10 @@
     display: flex;
     flex-direction: row;
     align-items: center;
+    justify-content: center;
+    align-items: center;
     gap: 44px;
+    margin-bottom: 40px;
 }
 
 .belowTextDiv p{
