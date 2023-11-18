@@ -1,0 +1,86 @@
+.contactFormSection {
+    padding: 60px 80px 60px 80px;
+    background-image: url(../../Assets/Imagenes/contact-section-background-removebg.png);
+    background-repeat: no-repeat;
+    background-size: 80% auto;
+    background-position-x: 300px;
+}
+
+.formContainer{
+    width: 50%;
+}
+
+.contactH1{
+    font-size: 34px;
+}
+
+.contactForm {
+    margin: 24px 0 40px 0;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+}
+
+.contactForm input {
+    background-color: #282828;
+}
+
+.contactForm input::placeholder{
+    color: #FEFEFE;
+}
+
+.topFormDiv{
+    display: flex;
+    flex-direction: row;
+    gap: 24px;
+}
+
+.topFormDiv input {
+    height: 41px;
+    width: 245px;
+}
+
+.emailFormInput {
+    height: 41px;
+    width: 530px;
+}
+
+.messageFormInput {
+    height: 135px;
+    width: 530px;
+}
+
+.belowFormDiv {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 44px;
+}
+
+.belowTextDiv p{
+    font-size: 12px;
+}
+
+.sendForm {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    font-size: 14px;
+    height: max-content;
+    padding: 10px 35px;
+}
+
+.socialMediaDiv{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.socialMediaDiv h3 {
+    padding: 32px 0 24px 0;
+    width: 75%;
+    text-align: center;
+    border-top: 2px solid #404040;
+}

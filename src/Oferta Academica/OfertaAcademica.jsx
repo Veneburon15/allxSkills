@@ -6,12 +6,12 @@ import './OfertaAcademica.css'
 
 const OfertaAcademica = () => {
     return(
-        <section className="ofertaAcademicaDiv">
+        <main className="ofertaAcademicaDiv">
             <HeadOferta/>
             <HeroOferta/>
             <NuestrosCursos/>
             <Form/>
-        </section>
+        </main>
     )
 }
 

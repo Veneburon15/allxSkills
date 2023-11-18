@@ -9,18 +9,18 @@ import Newsletter from './Upgrade/Newsletter'
 
 function Home() {
   return (
-    <section className='homeBody'>
+    <main className='homeBody'>
       <Hero/>
       <Staff/> 
       <h2 className='workshopH2'>Elige tu siguiente curso</h2>
       <Workshop/>
-      <Link>
+      <Link to='/ofertaAcademica'>
         <button className='moreCourses'>Más cursos</button>
       </Link>
       <Newsletter/>
       <SoftSkills/>
       <Form/>  
-    </section>
+    </main>
   );
 }
 

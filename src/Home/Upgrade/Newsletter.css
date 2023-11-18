@@ -48,6 +48,7 @@ form{
     border: solid 1px #D22EB6;
     line-height: auto;
     margin-left: -5px;
+    padding: 0%;
 }
 
 .suscribeButton:hover {

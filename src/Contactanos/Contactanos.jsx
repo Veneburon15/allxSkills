@@ -2,9 +2,9 @@ import Formulario from "./Formulario/Formulario"
 
 function Contactanos () {
     return (
-        <section>
+        <main>
             <Formulario/>
-        </section>
+        </main>
     )
 } 
 
