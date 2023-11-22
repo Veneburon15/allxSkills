@@ -1,5 +1,5 @@
 footer{
-    background-color: #282828;
+    background-color: #202020;
     display: flex;
     flex-direction: column;
     padding: 0 80px 50px 80px;
@@ -27,12 +27,6 @@ footer{
 }
 .phoneNumber {
     margin-bottom: 26px;
-}
-.footerIcon {
-    width: 24px;
-}
-.linkedIn{
-    border-radius: 3px;
 }
 
 /* Estilos Sección 2 (centro) */
@@ -76,7 +70,6 @@ footer{
     padding: 0 0 0 16px;
     border-radius: 5px;
     border: 1px solid gray;
-    background-color: transparent;
 }
 .arrowIcon {
     width: 25px;
@@ -92,7 +85,7 @@ footer{
 
 /* Estilos del bloque de los Copyrights*/
 .copyrights{
-    border-top: 1px solid aliceblue;
+    border-top: 2px solid #353535;
     display: flex;
     justify-content: center;
     padding: .5em 0;

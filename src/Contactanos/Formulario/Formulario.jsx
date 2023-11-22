@@ -1,33 +1,43 @@
-import WhatsApp  from '../../Assets/Iconos/WhatsApp-footerLogo.svg'
-import Email from '../../Assets/Iconos/Email-footerLogo.svg'
-import Instagram from '../../Assets/Iconos/Instagram-footerLogo.svg'
-import LinkedIn from '../../Assets/Iconos/LinkedIn-footerLogo.svg'
-import Facebook from '../../Assets/Iconos/Facebook-footerLogo.svg'
+import SocialMedia from '../../Footer/SocialMedia/SocialMedia'
+import SendArrow from '../../Assets/Iconos/send-footerNewsletter.svg'
+import './Formulario.css'
 
 
 const Formulario = () => {
     return (
-        <section>
-            <div>
-                <h2>¡Hola! ¿Podemos ayudarte?</h2>
-                <form action="">
-                    <input type="text" placeholder="Nombre Completo*"  name="nombre"/> 
-                    <input type="number" placeholder="Teléfono" name="telefono"/>
-                    <input type="text" placeholder="Correo*" name="email"/>
-                    <input type="text" placeholder="Mensaje*" name="mensaje"/>
-                    <p>* Indica que los campos son obligatorios</p> 
-                    <p>Al hacer click en enviar autorizas el uso de datos personales</p> 
-                    <button>Enviar</button>
-                </form>
-                <div>
-                    <h4>Siguenos en Redes Sociales</h4>
-                    <ul style={{ backgroundColor: 'black'}}>
-                        <li><a href='#'><img src={WhatsApp} alt="WhatsApp Icon"/></a></li>
-                        <li><a href='#'><img src={Email} alt="Email Icon"/></a></li>
-                        <li><a href='#'><img src={Instagram} alt="Instagram Icon" /></a></li>
-                        <li><a href='#'><img src={LinkedIn} alt="LinkedIn Icon"/></a></li>
-                        <li><a href='#'><img src={Facebook} alt="Facebook Icon"/></a></li>
-                    </ul>
+        <section className='contactFormSection'>
+            <div className='formContainer'>
+                <div className='formChildren'>
+                    <h1 className='heroTextGradient contactH1'>¡Hola! ¿Podemos ayudarte?</h1>
+                    <form action="" className='contactForm'>
+                        <div className='topFormDiv'>
+                            <label htmlFor="name">
+                                <input type="text" placeholder="Nombre Completo*" name="nombre" id='nombre' className='body1'/> 
+                            </label>
+                            <label htmlFor="phone">
+                                <input type="tel" placeholder="Teléfono" name="telefono" id='phone' className='body1'/>
+                            </label>
+                        </div>
+                        <label htmlFor="contactEmail">
+                            <input type="text" placeholder="Correo*" name="email" id='contactEmail' className='body1 emailFormInput'/>
+                        </label>
+                        <label htmlFor="message" className='messageFormLabel'>
+                            <input type="text" placeholder="Mensaje*" name="mensaje" id='message' className='body1 messageFormInput'/>
+                        </label>
+                    </form>
+                </div>
+                <div className='belowFormDiv'>
+                    <div className='belowTextDiv'>
+                        <p>* Indica que los campos son obligatorios</p> 
+                        <p>Al hacer click en enviar autorizas el uso de datos personales</p> 
+                    </div>
+                    <button className='sendForm'> Enviar
+                        <img src={SendArrow} alt="" />
+                    </button>
+                </div>
+                <div className='socialMediaDiv'>
+                    <h3>Síguenos en Redes Sociales</h3>
+                    <SocialMedia/>
                 </div>
             </div>
         </section>
