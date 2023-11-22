@@ -33,7 +33,7 @@ const Navbar = () => {
                     <NavLink to='/' className='navFont'> Sobre Nosotros </NavLink>
                 </li>
                 <li>
-                    <NavLink to='/' className='navFont'> ¿Por qué Soft Skills? </NavLink>
+                    <NavLink to='/SoftSkills' className='navFont'> ¿Por qué Soft Skills? </NavLink>
                 </li>
                 <li>
                     <NavLink to='/Contactanos' className="contactButton"> Contáctanos </NavLink>
