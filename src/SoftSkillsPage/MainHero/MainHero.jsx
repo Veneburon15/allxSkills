@@ -4,7 +4,7 @@ const MainHero = () => {
         <section className='mainSectionHero'>
             <div className='textDiv'>
                 <h2>Desarrolla <p className='heroTextGradient'>Soft Skills</p>, alcanza tus metas</h2>
-                <p>Construye un perfil sólido y prepárate para destacar en cualquier entorno laboral</p>
+                <p>Construye un perfil sólido y prepárate para destacar </br> en cualquier entorno laboral</p>
             </div>
         </section>
     )
