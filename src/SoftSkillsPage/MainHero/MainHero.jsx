@@ -1,4 +1,4 @@
-
+import './MainHero.css'
 const MainHero = () => {
     return(
         <section>
