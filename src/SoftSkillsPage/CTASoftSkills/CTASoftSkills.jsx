@@ -1,3 +1,4 @@
+import './CTASoftSkills.css'
 
 const CTASoftSkills = () => {
     return(
