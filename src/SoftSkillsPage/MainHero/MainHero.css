@@ -1,0 +1,12 @@
+.mainSectionHero{
+  padding: 80px 80px 80px 240px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.textDiv h1{
+  text-wrap: balance
+}
+
