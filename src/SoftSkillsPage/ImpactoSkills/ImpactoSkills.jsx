@@ -28,7 +28,7 @@ const ImpactoSkills = () => {
                 <div>
                     <img src={HandShake} alt="Icono" className='softSkillsIcon'/>
                     <h4 className='body3'>Colaboración</h4>
-                    <p className='body1'>Trabaja en equipo de <br />manera eficaz.</p>
+                    <p className='body1'>Aprende a trabajar <br />en equipo de <br /> manera eficaz.</p>
                 </div>   
                 <div className='manejoEmociones'>
                     <img src={SmileyFace} alt="Icono" className='softSkillsIcon'/>
