@@ -35,7 +35,7 @@ const Footer = () => {
                 </div>
             </section>
             <section className='copyrights'>
-                <p className='tag'>Copyright © 2023 Allskills</p>
+                <p className='tag'>Copyright © 2023 AllxSkills</p>
                 <ul className='belowRightSection'>
                     <li><a href='#' className='tag'>Términos y Condiciones</a></li>
                     <li><a href='#' className='tag'>Privacidad</a></li>

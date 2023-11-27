@@ -13,27 +13,27 @@ const ImpactoSkills = () => {
                 <div>
                     <img src={ChatIcon} alt="Icono" className='softSkillsIcon'/>
                     <h4 className='body3'>Comunicacion Efectiva</h4>
-                    <p className='body1'>Mejora tu capacidad para expresarte de manera clara y asertiva.</p>
+                    <p className='body1'>Mejora tu capacidad para <br />expresarte de manera clara <br /> y asertiva.</p>
                 </div>
                 <div>
                     <img src={Megaphone} alt="Icono" className='softSkillsIcon'/>
                     <h4 className='body3'>Liderazgo</h4>
-                    <p className='body1'>Aprende a liderar y motivar a otros de manera efectiva.</p>
+                    <p className='body1'>Aprende a liderar y <br />motivar a otros de <br /> manera efectiva.</p>
                 </div>
                 <div>
                     <img src={LikeIcon} alt="Icono" className='softSkillsIcon'/>
                     <h4 className='body3'>Resolución de Problemas</h4>
-                    <p className='body1'>Desarrolla la habilidad de abordar desafíos de manera eficiente.</p>
+                    <p className='body1'>Desarrolla la habilidad de abordar desafíos de <br /> manera eficiente.</p>
                 </div> 
                 <div>
                     <img src={HandShake} alt="Icono" className='softSkillsIcon'/>
-                    <h4 className='body3'>Colaboracióm</h4>
-                    <p className='body1'>Trabaja en equipo de manera eficaz.</p>
+                    <h4 className='body3'>Colaboración</h4>
+                    <p className='body1'>Trabaja en equipo de <br />manera eficaz.</p>
                 </div>   
-                <div>
+                <div className='manejoEmociones'>
                     <img src={SmileyFace} alt="Icono" className='softSkillsIcon'/>
                     <h4 className='body3'>Manejo de Emociones</h4>
-                    <p className='body1'>Aprende a gestionar el estrés y las emociones en el entorno laboral y personal.</p>
+                    <p className='body1'>Aprende a gestionar el <br /> estrés y las emociones en el <br />entorno laboral y personal.</p>
                 </div>
             </div> 
         </section>
