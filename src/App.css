@@ -106,3 +106,10 @@ input {
     padding-left: 16px;
     border: none;
 }
+
+.body3{
+    color: var(--main-font-color);
+    font-size: 16px;
+    font-weight: var(--bold-weight);
+    line-height: 150%;
+}

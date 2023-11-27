@@ -1,0 +1,37 @@
+.topBanner,.centerBanner,.bottomBanner {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+}
+
+.descriptionSection img{
+    width: 50%;
+}
+
+.innerDiv{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 20px;
+}
+
+.innerDiv h3 {
+    font-weight: var(--semibold-weight);
+    font-size: 28px;
+}
+
+.innerDiv p{
+    text-wrap: balance;
+}
+
+.potential {
+    padding: 87px 80px;
+}
+
+.focus {
+    padding: 90px 100px;
+}
+
+.knowledge {
+    padding: 110px 80px;
+}

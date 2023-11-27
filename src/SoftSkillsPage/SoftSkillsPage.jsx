@@ -1,18 +1,17 @@
-import ImapctoSkills from "./ImpactoSkills/ImpactoSkills"
 import MainHero from "./MainHero/MainHero"
-import HeroPotencial from "./HeroPotencial/HeroPotencial"
-import HeroEnfoque from "./HeroEnfoque/HeroEnfoque"
-import CTASoftSkills from "./CTASoftSkills/CTASoftSkills"
+import DescriptionSection from './DescriptionSection/DescriptionSection'
+import CourseRedirection from './CoursesRedirection/CoursesRedirection'
+import ImpactoSkills from'./ImpactoSkills/ImpactoSkills'
+
 
 function SoftSkillsPage () {
     return (
-        <section>
+        <main>
             <MainHero/> 
-            <ImapctoSkills/> 
-            <HeroPotencial/>
-            <HeroEnfoque/> 
-            <CTASoftSkills/>
-        </section>
+            <ImpactoSkills/>
+            <DescriptionSection/>
+            <CourseRedirection/>
+        </main>
     )
 
 } 

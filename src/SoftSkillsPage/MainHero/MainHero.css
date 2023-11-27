@@ -1,12 +1,32 @@
+/* *{
+  border: #A53692 solid 1px;
+} */
+
 .mainSectionHero{
-  padding: 80px 80px 80px 240px;
+  padding: 80px 80px;
   display: flex;
   flex-direction: column;
   justify-content: center;
-  align-items: center;
-  height: 100vh;
+  height: 60vh;
+  background-image: url("../../Assets/Imagenes/heroSoftSkills-image.png");
+  background-repeat: no-repeat;
+  background-size: 100% auto;
+  background-position-x: 360px;
 }
 
-.textDiv h1{
-  text-wrap: balance
+.textDivSoft {
+  padding-left: 120px;
+}
+
+.textDivSoft h1{
+  font-size: 38px;
+  line-height: 100%;
+}
+
+.heroPinkText {
+  color: #A53692;
+  font-family: var(--fuente);
+  font-weight: var(--semibold-weight);
+  font-size: 38px;
+  display: inline;
 }

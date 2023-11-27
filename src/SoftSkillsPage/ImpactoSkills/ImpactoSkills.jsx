@@ -1,37 +1,43 @@
+import './ImpactoSkills.css'
+import ChatIcon from '../../Assets/Iconos/ChatsCircle-r.svg'
+import Megaphone from '../../Assets/Iconos/Megaphone-r.svg'
+import LikeIcon from '../../Assets/Iconos/ThumbsUp-r.svg'
+import HandShake from '../../Assets/Iconos/Handshake-r.svg'
+import SmileyFace from '../../Assets/Iconos/Smiley-r.svg'
 
-const ImapctoSkills = () => {
+const ImpactoSkills = () => {
     return (
-        <section>
+        <section className='impactoMainSection'>
             <h2>El impacto de las Soft Skills</h2>
-            <div>
+            <div className='impactoMainDiv'>
                 <div>
-                    {/* <i></i> */}
-                    <h4>Comunicacion Efectiva</h4>
-                    <p>Mejora tu capacidad para expresarte de manera clara y asertiva.</p>
+                    <img src={ChatIcon} alt="Icono" className='softSkillsIcon'/>
+                    <h4 className='body3'>Comunicacion Efectiva</h4>
+                    <p className='body1'>Mejora tu capacidad para expresarte de manera clara y asertiva.</p>
                 </div>
                 <div>
-                    {/* <i></i> */}
-                    <h4>Liderazgo</h4>
-                    <p>Aprende a liderar y motivar a otros de manera efectiva.</p>
+                    <img src={Megaphone} alt="Icono" className='softSkillsIcon'/>
+                    <h4 className='body3'>Liderazgo</h4>
+                    <p className='body1'>Aprende a liderar y motivar a otros de manera efectiva.</p>
                 </div>
                 <div>
-                    {/* <i></i> */}
-                    <h4>Resolución de Problemas</h4>
-                    <p>Desarrolla la habilidad de abordar desafíos de manera eficiente.</p>
+                    <img src={LikeIcon} alt="Icono" className='softSkillsIcon'/>
+                    <h4 className='body3'>Resolución de Problemas</h4>
+                    <p className='body1'>Desarrolla la habilidad de abordar desafíos de manera eficiente.</p>
                 </div> 
                 <div>
-                    {/* <i></i> */}
-                    <h4>Colaboracióm</h4>
-                    <p>Trabaja en equipo de manera eficaz.</p>
+                    <img src={HandShake} alt="Icono" className='softSkillsIcon'/>
+                    <h4 className='body3'>Colaboracióm</h4>
+                    <p className='body1'>Trabaja en equipo de manera eficaz.</p>
                 </div>   
                 <div>
-                    {/* <i></i> */}
-                    <h4>Manejo de Emociones</h4>
-                    <p>Aprende a gestionar el estrés y las emociones en el entorno laboral y personal.</p>
+                    <img src={SmileyFace} alt="Icono" className='softSkillsIcon'/>
+                    <h4 className='body3'>Manejo de Emociones</h4>
+                    <p className='body1'>Aprende a gestionar el estrés y las emociones en el entorno laboral y personal.</p>
                 </div>
             </div> 
         </section>
     )
 }
 
-export default ImapctoSkills
+export default ImpactoSkills

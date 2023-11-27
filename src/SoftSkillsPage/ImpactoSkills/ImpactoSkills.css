@@ -1,0 +1,35 @@
+.impactoMainSection {
+    margin: 52px 0px 81px 0px;
+    padding: 0 80px;
+    text-align: center;
+}
+
+.impactoMainSection h2{
+    font-weight: var(--semibold-weight);
+}
+
+.impactoMainDiv {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 24px;
+}
+
+.impactoMainDiv div {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 237px;
+    gap: 16px;
+    height:240px;
+}
+
+.softSkillsIcon {
+    width: 46px;
+}
+
+.impactoMainDiv h4 {
+    color: var(--main-font-color);
+}

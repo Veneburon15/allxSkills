@@ -1,0 +1,44 @@
+.redirectionSection {
+    padding: 81px 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.redirectionMainDiv {
+    display: flex;
+    flex-direction: row;
+    background-color: #A53692;
+    border-radius: 15px;
+    padding: 32px 56px;
+    align-items: center;
+    gap: 150px;
+}
+
+.divLeftRedirection{
+    display: flex;
+    flex-direction: column;
+    width: 60%;
+    gap: 16px;
+
+}
+.divLeftRedirection h3{
+    font-size: 32px;
+    /* font-weight: var(--semibold-weight); */
+}
+.divLeftRedirection p{
+    color: var(--main-font-color);
+}
+
+.redirectionButton{
+    width: 262px;
+    font-size: 14px;
+    font-weight: var(--semibold-weight);
+    color: black;
+    background-color: var(--main-font-color);
+}
+
+.redirectionButton:hover{
+    background-color: #D22EB6;
+    border: #D22EB6 solid 1px;
+}
