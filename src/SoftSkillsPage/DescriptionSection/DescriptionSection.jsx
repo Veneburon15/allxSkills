@@ -10,7 +10,7 @@ const DescriptionSection = () => {
             <img src={TopImage} alt="Mujer con computadora" /> 
             <div className='innerDiv potential'>
                 <h3>Tu Potencial con Soft Skills</h3>
-                <p>Descubre el poder de las Soft Skills, desde la comunicación <br /> eficaz hasta la adaptabilidad en entornos cambiantes. <br /> En un mundo donde las habilidades técnicas ya no son <br /> suficientes se valora el liderazgo, la empatía y el trabajo en equipo ¿Estás listo para dar un paso adelante?</p>
+                <p>Descubre el poder de las Soft Skills, desde la comunicación <br /> eficaz hasta la adaptabilidad en entornos cambiantes. <br /> En un mundo donde las habilidades técnicas ya no son <br /> suficientes se valora el liderazgo, la empatía y el trabajo en <br /> equipo  ¿Estás listo para dar un paso adelante?</p>
             </div>
         </div>
         <div className='centerBanner'>
