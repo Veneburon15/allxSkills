@@ -16,7 +16,6 @@ const Curso = () => {
         <Inscribite/> 
         <Preguntas/>
         <Form/>
-        
     </main>
     )
 }

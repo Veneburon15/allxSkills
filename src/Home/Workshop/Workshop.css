@@ -1,9 +1,8 @@
+/* *{
+    border: #D22EB6 solid 1px;
+} */
 .workShopContainer{
-    margin: 0 80px;
-    padding: 0 0 48px 0;
-    display: flex;
-    justify-content: center;
-    gap: 15px;
+    position: relative;
 }
 
 .cardDiv {
@@ -11,7 +10,7 @@
     border: solid gray 1px;
     background: linear-gradient(30deg, #1B181B, #322C31);
     width: 370px;
-    height: 429px;
+    height: 465px;
     padding: 32px 0 0 0;
     border-bottom: none;
 }
@@ -28,17 +27,17 @@
     margin: 0 24px 24px 24px;
 }
 
-.cardHeader{
-    margin: 0 24px 8px 24px;
-    font-size: 16px;
-    font-weight: var(--regular-weight);
+.topCardDiv{
+    display: flex;
+    flex-direction: column;
+    margin: 0 24px 0 24px;
+    gap: 5px;
 }
 
 .cardTitle {
     font-size: 28px;
     font-weight: var(--medium-weight);
     line-height: 120%;
-    margin: 0 24px 0 24px;
 }
 
 .cardSecondDiv{
@@ -88,3 +87,9 @@
     border: none;
 }
 
+.cardLastDiv{
+    position:absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+}

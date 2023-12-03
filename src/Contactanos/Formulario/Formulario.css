@@ -1,5 +1,5 @@
 .contactFormSection {
-    background-image: url(../../Assets/Imagenes/Foto-contacto-final.jpg);
+    background-image: url(../../Assets/Imagenes/Foto-contacto-Final.jpg);
     background-color: #090909;
     background-repeat: no-repeat;
     background-size: auto 100%;
@@ -7,12 +7,6 @@
     margin: -90px 0 0 0;
     background-position-x: right;
 }
-
-/* @media (min-width: 1350px) {
-    .contactFormSection{
-        background-position-x: 100%;
-    }
-  } */
 
 .formContainer{
     padding: 40px 0 80px 0;

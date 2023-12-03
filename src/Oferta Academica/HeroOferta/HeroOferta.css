@@ -1,64 +1,27 @@
-/* *{
-    border: solid 1px purple;
-} */
 .heroSection {
     display: flex;
-    padding: 5% 0 ;
-    gap: 15px;
-    justify-content: center;
-
-}
-
-/****Código de referencia, hay que eliminarlo*****/
-.heroSection div{
-    border: solid 1px gray;
-    border-radius: 10px;
-}
-/****Código de referencia, hay que eliminarlo*****/
-
-.leftDiv{
-    width: 40%;
-}
-
-.rightDiv{
-    display: flex;
     flex-direction: column;
-    width: 60%;
-    gap: 15px;
+    justify-content: center;
+    padding-left: 100px;
+    background-image: url("../../Assets/Imagenes/OfertaAcademica\ Hero.jpg");
+    background-color: #000000;
+    background-repeat: no-repeat;
+    background-size: auto 100%;
+    background-position-x: right;
+    height: 101vh;
+    margin: -100px 0 0 0;
 }
 
-/***Sección de arriba a la derecha***/
-.rightTopDiv{
-    display: flex;
-    flex-direction: row;
-    height: 10em;
-    width: 100%;
-    gap: 15px;
-}
-.learnSoft{
-    width: 67%;
-}
-.rightTopDiv figure {
-    width: 30%;
-}
-
-
-/**Sección de abajo a la derecha**/
-.rightBelowDiv{
-    display: flex;
-    flex-direction: row;
-    height: 10em;
-    width: 100%;
-    gap: 15px;
-}
-.benefits {
-    display: flex;
-    flex-wrap: wrap;
-    width: 45%;
-}
-.learnDoing {
+.heroMainDiv{
     width: 50%;
 }
-.learnDoing img{
-    max-width: 90%;
+
+.mainH2{
+    font-family: var(--fuente);
+    font-weight: var(--semibold-weight);
+    font-size: 44px;
+}
+
+.mainHeroP{
+    margin: 40px 0 40px 0;
 }

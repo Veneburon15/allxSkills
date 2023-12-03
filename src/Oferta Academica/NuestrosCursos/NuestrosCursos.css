@@ -1,3 +1,66 @@
-/* .nuestrosh2 {
-    font-size: 2.5em;
-} */
+.nuestrosCursosSection{
+    display: flex;
+    flex-direction: column;
+    padding: 80px 50px 40px 50px;
+    justify-content: center;
+    align-items: center;
+}
+
+.nuestrosP{
+    text-align: center;
+    margin: 24px 0 24px 0;
+}
+
+.nuestroPBellow{
+    margin: 0 0 24px 0;
+}
+
+.tagsDivs{
+    display: flex;
+    gap: 15px;
+}
+
+.tagsCourse{
+    width: max-content;
+    background-color: rgba(130, 127, 127, 0.675);
+    border-radius: 20px;
+    padding: 5px 24px;
+    border: none;
+    height: auto;
+}
+
+.workshop{
+    background-color: #D22EB6;
+}
+
+.taller{
+    background-color: transparent;
+    border: gray 1px solid;
+}
+.taller:hover{
+    background-color: gray;
+}
+
+.masterclass {
+    background-color: #5E4DCD;
+}
+.masterclass:hover{
+    background-color: #553f99;
+}
+
+.cantidadDeCursos{
+    margin: 48px 0 16px 0;
+}
+
+.cursosContainer{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 24px;
+}
+
+.pageNumerator {
+    margin: 48px 0 0 0;
+}

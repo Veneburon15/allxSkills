@@ -22,7 +22,9 @@ function Home() {
       <Hero/>
       <Staff/> 
       <h2 className='workshopH2'>Elige tu siguiente curso</h2>
-      {cursosContainer}
+      <div className="cursosContainer homeContainerWork">
+        {cursosContainer}
+      </div>
       <Link>
         <button className='moreCourses'>Más cursos</button>
       </Link>

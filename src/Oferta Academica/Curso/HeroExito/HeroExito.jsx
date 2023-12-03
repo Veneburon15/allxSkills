@@ -1,4 +1,3 @@
-
 const HeroExito = () => {
     return(
         <section>

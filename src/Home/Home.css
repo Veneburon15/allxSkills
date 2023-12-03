@@ -8,6 +8,10 @@
     margin: 0 80px;
 }
 
+.homeContainerWork{
+    margin-bottom: 48px;
+}
+
 .moreCourses{
     margin: auto;
     display: flex;
