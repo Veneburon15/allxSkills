@@ -1,14 +1,14 @@
 import HeroOferta from './HeroOferta/HeroOferta' 
-import Form from "../Home/Form/Form"
 import NuestrosCursos from "./NuestrosCursos/NuestrosCursos"
 import './OfertaAcademica.css'
+import ContactForm from './ContactForm/ContactForm'
 
 const OfertaAcademica = () => {
     return(
         <main className="ofertaAcademicaDiv">
             <HeroOferta/>
             <NuestrosCursos/>
-            <Form/>
+            <ContactForm/>
         </main>
     )
 }
