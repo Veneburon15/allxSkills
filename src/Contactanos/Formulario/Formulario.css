@@ -1,19 +1,21 @@
 .contactFormSection {
-    padding: 60px 80px 60px 80px;
-    background-image: url(../../Assets/Imagenes/contact-section-background-removebg.png);
+    background-image: url(../../Assets/Imagenes/Foto-contacto-final.jpg);
+    background-color: #090909;
     background-repeat: no-repeat;
-    background-size: 1100px;
-    background-position-x: 150%;
-    background-position-y: bottom;
+    background-size: auto 100%;
+    padding: 90px 80px 0 80px;
+    margin: -90px 0 0 0;
+    background-position-x: right;
 }
 
-@media (min-width: 1350px) {
+/* @media (min-width: 1350px) {
     .contactFormSection{
         background-position-x: 100%;
     }
-  }
+  } */
 
 .formContainer{
+    padding: 40px 0 80px 0;
     width: 50%;
 }
 
