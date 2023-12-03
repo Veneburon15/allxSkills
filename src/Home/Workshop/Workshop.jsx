@@ -1,29 +1,30 @@
 import './Workshop.css'
 
-const Workshop = () => {
+const Workshop = ({curso}) => { 
+    console.log(curso)
     return (
         <section className='workShopContainer'>
             <div className='cardDiv'> 
-                <h4 className='tag'>Workshop</h4>
+                <h4 className='tag'>{curso.tipo}</h4>
                 <div className='topCardDiv'>
-                    <h3 className='cardHeader'>Inteligencia emocional:</h3>
-                    <p className="cardTitle">Gestionando cambios con éxito</p>
+                    {/* <h3 className='cardHeader'>Inteligencia emocional:</h3> */}
+                    <p className="cardTitle">{curso.nombre}</p>
                 </div> 
                 <div className="cardSecondDiv">
                     <div>
-                        <p className='body2'>Duración:</p><p>6 horas</p>
+                        <p className='body2'>Duración:</p><p>{curso.duracion}</p>
                     </div>
                     <div>
-                        <p className='body2'>Modalidad:</p><p>Online (Teórico-Práctico)</p>
+                        <p className='body2'>Modalidad:</p><p>{curso.modalidad}</p>
                     </div>
                     <div>
-                        <p className='body2'>Formato:</p><p>4 clases de 90 minutos</p>
+                        <p className='body2'>Formato:</p><p>{curso.formato}</p>
                     </div>
                 </div> 
                 <button className='cardButton'>Conocer más</button>
                 <div className="coloredDiv"></div>
             </div>
-            <div className='cardDiv'> 
+            {/* <div className='cardDiv'> 
                 <h4 className='tag'>Workshop</h4>
                 <div className='topCardDiv'>
                     <h3 className='cardHeader'>Habilidades Interpersonales:</h3>
@@ -62,7 +63,7 @@ const Workshop = () => {
                 </div> 
                 <button className='cardButton'>Conocer más</button>
                 <div className="coloredDiv"></div>
-            </div>
+            </div> */}
         </section> 
     )
 } 

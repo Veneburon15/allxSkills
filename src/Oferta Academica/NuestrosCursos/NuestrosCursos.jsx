@@ -1,7 +1,15 @@
 import Workshop from "../../Home/Workshop/Workshop"
-import './NuestrosCursos.css'
+import './NuestrosCursos.css' 
+import Cursos from '../../async'
 
 const NuestrosCursos = () => {
+    const cursosContainer = []
+    // console.log(Cursos)
+    for (let i = 0; i < Cursos.length; i++) {
+        const curso = Cursos[i];
+        cursosContainer.push(<Workshop key={curso.id} curso={curso} />);
+      }
+
     return(
         <section className="nuestrosCursosSection">
             <h2 className="nuestrosh2">Explora Nuestros Cursos</h2>
@@ -11,11 +19,8 @@ const NuestrosCursos = () => {
                 <button>Workshop</button>
                 <button>Cursos</button>
                 <button>Masterclass</button>
-            </div> 
-            <Workshop/> {/* HABRIA QUE SACAR EL H2 DEL COMPONENTE PARA QUE ESTO QUEDE IGUAL AL PROTOTIPO SI NO LO DEJAMOS*/}
-            <Workshop/> {/* HABRIA QUE SACAR EL H2 DEL COMPONENTE PARA QUE ESTO QUEDE IGUAL AL PROTOTIPO SI NO LO DEJAMOS*/}
-            <Workshop/> {/* HABRIA QUE SACAR EL H2 DEL COMPONENTE PARA QUE ESTO QUEDE IGUAL AL PROTOTIPO SI NO LO DEJAMOS*/}
-            <Workshop/> {/* HABRIA QUE SACAR EL H2 DEL COMPONENTE PARA QUE ESTO QUEDE IGUAL AL PROTOTIPO SI NO LO DEJAMOS*/}
+            </div>  
+            {cursosContainer}
         </section>
     )
 }
