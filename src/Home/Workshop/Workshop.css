@@ -35,9 +35,11 @@
 }
 
 .cardTitle {
-    font-size: 28px;
-    font-weight: var(--medium-weight);
+    font-size: 32px;
+    font-weight: var(--semibold-weight);
     line-height: 120%;
+    text-wrap: balance;
+    max-width: 300px;
 }
 
 .cardSecondDiv{

@@ -2,7 +2,7 @@
     display: flex;
     flex-direction: column;
     justify-content: center;
-    padding-left: 100px;
+    padding: 40px 0 0 80px;
     background-image: url("../../Assets/Imagenes/OfertaAcademica\ Hero.jpg");
     background-color: #000000;
     background-repeat: no-repeat;
@@ -13,15 +13,16 @@
 }
 
 .heroMainDiv{
-    width: 50%;
+    width: 50vw;
 }
 
 .mainH2{
     font-family: var(--fuente);
     font-weight: var(--semibold-weight);
     font-size: 44px;
+    margin-bottom: 20px;
 }
 
 .mainHeroP{
-    margin: 40px 0 40px 0;
+    margin: 20px 0 30px 0;
 }

@@ -3,7 +3,7 @@ import './Staff.css'
 
 const Staff = () => {
     return (
-        <section className='staffSection'>
+        <section className='staffSection' id='scroll-down'>
             <div>
                 <img src={checkmarkIcon} alt="ícono Check" className='checkIcon'/>
                 <p className='staffText'>Enfoque <br/> interactivo</p> 

@@ -44,27 +44,3 @@ const Navbar = () => {
 }
 
 export default Navbar;
-
-
-
-{/* <li>
-<a href='#' className='menuFont'>Oferta académica</a>
-<img src={DropdownIcon} alt="Dropdown Icon" className='dropdownIcon'/>
-{/* <div>
-    <div>
-        <a href='#'>Todos los Cursos</a>
-    </div>
-    <div>
-        <h4>Workshops</h4>
-        <a href='#'>Inteligencia emocional</a>
-        <a href='#'>Habilidades intrapersonales</a>
-    </div>
-    <div>
-        <h4>SkillPack</h4>
-        <a href='#'>Proximamente...</a>
-    </div>
-</div> */}
-{/*</li>
-<li><a href='#' className='menuFont'>Sobre nosotros</a></li> 
-<li><a href='#' className='menuFont'>¿Por qué Soft Skills?</a></li> 
-<button className='contactButton'>Contáctanos</button> */}

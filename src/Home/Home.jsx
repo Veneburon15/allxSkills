@@ -25,7 +25,7 @@ function Home() {
       <div className="cursosContainer homeContainerWork">
         {cursosContainer}
       </div>
-      <Link>
+      <Link to='/ofertaAcademica'>
         <button className='moreCourses'>Más cursos</button>
       </Link>
       <Newsletter/>

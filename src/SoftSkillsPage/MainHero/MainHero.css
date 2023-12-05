@@ -9,21 +9,32 @@
   background-position-x: center;
   height: 102vh;
   margin: -100px 0 0 0;
+  padding: 0 0 0 80px;
 }
 
-.textDivSoft {
-  padding-left: 200px;
-}
-
-.textDivSoft h1{
-  font-size: 38px;
-  line-height: 100%;
+.textDivSoft h2{
+  font-size: 44px;
+  margin-bottom: 20px;
+  font-weight: var(--semibold-weight);
 }
 
 .heroPinkText {
   color: #A53692;
   font-family: var(--fuente);
   font-weight: var(--semibold-weight);
-  font-size: 38px;
+  font-size: 44px;
   display: inline;
+}
+
+
+
+h1{
+  display: block;
+  margin-bottom: 20px;
+}
+
+.heroTextBottom {
+  font-size: 15px;
+  margin-bottom: 30px;
+  line-height: 22px;
 }
