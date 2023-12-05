@@ -38,7 +38,7 @@ const Footer = () => {
                 <p className='tag'>Copyright © 2023 AllxSkills</p>
                 <ul className='belowRightSection'>
                     <li><a href='#' className='tag'>Términos y Condiciones</a></li>
-                    <li><a href='#' className='tag'>Privacidad</a></li>
+                    <li><a href='#' className='tag'>Botón de arrepentimiento</a></li>
                 </ul>
             </section>
         </footer>

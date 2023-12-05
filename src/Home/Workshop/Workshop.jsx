@@ -1,7 +1,6 @@
 import './Workshop.css'
-import { useEffect } from 'react';
-const Workshop = ({curso}) => { 
-      
+
+const Workshop = ({curso}) => {     
     return (
         <section className='workShopContainer'>
             <div className='cardDiv'> 
