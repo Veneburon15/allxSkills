@@ -27,8 +27,8 @@ const Footer = () => {
                 <div className='footerSection3'>
                     <h2 className='suscribeH2'>Suscríbete para novedades</h2>
                     <form className='emailInput'>
-                        <label for="email" className='emailLabel'>
-                            <input className="body1" placeholder='Correo' id='emailFooter'/>
+                        <label for="emailFooter" className='emailLabel'>
+                            <input className="body1" placeholder='Correo' name='emailFooter' id='emailFooter'/>
                         </label>
                         <button className='submitFooter'><img src={Arrow} alt="Arrow Icon" className='arrowIcon'/></button>
                     </form>

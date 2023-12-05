@@ -2,7 +2,6 @@ import SocialMedia from '../../Footer/SocialMedia/SocialMedia'
 import SendArrow from '../../Assets/Iconos/send-footerNewsletter.svg'
 import './Formulario.css'
 
-
 const Formulario = () => {
     return (
         <section className='contactFormSection'>
@@ -11,18 +10,18 @@ const Formulario = () => {
                     <h1 className='heroTextGradient contactH1'>¡Hola! ¿Podemos ayudarte?</h1>
                     <form action="" className='contactForm'>
                         <div className='topFormDiv'>
-                            <label htmlFor="name">
+                            <label htmlFor="nombre">
                                 <input type="text" placeholder="Nombre Completo*" name="nombre" id='nombre' className='body1'/> 
                             </label>
-                            <label htmlFor="phone">
-                                <input type="tel" placeholder="Teléfono" name="telefono" id='phone' className='body1'/>
+                            <label htmlFor="telefono">
+                                <input type="tel" placeholder="Teléfono" name="telefono" id='telefono' className='body1'/>
                             </label>
                         </div>
                         <label htmlFor="contactEmail">
-                            <input type="text" placeholder="Correo*" name="email" id='contactEmail' className='body1 emailFormInput'/>
+                            <input type="text" placeholder="Correo*" name="contactEmail" id='contactEmail' className='body1 emailFormInput'/>
                         </label>
                         <label htmlFor="message" className='messageFormLabel'>
-                            <input type="text" placeholder="Mensaje*" name="mensaje" id='message' className='body1 messageFormInput'/>
+                            <input type="text" placeholder="Mensaje*" name="message" id='message' className='body1 messageFormInput'/>
                         </label>
                     </form>
                 </div>
