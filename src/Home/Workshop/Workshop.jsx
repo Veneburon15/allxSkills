@@ -1,10 +1,11 @@
 import './Workshop.css'
-
+import { useEffect } from 'react';
 const Workshop = ({curso}) => { 
+      
     return (
         <section className='workShopContainer'>
             <div className='cardDiv'> 
-                <h4 className='tag'>{curso.tipo}</h4>
+                <h4 className={`tag ${curso.tipo}`}  id="tag">{curso.tipo}</h4>
                 <div className='topCardDiv'>
                     <p className="cardTitle">{curso.nombre}</p>
                     <p className='slogan'>{curso.slogan}</p>
@@ -29,7 +30,8 @@ const Workshop = ({curso}) => {
                 </div>
             </div>
         </section> 
-    )
+    ) 
+    
 } 
 
 export default Workshop
