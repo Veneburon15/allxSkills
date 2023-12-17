@@ -2,6 +2,7 @@ import { Link, NavLink } from 'react-router-dom'
 import Logo from '../Assets/Imagenes/xSkills_Logo_TR2.png'
 import DropdownIcon from '../Assets/Iconos/arrow-navbarDropdown.svg'
 import './Navbar.css'
+import Cursos from '../async'
 
 const Navbar = () => {
     return(
@@ -13,7 +14,7 @@ const Navbar = () => {
                 <li>
                     <NavLink to='/ofertaAcademica' className='navFont'> Oferta Académica 
                         <img src={DropdownIcon} alt="Dropdown Icon" className='dropdownIcon'/>
-                    </NavLink>
+                    </NavLink> 
                     {/* <ul>
                         <li>
                             <NavLink to=''>Todos los Cursos</NavLink>
@@ -28,6 +29,9 @@ const Navbar = () => {
                             <NavLink to=''>Proximamente...</NavLink>
                         </li>
                     </ul> */}
+                </li> 
+                <li>
+                <NavLink to={`/curso/${Cursos[0].id}`} className='navFont'>Inteligencia emocional</NavLink>
                 </li>
                 <li>
                     <NavLink to='/' className='navFont'> Sobre Nosotros </NavLink>

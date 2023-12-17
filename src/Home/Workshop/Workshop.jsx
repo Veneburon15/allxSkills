@@ -1,5 +1,4 @@
 import './Workshop.css'
-import { useEffect } from 'react';
 const Workshop = ({curso}) => { 
       
     return (
@@ -25,7 +24,7 @@ const Workshop = ({curso}) => {
                     </div>
                 </div> 
                 <div className='cardLastDiv'>
-                    <button className='cardButton'>Conocer más</button>
+                    <button className='cardButton'><a href={`/curso/${curso.id}`}>Conocer más</a></button>
                     <div className="coloredDiv"></div>
                 </div>
             </div>
