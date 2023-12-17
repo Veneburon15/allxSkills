@@ -15,6 +15,7 @@ const NuestrosCursos = () => {
             setFiltro(tipo);
         }
     };
+
     return(
         <section className="nuestrosCursosSection" id="explora">
             <h2 className="nuestrosH2">Explora Nuestros Cursos</h2>
@@ -28,9 +29,9 @@ const NuestrosCursos = () => {
             </div>  
             <p className="cantidadDeCursos"> {cursosFiltrados.length} de {Cursos.length}</p>
             <div className="cursosContainer">
-            {cursosFiltrados.map(curso => (
-          <Workshop key={curso.id} curso={curso} />
-        ))}
+              {cursosFiltrados.map(curso => (
+                <Workshop key={curso.id} curso={curso} />
+              ))}
             </div>
             <p className="pageNumerator">{"<"} 1 {">"}</p>
         </section>
