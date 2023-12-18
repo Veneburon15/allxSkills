@@ -1,6 +1,7 @@
 import './Workshop.css'
 
 const Workshop = ({curso}) => {     
+    
     return (
         <section className='workShopContainer'>
             <div className='cardDiv'> 
@@ -24,7 +25,7 @@ const Workshop = ({curso}) => {
                     </div>
                 </div> 
                 <div className='cardLastDiv'>
-                    <button className='cardButton'>Conocer más</button>
+                    <button className='cardButton'><a href={`/curso/${curso.id}`}>Conocer más</a></button>
                     <div className="coloredDiv"></div>
                 </div>
             </div>
