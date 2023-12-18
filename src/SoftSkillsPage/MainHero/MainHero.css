@@ -2,13 +2,13 @@
   display: flex;
   flex-direction: column;
   justify-content: center;
-  height: 60vh;
-  background-image: url("../../Assets/Imagenes/HeroSoftSkills.jpg");
+  background-image: url("../../Assets/Imagenes/softSkillsFinalPicture.jpg");
   background-repeat: no-repeat;
   background-size: auto 100%;
-  background-position-x: center;
-  height: 102vh;
-  margin: -100px 0 0 0;
+  background-position-x: right;
+  background-color: #090909;
+  height: 100vh;
+  margin: -92px 0 0 0;
   padding: 40px 0 0 80px;
 }
 
