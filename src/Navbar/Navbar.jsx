@@ -31,7 +31,7 @@ const Navbar = () => {
                     </ul> */}
                 </li> 
                 <li>
-                <NavLink to={`/curso/${Cursos[0].id}`} className='navFont'>Inteligencia emocional</NavLink>
+                    <NavLink to={`/curso/${Cursos[0].id}`} className='navFont'>Inteligencia emocional</NavLink>
                 </li>
                 <li>
                     <NavLink to='/' className='navFont'> Sobre Nosotros </NavLink>
