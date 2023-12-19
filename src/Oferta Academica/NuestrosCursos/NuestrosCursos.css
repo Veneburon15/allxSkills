@@ -29,19 +29,33 @@
     height: auto;
 }
 
-.workshop{
+
+.Workshop{
     background-color: #D22EB6;
+    border-radius: 15px;
+    width: max-content; 
 }
 
-.taller{
+.Taller{
+    background-color: transparent;
+    border: gray 1px solid;
+    border-radius: 15px;
+    width: max-content; 
+
+}
+.Masterclass {
+    background-color: #5E4DCD;
+    border-radius: 15px;
+    width: max-content;
+}
+
+.todos:hover{
     background-color: transparent;
     border: gray 1px solid;
 }
+
 .taller:hover{
     background-color: gray;
-}
-.masterclass {
-    background-color: #5E4DCD;
 }
 
 .masterclass:hover{

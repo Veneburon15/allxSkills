@@ -22,10 +22,10 @@ const NuestrosCursos = () => {
             <p className="nuestrosP">Sumérgete en nuestra oferta académica y <strong>elige entre una amplia gama</strong> de cursos diseñados para <br /> satisfacer tus necesidades de desarrollo profesional y personal.</p>
             <p className="nuestroPBellow">Filtar por tipo de curso</p>
             <div className="tagsDivs">
-            <button onClick={() => handleFilter('')} className="tagsCourse ">Todos</button>
-            <button onClick={() => handleFilter('workshop')} className="tagsCourse workshop">Workshop</button>
-            <button onClick={() => handleFilter('taller')} className="tagsCourse taller">Taller</button>
-            <button onClick={() => handleFilter('masterclass')} className="tagsCourse masterclass">Masterclass</button>
+            <button onClick={() => handleFilter('')} className="tagsCourse todos">Todos</button>
+            <button onClick={() => handleFilter('workshop')} className="tagsCourse Workshop">Workshop</button>
+            <button onClick={() => handleFilter('taller')} className="tagsCourse Taller taller">Taller</button>
+            <button onClick={() => handleFilter('masterclass')} className="tagsCourse Masterclass masterclass">Masterclass</button>
             </div>  
             <p className="cantidadDeCursos"> {cursosFiltrados.length} de {Cursos.length}</p>
             <div className="cursosContainer">

@@ -12,7 +12,7 @@
     margin-bottom: 48px;
 }
 
-.moreCourses{
+.violetButton{
     margin: auto;
     display: flex;
     width: fit-content;
@@ -23,6 +23,6 @@
     border: #5E4DCD solid 1px;
 }
 
-.moreCourses:hover {
+.violetButton:hover {
     background-color: #553f99;
 }

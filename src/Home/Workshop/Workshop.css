@@ -1,21 +1,24 @@
-/* *{
-    border: #D22EB6 solid 1px;
-} */
 .workShopContainer{
     position: relative;
 } 
 
 .Workshop{
-    background-color: #D22EB6; 
+    background-color: #D22EB6;
+    border-radius: 15px;
+    width: max-content; 
 }
 
 .Taller{
     background-color: transparent;
-    border: gray 1px solid; 
+    border: gray 1px solid;
+    border-radius: 15px;
+    width: max-content; 
 
 }
 .Masterclass {
     background-color: #5E4DCD;
+    border-radius: 15px;
+    width: max-content;
 }
 
 .cardDiv {
@@ -107,3 +110,4 @@
     left: 0;
     width: 100%;
 } 
+

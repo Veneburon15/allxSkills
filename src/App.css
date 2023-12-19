@@ -46,6 +46,7 @@ h3 {
     font-size: 14px;
     color: var(--secondary-font-color);
     line-height: 150%;
+    padding: 4px 25px;
 }
 
 p{
@@ -105,6 +106,13 @@ input {
     border-radius: 6px;
     padding-left: 16px;
     border: none;
+}
+
+.body2 {
+    color: var(--secondary-font-color);
+    font-weight: var(--medium-weight);
+    line-height: 150%;
+    font-size: 16px;
 }
 
 .body3{

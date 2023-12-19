@@ -1,0 +1,66 @@
+.offerSection{
+    margin: 0 80px;
+    padding-top: 60px;
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    border-top:  solid #323232 2px;
+}
+
+.offerBackground{
+    background-color: #242527;
+    padding: 40px 0 40px 0;
+    display: flex;
+    flex-direction: row;
+    border-radius: 40px;
+    height: 200px;
+}
+
+.zones{
+    font-size: 18px;
+    font-weight: var(--medium-weight);
+    color: var(--main-font-color);
+}
+
+.price {
+    font-size: 44px;
+    font-weight: var(--bold-weight);
+}
+
+.pricerDiv {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 16px;
+    width: 33%;
+}
+
+.firstPricerDiv{
+    border-right: solid var(--main-font-color) 2px;
+}
+
+.paymentOptions{
+    width: 33%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 15px
+}
+
+.paymentOptions h4 {
+    margin-bottom: 10px;
+}
+
+.paymentLogoContainer {
+    display: flex;
+    flex-direction: row;
+    gap: 15px;
+    width: 100%;
+    justify-content: center;
+}
+
+.paymentTriggerButton{
+    align-self: center;
+}

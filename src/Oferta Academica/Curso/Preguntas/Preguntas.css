@@ -1,21 +1,20 @@
-.preguntasSection {
-    margin: 0px 0 80px 0;
-}
-
-.preguntasSection h2{
-    margin: 50px 0 20px 0;
-}
-
-.questionMainDiv{
+.preguntasSection{
     display: flex;
-    flex-direction: column;
+    padding: 140px 80px 160px 80px;
+    gap: 40px;
 }
 
-.questionDiv{
-    display: flex;
-    padding: 1.2em 0;
+.leftDivPreguntas{
+    width: 25%;
 }
 
-.bottomBorder {
-    border-bottom: 1px gray solid;
+.FAQH2{
+    color: var(--secondary-font-color);
+    font-size: 22px;
+    margin-bottom: 10px;
 }
+
+.questionMainDiv {
+    width: 730px;
+}
+

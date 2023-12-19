@@ -3,7 +3,7 @@ import './Form.css'
 
 const Form = () => {
     return (
-        <section className='contactSection'>
+        <section className='contactSectionForm'>
             <div>
                 <h2>¿En qué podemos ayudarte?</h2>
                 <p>¿Tienes alguna duda? ¡Contáctanos!</p>

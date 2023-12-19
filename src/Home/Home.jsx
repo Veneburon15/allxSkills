@@ -26,7 +26,7 @@ function Home() {
         {cursosContainer}
       </div>
       <Link to='/ofertaAcademica'>
-        <button className='moreCourses'>Más cursos</button>
+        <button className='violetButton'>Más cursos</button>
       </Link>
       <Newsletter/>
       <SoftSkills/>
