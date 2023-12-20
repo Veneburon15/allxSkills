@@ -9,6 +9,7 @@ import OfertaAcademica from './Oferta Academica/OfertaAcademica'
 import Contactanos from './Contactanos/Contactanos'; 
 import SoftSkillsPage from './SoftSkillsPage/SoftSkillsPage'; 
 import Curso from './Oferta Academica/Curso/Curso';
+import SobreNosotros from './SobreNosotrosPage/SobreNostros';
 
 
 
@@ -25,7 +26,7 @@ function App() {
         {/* <Route path="/ofertaAcademica/AllCourses" element={</>}/> */}
         {/* <Route path="/ofertaAcademica/InteligenciaEmocional" element={</>}/> */}
         {/* <Route path="/ofertaAcademica/HabilidadesInterpersonales" element={</>}/> */}
-        {/* <Route path='/sobreNosotros' element={</>}/> */}
+        <Route path='/sobreNosotros' element={<SobreNosotros/>}/>
         <Route path='/softSkills' element={<SoftSkillsPage/>} />
         <Route path='/contactanos' element={<Contactanos/>}/>
         <Route path='*' element={<h2>Página en construcción</h2>}/>

@@ -34,7 +34,7 @@ const Navbar = () => {
                     <NavLink to={`/curso/${Cursos[0].id}`} className='navFont'>Inteligencia emocional</NavLink>
                 </li>
                 <li>
-                    <NavLink to='/' className='navFont'> Sobre Nosotros </NavLink>
+                    <NavLink to='/SobreNosotros' className='navFont'> Sobre Nosotros </NavLink>
                 </li>
                 <li>
                     <NavLink to='/SoftSkills' className='navFont'> ¿Por qué Soft Skills? </NavLink>
