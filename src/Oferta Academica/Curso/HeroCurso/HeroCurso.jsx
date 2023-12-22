@@ -10,7 +10,6 @@ const HeroCurso = ({tipo,nombre,slogan,fechaLarga,fecha,objetivos,contenido,hora
                     <h4 className={`tag ${tipo}`}  id="tag">{tipo}</h4>
                     <h2 className='courseDetailH2'>{nombre}:</h2>
                     <h3>{slogan}</h3>
-                    <p className='fechaLarga'>{fechaLarga}</p>
                     <div className='topInnerDiv'>
                         <p className='fecha'>{fecha}</p>
                         <p className='dateAbreviation'>FEB</p>
