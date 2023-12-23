@@ -1,7 +1,6 @@
 import './Workshop.css'
 
 const Workshop = ({curso}) => {     
-    
     return (
         <section className='workShopContainer'>
             <div className='cardDiv'> 

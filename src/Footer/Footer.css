@@ -87,18 +87,19 @@ footer{
 .copyrights{
     border-top: 2px solid #353535;
     display: flex;
-    justify-content: center;
     padding: .5em 0;
 }
 .copyrights p {
     width: 55%;
     text-align: end;
+    padding-right: 50px;
 }
 .belowRightSection{
     display: flex;
     flex-direction: row;
-    gap: 35px;
-    justify-content: flex-end;
     width: 45%;
-    padding-right: 3px;
+}
+.footerLi{
+    width: 100%;
+    text-align: right;
 }

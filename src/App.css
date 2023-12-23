@@ -1,3 +1,7 @@
+/* *{
+    border: #A53692 solid 1px;
+} */
+
 :root {
     --fuente: 'Montserrat', sans-serif;
     --regular-weight: 400;
@@ -46,7 +50,7 @@ h3 {
     font-size: 14px;
     color: var(--secondary-font-color);
     line-height: 150%;
-    padding: 4px 25px;
+    padding: 4px 15px;
 }
 
 p{
@@ -55,6 +59,7 @@ p{
     color: var(--secondary-font-color);
     line-height: 150%;
 }
+
 .body1{
     font-weight: var(--regular-weight);
     font-size: 16px;

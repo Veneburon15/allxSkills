@@ -1,10 +1,13 @@
+import ButtonExplore from '../../Oferta Academica/HeroOferta/ButtonExplore/ButtonExplore'
+import './NosotrosHead.css'
 
 const NosotrosHead = () => {
     return(
-        <section className="">
+        <section className="aboutUsHeadSection">
             <div>
-                <h2>Transformando Potencial en <span>Éxito</span></h2>
-                <p>Descubre una trayectoria hacia el éxito profesional y personal a través del desarrollo de Soft Skills.</p>
+                <h2 className='mainH2'>Transformando <br /> Potencial en <span className='heroTextGradient'>Éxito</span></h2>
+                <p className='heroTextAbout'>Descubre una trayectoria hacia el éxito profesional y <br /> personal a través del desarrollo de Soft Skills.</p>
+                <ButtonExplore/>
             </div> 
         </section>
     )
