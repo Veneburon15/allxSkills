@@ -7,11 +7,11 @@ import './Home.css'
 import SoftSkills from './SoftSkills/SoftSkills'
 import Newsletter from './Upgrade/Newsletter' 
 import Cursos from '../async'
+import WhatsAppButton from './WhatsappButton/WhatsappButton'
 
 
 function Home() { 
   const cursosContainer = []
-  // console.log(Cursos)
   for (let i = 0; i < 3; i++) {
       const curso = Cursos[i];
       cursosContainer.push(<Workshop key={curso.id} curso={curso} />);
@@ -30,6 +30,7 @@ function Home() {
       </Link>
       <Newsletter/>
       <SoftSkills/>
+      <WhatsAppButton/>
       <Form/>  
     </main>
   );

@@ -1,0 +1,23 @@
+.whatsapp-button {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    z-index: 1000;
+    width: 50px;
+    height: 50px;
+    background-color: green;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    transition:  0.3s ease-in-out;
+    opacity: 0;
+  }
+  
+  .whatsapp-button.show {
+    opacity: 1;
+  }
+  
+  .whatsapp-button.hide {
+    opacity: 0;
+  }
