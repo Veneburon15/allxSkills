@@ -1,5 +1,7 @@
+import ScrollIcon from '../../Function_components/ScrollIcon/ScrollIcon'
 import ButtonExplore from './ButtonExplore/ButtonExplore'
 import './HeroOferta.css'
+import WhatsappButton from '../../Function_components/WhatsappButton/WhatsappButton'
 
 const HeroOferta = () => {
     return(
@@ -9,6 +11,8 @@ const HeroOferta = () => {
                 <p className='mainHeroP'>Desarrolla las actitudes y hábitos que te impulsarán a <br /> destacar como profesional en todos los campos y roles.</p>
                 <ButtonExplore/>
             </div>
+            <ScrollIcon/>
+            <WhatsappButton/>
         </section>
     )
 }

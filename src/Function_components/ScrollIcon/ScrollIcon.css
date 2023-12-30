@@ -1,0 +1,24 @@
+
+@keyframes scrollButton {
+    60% {
+      opacity: 1;
+      transform: translateY(0) ;
+    }
+    30% {
+      opacity: 0;
+      transform: translateY(5px) ;
+    }
+    100% {
+      opacity: 1;
+      transform: translateY(0) ;
+    }
+  }
+    
+  .scrollButton {
+      animation: scrollButton 4s ease-in-out infinite; 
+      width: 42px;
+      height: 60px;
+      position: absolute; /* Establece la posición absoluta para el elemento */
+      bottom: 25px; /* Lo posiciona en la esquina inferior */
+      left: 80px;
+  }

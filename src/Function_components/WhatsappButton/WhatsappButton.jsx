@@ -3,24 +3,7 @@ import WppIcon from '../../Assets/Iconos/WhatsApp.png'
 import './WhatsappButton.css';
 
 const WhatsAppButton = () => {
-  const [showButton, setShowButton] = useState(false);
-
-  useEffect(() => {
-    const handleScroll = () => {
-      const scrollPosition = window.scrollY;
-      if (scrollPosition >= 100) {
-        setShowButton(true);
-      } else {
-        setShowButton(false);
-      }
-    };
-
-    window.addEventListener('scroll', handleScroll);
-    return () => {
-      window.removeEventListener('scroll', handleScroll);
-    };
-  }, []);
-
+  const [showButton, setShowButton] = useState(true);
   const phoneNumber = 'tunumerodetelefono'; 
 
   return (

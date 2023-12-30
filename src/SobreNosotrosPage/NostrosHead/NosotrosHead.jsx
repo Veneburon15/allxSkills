@@ -1,5 +1,7 @@
+import ScrollIcon from '../../Function_components/ScrollIcon/ScrollIcon'
 import ButtonExplore from '../../Oferta Academica/HeroOferta/ButtonExplore/ButtonExplore'
 import './NosotrosHead.css'
+import WhatsappButton from '../../Function_components/WhatsappButton/WhatsappButton'
 
 const NosotrosHead = () => {
     return(
@@ -9,6 +11,8 @@ const NosotrosHead = () => {
                 <p className='heroTextAbout'>Descubre una trayectoria hacia el éxito profesional y <br /> personal a través del desarrollo de Soft Skills.</p>
                 <ButtonExplore/>
             </div> 
+            <ScrollIcon/>
+            <WhatsappButton/>
         </section>
     )
 }
