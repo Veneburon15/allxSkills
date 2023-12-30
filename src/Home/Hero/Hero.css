@@ -2,8 +2,8 @@
     background-image: url("../../Assets/Imagenes/imagen-home-hero.jpg");
     background-repeat: no-repeat;
     background-size: 100% auto;
-    height: 100vh;
-    padding: 90px 80px 0 80px;
+    height: 98vh;
+    padding: 90px 80px 20px 80px;
     margin: -100px 0 0 0;
 }
 
@@ -19,7 +19,7 @@
 }
 
 .heroText{
-    padding: 10% 0 ;
+    padding: 10% 0 5% 0;
     width: 50vw;
     height: 60%;
     display: flex;
@@ -35,4 +35,23 @@ h1{
     font-size: 15px;
     margin-bottom: 30px;
     line-height: 22px;
+}
+
+@keyframes scrollButton {
+  60% {
+    opacity: 1;
+    transform: translateY(0) ;
+  }
+  30% {
+    opacity: 0;
+    transform: translateY(5px) ;
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0) ;
+  }
+}
+  
+.scrollButton {
+    animation: scrollButton 4s ease-in-out infinite; 
 }

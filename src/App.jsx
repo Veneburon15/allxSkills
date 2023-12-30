@@ -5,7 +5,6 @@ import Footer from './Footer/Footer';
 import Navbar from './Navbar/Navbar';
 import Home from './Home/Home'
 import OfertaAcademica from './Oferta Academica/OfertaAcademica'
-// import Curso from './Oferta Academica/Curso/Curso'; 
 import Contactanos from './Contactanos/Contactanos'; 
 import SoftSkillsPage from './SoftSkillsPage/SoftSkillsPage'; 
 import Curso from './Oferta Academica/Curso/Curso';

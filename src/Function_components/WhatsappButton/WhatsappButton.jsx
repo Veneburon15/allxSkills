@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'react';
-import { FaWhatsapp } from 'react-icons/fa';
+import WppIcon from '../../Assets/Iconos/WhatsApp.png'
 import './WhatsappButton.css';
 
 const WhatsAppButton = () => {
@@ -8,7 +8,7 @@ const WhatsAppButton = () => {
   useEffect(() => {
     const handleScroll = () => {
       const scrollPosition = window.scrollY;
-      if (scrollPosition > 200) {
+      if (scrollPosition >= 100) {
         setShowButton(true);
       } else {
         setShowButton(false);
@@ -21,7 +21,7 @@ const WhatsAppButton = () => {
     };
   }, []);
 
-  const phoneNumber = 'tunumerodetelefono'; // Reemplaza con tu número de WhatsApp
+  const phoneNumber = 'tunumerodetelefono'; 
 
   return (
     <a
@@ -30,7 +30,8 @@ const WhatsAppButton = () => {
       target="_blank"
       rel="noopener noreferrer"
     >
-      <FaWhatsapp />
+        Escríbenos
+        <img src={WppIcon} alt="ícono de WhatsApp" className='iconWpp'/>
     </a>
   );
 };

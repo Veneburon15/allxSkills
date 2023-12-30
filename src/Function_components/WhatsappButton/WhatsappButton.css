@@ -1,0 +1,33 @@
+.whatsapp-button {
+    position: fixed;
+    bottom: 30px;
+    right: 30px;
+    z-index: 1000;
+    width: 130px;
+    height: 22px;
+    background-color: rgba(59, 57, 57, 0.8) ;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    border-radius: 20px;
+    transition:  0.3s ease-in-out;
+    padding: 5px 0px 5px 20px;
+}
+  
+  .whatsapp-button.show {
+    opacity: 1;
+  }
+  
+  .whatsapp-button.hide {
+    opacity: 0;
+  }
+
+.iconWpp {
+    width: 42px;
+    height: 42px;
+    z-index: 1001; /* Asegura que el ícono esté encima del botón de WhatsApp */
+    position: absolute; /* Permite posicionar el ícono de forma absoluta */
+    right: -15px; /* Posiciona el ícono a la derecha del padre */
+    top: 50%; /* Ajusta verticalmente para que el ícono esté centrado verticalmente */
+    transform: translateY(-50%);/* Ajusta la posición izquierda para cubrir el espacio entre el texto y el borde izquierdo */
+}

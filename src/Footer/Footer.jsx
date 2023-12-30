@@ -19,7 +19,7 @@ const Footer = () => {
                 <div className='footerSection2'>
                     <ul>
                         <li><Link to="/ofertaAcademica" className='body1'>Oferta Académica</Link></li>
-                        <li><Link to='/' className='body1'>Sobre Nosotros</Link></li>
+                        <li><Link to='/sobreNosotros' className='body1'>Sobre Nosotros</Link></li>
                         <li><Link to='/softSkills' className='body1'>¿Por qué Soft Skills?</Link></li>
                         <li><Link to='/contactanos' className='body1'>Contacto</Link></li>
                     </ul>

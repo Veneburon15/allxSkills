@@ -1,9 +1,10 @@
 .aboutUsTextSection {
-    padding: 60px 80px;
+    padding: 50px 80px;
     text-align: center;
     display: flex;
     flex-direction: column;
     gap: 24px;
+    background-color: #090909;
 }
 
 .aboutUsTextSection h3 {

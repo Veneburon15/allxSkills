@@ -7,7 +7,7 @@ import './Home.css'
 import SoftSkills from './SoftSkills/SoftSkills'
 import Newsletter from './Upgrade/Newsletter' 
 import Cursos from '../async'
-import WhatsAppButton from './WhatsappButton/WhatsappButton'
+import WhatsappButton from '../Function_components/WhatsappButton/WhatsappButton'
 
 
 function Home() { 
@@ -30,7 +30,7 @@ function Home() {
       </Link>
       <Newsletter/>
       <SoftSkills/>
-      <WhatsAppButton/>
+      <WhatsappButton/>
       <Form/>  
     </main>
   );
