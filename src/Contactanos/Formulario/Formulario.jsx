@@ -23,16 +23,17 @@ const Formulario = () => {
                         <label htmlFor="message" className='messageFormLabel'>
                             <input type="text" placeholder="Mensaje*" name="message" id='message' className='body1 messageFormInput'/>
                         </label>
+                        <div className='belowFormDiv'>
+                            <div className='belowTextDiv'>
+                                <p>* Indica que los campos son obligatorios</p> 
+                                <p>Al hacer click en enviar autorizas el uso de datos personales</p> 
+                            </div>
+                            <div className='sendForm'>
+                                <input type="submit" value="Enviar"/>
+                                <img src={SendArrow} alt="" />
+                            </div>
+                        </div>
                     </form>
-                </div>
-                <div className='belowFormDiv'>
-                    <div className='belowTextDiv'>
-                        <p>* Indica que los campos son obligatorios</p> 
-                        <p>Al hacer click en enviar autorizas el uso de datos personales</p> 
-                    </div>
-                    <button className='sendForm'> Enviar
-                        <img src={SendArrow} alt="" />
-                    </button>
                 </div>
                 <div className='socialMediaDiv'>
                     <h3>Síguenos en Redes Sociales</h3>
