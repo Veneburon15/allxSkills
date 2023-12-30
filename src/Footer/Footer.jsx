@@ -2,7 +2,7 @@ import { Link } from 'react-router-dom'
 import Logo from '../Assets/Imagenes/xSkills_Logo_TR2.png'
 import Arrow from '../Assets/Iconos/send-footerNewsletter.svg'
 import './Footer.css'
-import SocialMedia from './SocialMedia/SocialMedia'
+import SocialMedia from '../Function_components/SocialMedia/SocialMedia'
 
 const Footer = () => {
     return (

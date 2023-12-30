@@ -1,5 +1,5 @@
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
-import ScrollToTop from './ScrollToTop/ScrollToTop';
+import ScrollToTop from './Function_components/ScrollToTop/ScrollToTop';
 import './App.css';
 import Footer from './Footer/Footer';
 import Navbar from './Navbar/Navbar';
@@ -9,8 +9,6 @@ import Contactanos from './Contactanos/Contactanos';
 import SoftSkillsPage from './SoftSkillsPage/SoftSkillsPage'; 
 import Curso from './Oferta Academica/Curso/Curso';
 import SobreNosotros from './SobreNosotrosPage/SobreNostros';
-
-
 
 function App() {
   return (

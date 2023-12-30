@@ -1,4 +1,4 @@
-import SocialMedia from '../../Footer/SocialMedia/SocialMedia'
+import SocialMedia from '../../Function_components/SocialMedia/SocialMedia'
 import SendArrow from '../../Assets/Iconos/send-footerNewsletter.svg'
 import './Formulario.css'
 
