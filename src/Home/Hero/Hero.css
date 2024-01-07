@@ -1,4 +1,6 @@
 .heroDiv{
+    display: flex;
+    align-items: center;
     background-image: url("../../Assets/Imagenes/imagen-home-hero.jpg");
     background-repeat: no-repeat;
     background-size: 100% auto;
@@ -19,11 +21,11 @@
 }
 
 .heroText{
-    padding: 10% 0 0% 0;
     width: 50vw;
-    height: 60%;
     display: flex;
     flex-direction: column;
+    justify-content: center;
+    margin-top: -30px;
 }
 
 h1{
