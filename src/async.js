@@ -23,8 +23,15 @@ const Cursos = [
         slogan: 'Encuentra el empleo que deseas',
         duracion: '2 horas',
         modalidad: 'Teórico-Práctico',
-        Formato: '1 clases de 120 minutos',
-        fecha: 'A confirmar'
+        Formato: '1 clase de 120 minutos',
+        fechaLarga: '27 de Marzo de 2024',
+        fecha: 'A confirmar',
+        objetivos: '', 
+        contenido: '',
+        horarioDias: '',
+        horarioHoras: '',
+        precioArg:'',
+        precioUsd:''
     },
     {
         id: 3,
@@ -34,7 +41,14 @@ const Cursos = [
         duracion: '6 horas',
         modalidad: 'Teórico-Práctico',
         Formato: '3 clases de 120 minutos',
-        fecha: 'A confirmar'
+        fechaLarga: 'A confirmar',
+        fecha: 'A confirmar',
+        objetivos: '', 
+        contenido: '',
+        horarioDias: '',
+        horarioHoras: '',
+        precioArg:'',
+        precioUsd:''
     }, 
     {
         id: 4,
@@ -44,7 +58,14 @@ const Cursos = [
         duracion: '6 horas',
         modalidad: 'Teórico-Práctico',
         Formato: '3 clases de 120 minutos',
-        fecha: 'A confirmar'
+        fechaLarga: 'A confirmar',
+        fecha: 'A confirmar',
+        objetivos: '', 
+        contenido: '',
+        horarioDias: '',
+        horarioHoras: '',
+        precioArg:'',
+        precioUsd:''
     }, 
     {
         id: 5,
@@ -54,7 +75,14 @@ const Cursos = [
         duracion: '6 horas',
         modalidad: 'Teórico-Práctico',
         Formato: '3 clases de 120 minutos',
-        fecha: 'A confirmar'
+        fechaLarga: '5, 7 y 12 de Marzo de 2024',
+        fecha: '5/7/12',
+        objetivos: '', 
+        contenido: '',
+        horarioDias: '',
+        horarioHoras: '',
+        precioArg:'',
+        precioUsd:''
     },
     {
         id: 6,
@@ -64,7 +92,14 @@ const Cursos = [
         duracion: '6 horas',
         modalidad: 'Teórico-Práctico',
         Formato: '3 clases de 120 minutos',
-        fecha: 'A confirmar'
+        fechaLarga: 'A confirmar',
+        fecha: 'A confirmar',
+        objetivos: '', 
+        contenido: '',
+        horarioDias: '',
+        horarioHoras: '',
+        precioArg:'',
+        precioUsd:''
     },
     {
         id: 7,
@@ -74,7 +109,14 @@ const Cursos = [
         duracion: '2 horas',
         modalidad: 'Teórico-Práctico',
         Formato: '1 clase de 120 minutos',
-        fecha: 'A confirmar'
+        fechaLarga: '13, 14 y 15 de Marzo de 2024',
+        fecha: '13/14/15',
+        objetivos: '', 
+        contenido: '',
+        horarioDias: '',
+        horarioHoras: '',
+        precioArg:'',
+        precioUsd:''
     }, 
     {
         id: 8,
@@ -84,7 +126,14 @@ const Cursos = [
         duracion: '6 horas',
         modalidad: 'Teórico-Práctico',
         Formato: '3 clases de 120 minutos',
-        fecha: 'A confirmar'
+        fechaLarga: '18, 20 y 22 de Marzo de 2024',
+        fecha: '18/20/22',
+        objetivos: '', 
+        contenido: '',
+        horarioDias: '',
+        horarioHoras: '',
+        precioArg:'',
+        precioUsd:''
     }, 
     {
         id: 9,
@@ -94,7 +143,14 @@ const Cursos = [
         duracion: '12 horas',
         modalidad: 'Teórico-Práctico',
         Formato: '6 clases de 120 minutos',
-        fecha: 'A confirmar'
+        fechaLarga: 'A confirmar',
+        fecha: 'A confirmar',
+        objetivos: '', 
+        contenido: '',
+        horarioDias: '',
+        horarioHoras: '',
+        precioArg:'',
+        precioUsd:''
     },
 ] 
 
