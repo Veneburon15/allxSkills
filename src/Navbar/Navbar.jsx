@@ -1,37 +1,48 @@
-import { Link, NavLink } from 'react-router-dom'
-import Logo from '../Assets/Imagenes/xSkills_Logo_TR2.png'
-import DropdownIcon from '../Assets/Iconos/arrow-navbarDropdown.svg'
-import './Navbar.css'
-import Cursos from '../async'
+import React, { useState } from 'react';
+import { Link, NavLink } from 'react-router-dom';
+import Logo from '../Assets/Imagenes/xSkills_Logo_TR2.png';
+import DropdownIcon from '../Assets/Iconos/arrow-navbarDropdown.svg';
+import './Navbar.css';
+import Cursos from '../async';
 
 const Navbar = () => {
-    return(
+    const [dropdownOpen, setDropdownOpen] = useState(false);
+
+    const toggleDropdown = () => {
+        setDropdownOpen(!dropdownOpen);
+    };
+
+    return (
         <nav>
             <Link to='/' className='logoDiv'>
-                <img src={Logo} alt="Logo Allxskills"/>
+                <img src={Logo} alt="Logo Allxskills" />
             </Link>
             <ul className='navbarMenu'>
-                <li>
-                    <NavLink to='/ofertaAcademica' className='navFont'> Oferta Académica 
-                        <img src={DropdownIcon} alt="Dropdown Icon" className='dropdownIcon'/>
-                    </NavLink> 
-                    {/* <ul>
-                        <li>
-                            <NavLink to=''>Todos los Cursos</NavLink>
-                        </li>
-                        <li>
-                            <h4>Workshops</h4>
-                            <NavLink to=''>Inteligencia emocional</NavLink>
-                            <NavLink to=''>Habilidades intrapersonales</NavLink>
-                        </li>
-                        <li>
-                            <h4>SkillPack</h4>
-                            <NavLink to=''>Proximamente...</NavLink>
-                        </li>
-                    </ul> */}
-                </li> 
-                <li>
-                    <NavLink to={`/curso/${Cursos[0].id}`} className='navFont'>Inteligencia emocional</NavLink>
+                <li className='nav-item dropdown'>
+                    <div onClick={toggleDropdown} className='navFont dropdown-toggle' id="dropdown-basic">
+                        Oferta Académica <img src={DropdownIcon} alt="Dropdown Icon" className='dropdownIcon' />
+                    </div>
+
+                    <div className={`dropdown-menu ${dropdownOpen ? 'show' : ''}`}>
+                        <div className='column'>
+                            <div className='section'>
+                                <NavLink to='/ofertaAcademica' className='navFont dropdown-item todos-cursos'>Todos los Cursos</NavLink>
+                            </div>
+                        </div>
+                        <div className='column'>
+                            <div className='section'>
+                                <h4 className='dropdown-tittle'>Workshops</h4>
+                                <NavLink to={`/curso/${Cursos[0].id}`} className='navFont dropdown-item'>Inteligencia emocional</NavLink>
+                                <NavLink to='' className='navFont dropdown-item'>Habilidades intrapersonales</NavLink>
+                            </div>
+                        </div>
+                        <div className='column'>
+                            <div className='section'>
+                                <h4 className='dropdown-tittle'>SkillPack</h4>
+                                <NavLink to='' className='navFont dropdown-item'>Proximamente...</NavLink>
+                            </div>
+                        </div>
+                    </div>
                 </li>
                 <li>
                     <NavLink to='/SobreNosotros' className='navFont'> Sobre Nosotros </NavLink>
