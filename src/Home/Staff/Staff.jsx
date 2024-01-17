@@ -4,26 +4,9 @@ import './Staff.css'
 const Staff = () => {
     return (
         <section className='staffSection' id='scroll-down'>
-            <div>
-                <img src={checkmarkIcon} alt="ícono Check" className='checkIcon'/>
-                <p className='staffText'>Enfoque <br/> interactivo</p> 
-            </div>
-            <div>
-                <img src={checkmarkIcon} alt="ícono Check" className='checkIcon'/>
-                <p>Aprende <br/> haciendo</p> 
-            </div>
-            <div>
-                <img src={checkmarkIcon} alt="ícono Check" className='checkIcon'/>
-                <p className='staffText'>Material <br/> exclusivo</p> 
-            </div>
-            <div>
-                <img src={checkmarkIcon} alt="ícono Check" className='checkIcon'/>
-                <p className='staffText'>Simulaciones <br/> y Roleplay</p> 
-            </div>
-            <div>
-                <img src={checkmarkIcon} alt="ícono Check" className='checkIcon'/>
-                <p className='staffText'>Juegos <br/> y Desafíos</p> 
-            </div>
+            <h2 className='D1'>
+                ¡Expande tu horizontes profesionales y <br /> laborales <p className='heroTextGradient'>desde la comodidad de tu casa</p>!
+            </h2>
         </section> 
     )
 } 

@@ -28,9 +28,9 @@ const NuestrosCursos = () => {
               <button onClick={() => handleFilter('masterclass')} className="tagsCourse Masterclass masterclass">Masterclass</button>
             </div>  
             <p className="cantidadDeCursos"> {cursosFiltrados.length} de {Cursos.length}</p>
-            <div className="cursosContainer">
+            <div className=" cursosContainer">
               {cursosFiltrados.map(curso => (
-                <Workshop key={curso.id} curso={curso} />
+                <Workshop key={curso.id} curso={curso} className=''/>
               ))}
             </div>
             <p className="pageNumerator">{"<"} 1 {">"}</p>

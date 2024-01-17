@@ -19,9 +19,7 @@ footer{
     gap: 10px;
     justify-content: flex-start;
 }
-.footerLogo{
-    width: 130px;
-}
+
 .footerPartnerP{
     margin: 20px 0 48px 0;
 }

@@ -31,6 +31,14 @@ h1 {
     line-height: 120%;
 }
 
+.D1 {
+    font-weight: var(--semibold-weight);
+    font-size: 44px;
+    color: var(--main-font-color);;
+    line-height: 120%;
+    text-align: center;
+}
+
 h2 {
     font-weight: var(--medium-weight);
     font-size: 28px;

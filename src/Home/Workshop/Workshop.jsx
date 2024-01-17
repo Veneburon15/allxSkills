@@ -24,7 +24,7 @@ const Workshop = ({curso}) => {
                     </div>
                 </div> 
                 <div className='cardLastDiv'>
-                    <button className='cardButton'><a href={`/curso/${curso.id}`}>Conocer más</a></button>
+                    <a href={`/curso/${curso.id}`}><button className='cardButton'>Conocer más</button></a>
                     <div className="coloredDiv"></div>
                 </div>
             </div>

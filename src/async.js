@@ -26,12 +26,12 @@ const Cursos = [
         Formato: '1 clase de 120 minutos',
         fechaLarga: '27 de Marzo de 2024',
         fecha: 'A confirmar',
-        objetivos: '', 
-        contenido: '',
+        objetivos: 'Adquirir herramientas de Coaching Ontológico. Mejorar la comunicación efectiva. Desarrollar habilidades de autoliderazgo. Fortalecer la empatía y la inteligencia emocional. Adquirir herramientas para diseñar tu CV. Potenciar tus herramientas para una entrevista laboral. Optimiza el uso de los Portales de Empleo', 
+        contenido: 'Empoderamiento. Liderazgo personal. Proyecto de Vida. Perfil Laboral. Armado de CV. Estrategias de búsqeuda laboral. Marca personal. Tips para entrevistas. Herramientas motivacionales.',
         horarioDias: '',
         horarioHoras: '',
-        precioArg:'',
-        precioUsd:''
+        precioArg:'AR$ 14.850',
+        precioUsd:'US$ 15'
     },
     {
         id: 3,
@@ -43,29 +43,31 @@ const Cursos = [
         Formato: '3 clases de 120 minutos',
         fechaLarga: 'A confirmar',
         fecha: 'A confirmar',
-        objetivos: '', 
-        contenido: '',
+        objetivos: 'Interesarse genuinamente por el punto de vista opuesto. Comprender a una persona con estilo diferente. Valorar y aprovechar su complemento.', 
+        contenido: '¿A qué le llamamos conversación difícil? ¿Por qué las evitamos y por qué es importante realizarlas? Tipos de conversaciones. Diseño de una conversación. Generar confianza en un espacio conversacional. Niveles de la comunicación. Escuchar y comprender. Reversibilidad: el modelo de los 6 ejes de polaridad',
+        ejesDePolaridad:'La conversación de la fáctico: la de lo posible. La conversación objetiva y la subjetiva. La conversación retrospectiva y la proyectiva. La conversación distante y la cercana. La conversación que modifica y la que estabiliza. La conversación de concentración y la interacción.',
         horarioDias: '',
         horarioHoras: '',
-        precioArg:'',
-        precioUsd:''
+        precioArg:'AR$ 44.550',
+        precioUsd:'US$ 45'
     }, 
     {
         id: 4,
         nombre: 'Diversidad & Inclusión',
         tipo: 'Workshop',
         slogan: '¿Cómo gestionar la diferencia?',
-        duracion: '6 horas',
+        duracion: '12 horas',
         modalidad: 'Teórico-Práctico',
         Formato: '3 clases de 120 minutos',
         fechaLarga: 'A confirmar',
         fecha: 'A confirmar',
-        objetivos: '', 
-        contenido: '',
+        objetivos: 'Comprender y gestionar la diversidad. Apalancar la diferencia. Para líderes: ser un puente entre diferentes. Reforzar el espíritu de grupo. Planificar acciones para desarrollar equipos diversos. Motivar a diversos miembros. Comunicación efectiva en equipo. Gestionar las relaciones personales Reveresiblemenete.', 
+        contenido: 'Introducción: gestionar la diferencia. Ponerse de acuerdo o Tener la razón. Las diferencias: suman o restan. La reversibilidad: Mente dual, Polaridades, preferencias. Conducir un equipo: Roles en un equipo. Cuatro estilos. Autotest. Aceptación de su propio estilo. Integración de sus partes. Mapa de un equipo. Apalanacar equellos aspectos de otra generción que consideran diferente. Complementarse con el estilo y forma de trabajar de otros. Comunicar aceptación y empatía con las personas diferentes. Aprender a trabajar con la diversidad generacional como enriquecimiento personal y profesional y no como competencia. ¿A qué se refiere la igualdad de género? Salario, beneficios y reconocimiento. El campo laboral público y el trabajo en l hogar: doble situación de responsabilidad. Las profesiones que se "ven" como femeninas. La constracción de un nuevo Rol de hombre en los hogares. La opinión de una mujer en el equipo de trabajo. El Stress y la ansiedad',
+        reversibilidad: 'Estas polaridades y su integración se experimentan en forma vivencial en los juegos. 1. Diferentes e iguales. 2. Diversidad e identidad. 3. Igualdad y equidad. 4. Incluir y excluir. 5. Grupos heterogéneos: Participar y tomar decisiones. 6. Intersectorialidad: derechos y obligaciones. 7. Trabajo y calidd de vida. 8. Ventajas y Deventajas: como apalanacar, evitar y compensar. 9. Las barreras de cada uno: poibilitantes y limitantes. 10. Ayuda y autonomía. 11. Apoyos: autoapoyo y apoyo ambiental.',
         horarioDias: '',
         horarioHoras: '',
-        precioArg:'',
-        precioUsd:''
+        precioArg:'AR$ 79.200',
+        precioUsd:'US$ 80'
     }, 
     {
         id: 5,
@@ -77,12 +79,12 @@ const Cursos = [
         Formato: '3 clases de 120 minutos',
         fechaLarga: '5, 7 y 12 de Marzo de 2024',
         fecha: '5/7/12',
-        objetivos: '', 
-        contenido: '',
+        objetivos: 'Desarrolla tus habilidades de comunicación verbal y no verbal para transmitir mensajes de manera clara y asertiva.', 
+        contenido: 'Principios básicos de comunicación. La distinción entre hechos y opiniones. El observador. Escucha Activa: Desarrollo de habilidades para escuchar y comprender a los demás. La Comunicación No Verbal: Cómo entender y utilizar el lenguaje corporal de manera efectiva. Habilidades para proporcionar feedback de maner constructiva. Pasos a seguir para proporcionar feedback. Seguimiento y evaluación de los resultados del feedback. Integración del Feedback en el Desarrollo Personal: Utilizar la retroalimentación para el crecimiento continuo.',
         horarioDias: '',
         horarioHoras: '',
-        precioArg:'',
-        precioUsd:''
+        precioArg:'AR$ 44.550',
+        precioUsd:'US$ 45'
     },
     {
         id: 6,
@@ -94,12 +96,12 @@ const Cursos = [
         Formato: '3 clases de 120 minutos',
         fechaLarga: 'A confirmar',
         fecha: 'A confirmar',
-        objetivos: '', 
-        contenido: '',
+        objetivos: 'Cada persona tiene uno, o quizás dos elementos prodominantes, y a partir de ese predominio es que comienzan laS POLARIDADES. Tanto los conflitos intrapersonales (consigo mismo) como las interpersonales (con los demás) se pueden comprender de otra manera utilizando esta metáfora. Algunas personas se ven a sí mismos con exigencia, como si fuera un juez crítico e implacable de su propia persona. Otros son benevolentes, auto indulgentes o se auto disculpan. Algunas personas se recriminan se timidez, su blandura y lo ven como una debilidad. Otras se reprochan su dureza, el salirse fácil de las casillas, o su violencia y lo ven como un peligro para sí mismos o para los demás. Algunas personas se sientes incomprendidas, se mal interpretan sis pedidos o sus expresiones. Otros fallan en comprender a los demás: se sienten excluídos, marginados, diferentes. Algunas personas necesitan comunicarse de manera más cálida, amable o ser tratados con suavidad. Y otros claman por una relación más fría, que no los ahogu ni ate. Sabemos que todos somos diferentes. Los "Cuatro elementos" es una manera de comprender y gestionar esa diferencia.', 
+        contenido: 'Las técnicas del hemisferio derecho. La teoría de los cuatro elementos de Empédocles e Hipócrates (siglo 5 A.C.) hasta Carl Jung. Características generales de los cuatro elementos. Cualidades humanas asociadas a cada elemento. ¿Cuál es mi elemento preferente? ¿Cómo registra la realidad cada elemento? Vivencia cada elemento para comprenderlo. ¿Qué aporto yo desde mi elemento predominante? El talón de Aquiles de cada elemento. ¿Cuál es i elemento menos desarrollado? ¿Cómo articula un elemento con otro? Transformar un conflicto en un choque de elementos',
         horarioDias: '',
         horarioHoras: '',
-        precioArg:'',
-        precioUsd:''
+        precioArg:'AR$ 44.550',
+        precioUsd:'US$ 45'
     },
     {
         id: 7,
@@ -111,12 +113,12 @@ const Cursos = [
         Formato: '1 clase de 120 minutos',
         fechaLarga: '13, 14 y 15 de Marzo de 2024',
         fecha: '13/14/15',
-        objetivos: '', 
-        contenido: '',
+        objetivos: '¿Por qué, ante la misma situación algunas personas se estresan y otras no? ¿Cómo manejo mis demandas y mis respuestas? El objetivo de esta Masterclass es respondernos estas interrogantes', 
+        contenido: 'Manejo del Stress. Tipos de Stress: Hipostress e Hiperstress, Euforia y Disforia, Eustress y Distress. Demandas internas o externas. Capacidad de respuesta. Tipos de stress. Amenazas y desafíos. ¿Qué es el Burn Out? El ambiente de trabajo y las características personales que desarrollan Burn Out. ¿Cómo manejarlo personalmente? Técnicas para el manejo del Stress. ¿Cómo prevenirlo como empresa?',
         horarioDias: '',
         horarioHoras: '',
-        precioArg:'',
-        precioUsd:''
+        precioArg:'AR$ 14.850',
+        precioUsd:'US$ 15'
     }, 
     {
         id: 8,
@@ -128,12 +130,12 @@ const Cursos = [
         Formato: '3 clases de 120 minutos',
         fechaLarga: '18, 20 y 22 de Marzo de 2024',
         fecha: '18/20/22',
-        objetivos: '', 
-        contenido: '',
+        objetivos: 'Optimiza tu productividad y eficiencia aprendiendo las mejores prácticas para administrar tu tiempo de manera efectiva.', 
+        contenido: 'Estrategias de Priorización del tiempo: Cómo identificar y abordar las tareas más importantes. Lo urgente vs. Lo importante. Cómo gestionar las Interrupciones: Manejar distracciones y mantener el enfoque. Técnicas de Delegación: pasos para delegar tareas de manera eficiente para optimizar el tiempo. Uso Efectivo de Herramientas: Explorar herramientas y tecnologías para mejorar la productividad. Estrategias de Manejo del Estrés: Aprender a gestionar el tiempo en situaciones de presión.',
         horarioDias: '',
         horarioHoras: '',
-        precioArg:'',
-        precioUsd:''
+        precioArg:'AR$ 44.550',
+        precioUsd:'US$ 45'
     }, 
     {
         id: 9,

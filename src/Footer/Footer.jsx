@@ -10,7 +10,7 @@ const Footer = () => {
             <section className='secciones'>
                 <div className='footerSection1'>
                     <Link to='/' className='logoDiv'>
-                        <img src={Logo} alt="Logo Allxskills" className='footerLogo'/>
+                        <img src={Logo} alt="Logo Allxskills"/>
                     </Link>
                     <p className='footerPartnerP body1'>Tu Socio en el Desarrollo de Soft Skills</p> 
                     <p className='phoneNumber body1'>(+54) 911 3921-4786</p>

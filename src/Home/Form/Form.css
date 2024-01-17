@@ -1,19 +1,15 @@
 .contactSectionForm{
     display: flex;
-    background-image: url(../../Assets/Imagenes/Contact-Us-banner.jpg);
     flex-direction: column;
     align-items: center;
     text-align: center;
     padding: 100px 0 100px 0;
-    background-repeat: no-repeat;
-    background-size: auto 102%;
-    background-color: #141414;
-    background-position-x: right;
-    background-position-y: center;
 }
 
 .contactSectionForm h2 {
     margin: 10px;
+    font-weight: var(--medium-weight);
+    font-size: 32px;
 }
 
 .contactSectionForm p {

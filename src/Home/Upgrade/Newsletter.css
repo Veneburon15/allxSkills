@@ -12,12 +12,16 @@
 }
 
 .newsletterSection p{
-    width: 72%;
+    width: 82%;
     text-align: center;
     color: var(--main-font-color);
     margin: 15px 0 15px 0;
 }
 
+.newsletterSection h3 {
+    font-weight: var(--bold-weight);
+    font-size: 32px;
+}
 
 form{
     width: 32%;
