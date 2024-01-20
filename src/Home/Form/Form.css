@@ -15,5 +15,10 @@
 .contactSectionForm p {
     color: #FEFEFE;
     margin-bottom: 35px;
+}
 
+@media (max-width: 500px){
+    .contactSectionForm{
+        padding: 0 20px 80px 20px;
+    }
 }

@@ -110,3 +110,10 @@
     left: 0;
     width: 100%;
 } 
+
+@media (max-width: 500px){
+    .cardDiv {
+        width: 330px;
+        height: 440px;
+    }
+}

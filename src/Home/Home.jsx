@@ -22,7 +22,7 @@ function Home() {
       <Hero/>
       <Staff/> 
       <h2 className='workshopH2'>Elige tu siguiente curso</h2>
-      <div className="cursosContainer homeContainerWork">
+      <div className="cursosContainerHome homeContainerWork">
         {cursosContainer}
       </div>
       <Link to='/ofertaAcademica'>

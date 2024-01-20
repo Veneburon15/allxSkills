@@ -5,7 +5,7 @@ const Staff = () => {
     return (
         <section className='staffSection' id='scroll-down'>
             <h2 className='D1'>
-                ¡Expande tu horizontes profesionales y <br /> laborales <p className='heroTextGradient'>desde la comodidad de tu casa</p>!
+                ¡Expande tus horizontes <span className='hiddenInPhone'> profesionales y <br /> laborales </span><p className='heroTextGradient gradientStaffPhone'>desde la comodidad de tu casa</p>!
             </h2>
         </section> 
     )

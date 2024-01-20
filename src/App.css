@@ -134,3 +134,15 @@ input {
     font-weight: var(--bold-weight);
     line-height: 150%;
 }
+
+@media (max-width: 500px){
+    .hiddenInPhone {
+        display: none;
+    }
+}
+
+@media (min-width: 500px){
+    .hiddenInPC{
+        display: none;
+    }
+}

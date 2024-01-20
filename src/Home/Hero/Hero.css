@@ -18,6 +18,7 @@
     -webkit-background-clip: text;
     background-clip: text; 
     color: transparent;
+    line-height: 120%;
 }
 
 .heroText{
@@ -38,3 +39,26 @@ h1{
     margin-bottom: 30px;
     line-height: 22px;
 }
+
+@media (max-width: 500px)
+    {
+        .heroDiv{
+            display: block;
+            background: none;
+            display: flex;
+            padding: 0 20px 0 20px;
+            margin: 142px 0 30px 0;
+            height: max-content;
+        }
+        .heroText{
+            width: 80vw;
+            display: flex;
+            align-items: start;
+            margin-bottom: 220px;
+        }
+        .heroTextBottom {
+            font-size: 15px;
+            margin-bottom: 30px;
+            line-height: 22px;
+        }
+    }

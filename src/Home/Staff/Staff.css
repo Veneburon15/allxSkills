@@ -6,21 +6,16 @@
     justify-content: space-evenly;
 }
 
-.staffSection div {
-    display: flex;
-    flex-direction: row;
-    gap: 8px;
-}
-
-.staffSection img {
-    color: #CFCFCF;
-}
-
-.checkIcon {
-    width: 24px;
-    height: 24px;
-}
-
-.staffText{
-    font-weight: 500;
+@media (max-width: 500px){
+    .staffSection {
+        padding: 0 20px;
+        margin: 0 0 106px 0;
+    }    
+    .staffSection h2{
+        text-align: left;
+        font-size: 36px;
+    }
+    .gradientStaffPhone {
+        font-size: 36px;
+    }
 }

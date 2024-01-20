@@ -1,9 +1,7 @@
 import React, { useState } from 'react';
 import { Link, NavLink } from 'react-router-dom';
 import Logo from '../Assets/Imagenes/xSkills_Logo_TR2.png';
-import DropdownIcon from '../Assets/Iconos/arrow-navbarDropdown.svg';
 import './Navbar.css';
-import Cursos from '../async';
 
 const Navbar = () => {
     return (
