@@ -12,11 +12,11 @@ const Footer = () => {
                     <Link to='/' className='logoDiv'>
                         <img src={Logo} alt="Logo Allxskills"/>
                     </Link>
-                    <p className='footerPartnerP body1'>Tu Socio en el Desarrollo de Soft Skills</p> 
-                    <p className='phoneNumber body1'>(+54) 911 3921-4786</p>
+                    <p className='footerPartnerP body1 hiddenInPhone'>Tu Socio en el Desarrollo de Soft Skills</p> 
+                    <p className='phoneNumber body1 hiddenInPhone'>(+54) 911 3921-4786</p>
                     <SocialMedia/>
                 </div>
-                <div className='footerSection2'>
+                <div className='footerSection2 hiddenInPhone'>
                     <ul>
                         <li><Link to="/ofertaAcademica" className='body1'>Oferta Académica</Link></li>
                         <li><Link to='/sobreNosotros' className='body1'>Sobre Nosotros</Link></li>

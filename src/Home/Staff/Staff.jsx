@@ -1,4 +1,3 @@
-import checkmarkIcon from '../../Assets/Iconos/check-Pink.svg'
 import './Staff.css'
 
 const Staff = () => {

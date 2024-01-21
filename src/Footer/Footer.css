@@ -101,3 +101,43 @@ footer{
     width: 100%;
     text-align: right;
 }
+
+@media (max-width: 500px){
+    footer{
+        padding: 56px 20px 56px 20px;
+        gap: 32px;
+    }
+    .secciones{
+        margin: 0;
+        flex-direction: column-reverse;
+        gap: 32px;
+    }   
+    .footerSection1, .footerSection2, .footerSection3{
+        width: 100%;
+    }
+    .footerSection1{
+        display: flex;
+        flex-direction: column;
+        gap: 32px;
+    }
+    .copyrights{
+        padding: 32px 0 0 0;
+        gap: 24px;
+    }
+    .copyrights p{
+        width: 30%;
+        text-align: left;
+        padding: 0;
+    }
+    .belowRightSection{
+        width: 69%;
+        gap: 24px;
+    }
+    .footerLi{
+        text-align: left;
+        padding: 0;
+    }
+    .footerLi a{
+        padding: 0%;
+    }
+}
