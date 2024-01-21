@@ -7,9 +7,12 @@ const MainHero = () => {
     return(
         <section className='mainSectionHero'>
             <div className='textDivSoft'>
-                <h2>Desarrolla <p className='heroPinkText'>Soft Skills,</p><br /> para alcanzar metas soñadas</h2>
-                <p>Construye un perfil sólido y prepárate para destacar <br /> en el ámbito profesional que desees</p>
-                <Link to='/contactanos'><button className="headButton">¡Comunícate con nosotros!</button></Link>
+                <h2 className='hiddenInPhone'>Desarrolla <p className='heroPinkText pinkTextUs'>Soft Skills,</p><br /> para alcanzar metas soñadas</h2>
+                <h2 className='hiddenInPC'>Desarrolla <p className='heroPinkText'>Soft Skills, </p>alcanza tus metas</h2>
+                <p className='hiddenInPhone'>Construye un perfil sólido y prepárate para destacar <br /> en el ámbito profesional que desees</p>
+                <p className='hidddenInPC buildTextWhy'>Construye un perfil sólido y prepárate para destacar en cualquier entorno laboral</p>
+                <Link to='/contactanos'><button className="hiddenInPhone">¡Comunícate con nosotros!</button></Link>
+                <Link to='/contactanos'><button className="hiddenInPC">Explora nuestros cursos</button></Link>
             </div>
             <ScrollIcon/>
             <WhatsAppButton/>

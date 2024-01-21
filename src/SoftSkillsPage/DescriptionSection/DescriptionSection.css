@@ -35,3 +35,14 @@
 .knowledge {
     padding: 110px 80px;
 }
+
+@media (max-width: 500px){
+    .innerDiv{
+        gap: 24px;
+        padding: 48px 20px;
+    }
+    .innerDiv h3{
+        text-align: center;
+        font-size: 23px;
+    }
+}

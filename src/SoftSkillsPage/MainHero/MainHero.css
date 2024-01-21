@@ -30,3 +30,31 @@
   display: inline;
 }
 
+@media (max-width: 500px){
+  .mainSectionHero{
+    background: none;
+    margin: 100px 0 0 0;
+    padding: 0;
+    height: 75vh;
+    justify-content: start;
+  }
+  .textDivSoft{
+    padding: 0 20px;
+  }
+  .textDivSoft h2{
+    margin-bottom: 40px;
+    text-align: left;
+    font-size: 40px;
+  }
+  .pinkTextUs{
+    font-size: 40px;
+  }
+  .buildTextWhy {
+    margin-bottom: 40px;
+  }
+  .textDivSoft button{
+    font-weight: var(--semibold-weight);
+    padding: 0 25px;
+    font-size: 15px;
+  }
+}
