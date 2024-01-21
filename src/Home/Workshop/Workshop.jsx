@@ -1,4 +1,5 @@
 import './Workshop.css'
+import { Link } from 'react-router-dom'
 
 const Workshop = ({curso}) => {     
     return (
@@ -24,7 +25,7 @@ const Workshop = ({curso}) => {
                     </div>
                 </div> 
                 <div className='cardLastDiv'>
-                    <a href={`/curso/${curso.id}`}><button className='cardButton'>Conocer más</button></a>
+                    <Link to={`/curso/${curso.id}`}><button className='cardButton'>Conocer más</button></Link>
                     <div className="coloredDiv"></div>
                 </div>
             </div>
