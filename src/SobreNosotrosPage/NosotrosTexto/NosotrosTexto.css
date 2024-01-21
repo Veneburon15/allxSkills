@@ -11,3 +11,16 @@
     font-weight: var(--semibold-weight);
     font-size: 28px;
 }
+
+@media (max-width: 500px){
+    .aboutUsTextSection{
+        margin: 0;
+        padding: 48px 20px;
+    }
+    .hiddenInPC{
+        padding: 0%;
+        margin: 0;
+        font-size: 14px;
+        font-weight: var(--regular-weight);
+    }
+}

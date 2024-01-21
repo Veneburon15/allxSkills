@@ -25,7 +25,7 @@
 }
 .divLeftRedirection h3{
     font-size: 32px;
-    /* font-weight: var(--semibold-weight); */
+    font-weight: var(--semibold-weight);
 }
 .divLeftRedirection p{
     color: var(--main-font-color);
@@ -34,7 +34,6 @@
 .redirectionButton{
     width: 262px;
     font-size: 14px;
-    font-weight: var(--semibold-weight);
     color: black;
     background-color: var(--main-font-color);
 }
@@ -42,4 +41,25 @@
 .redirectionButton:hover{
     background-color: #D22EB6;
     border: #D22EB6 solid 1px;
+}
+
+@media (max-width: 500px){
+    .redirectionSection{
+        padding: 40px 20px;
+        margin: 0;
+    }
+    .redirectionMainDiv{
+        flex-direction: column;
+        padding: 30px 15px;
+        gap: 20px;
+    }
+    .divLeftRedirection{
+        width: 100%;
+    }
+    .divLeftRedirection h3{
+        font-size: 25px;
+    }
+    .redirectionButton{
+        width: 240px;
+    }
 }

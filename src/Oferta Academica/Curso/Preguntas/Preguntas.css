@@ -18,3 +18,16 @@
     width: 730px;
 }
 
+@media (max-width: 500px){
+    .preguntasSection{
+        padding: 60px 20px 0 20px;
+        margin: 0 0 120px 0;
+        flex-direction: column;
+    }
+    .questionMainDiv{
+        width: 100%;
+    }
+    .dropdownDetailDeployer{
+        gap: 10px;
+    }
+}

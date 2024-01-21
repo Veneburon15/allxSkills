@@ -36,7 +36,7 @@
     width: 33%;
 }
 
-.firstPricerDiv{
+.borderDiv{
     border-right: solid var(--main-font-color) 2px;
 }
 
@@ -63,4 +63,33 @@
 
 .paymentTriggerButton{
     align-self: center;
+}
+
+@media (max-width: 500px){
+    .offerSection{
+        margin: 0;
+        padding: 40px 20px 0 20px;
+    }
+    .offerBackground{
+        flex-direction: column;
+        height: fit-content;
+        align-items: center;
+    }
+    .pricerDiv{
+        width: 100%;
+        padding-bottom: 25px;
+    }
+    .borderDiv{
+        border: none;
+    }
+    .coloredBorder{
+        border: solid var(--main-font-color) 1px;
+        width: 15px;
+    }
+    .secondPricerDiv, .paymentOptions{
+        padding-top: 25px;
+    }
+    .paymentOptions{
+        width: 90%;
+    }
 }

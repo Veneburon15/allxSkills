@@ -10,10 +10,11 @@
 .elementContainerDisplay {
     display: flex;
     width: 100%;
+    
 }
 
-.elementContainerDisplay img {
-    width: 50%;
+.rightElement, .leftElement {
+    width: 60%;
 }
 
 .elementContainerDisplay div{
@@ -39,4 +40,48 @@
 
 .secondDisplay {
     flex-direction: row-reverse;
+}
+
+@media (max-width: 500px) {
+    .h3_1{
+        margin: 0%;
+        padding: 48px 20px;
+        font-size: 27px;
+    }
+    .elementContainerDisplay{
+        padding: 48px 0;
+        background-position: center;
+        background-size: cover;
+        /* opacity: .2; */
+    }
+    /* .firstDisplay{
+        background-image: url('../../Assets/Imagenes/topCarrouselAboutUs.jpg');
+    }
+    .secondDisplay{
+        background-image: url('../../Assets/Imagenes/middleCarrouselAboutUs.jpg');
+    }
+    .thirdDisplay{
+        background-image: url('../../Assets/Imagenes/bellowCarrouselAboutUs.jpg');
+    } */
+    .innerDivUs{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .elementContainerDisplay h4, .elementContainerDisplay p{
+        width: fit-content;
+        padding: 0 20px;
+    }
+    .elementContainerDisplay h4{
+        margin-bottom: 24px;
+        text-align: center;
+        font-size: 20.7px;
+    }
+    .elementContainerDisplay div{
+        padding: 0;
+    }
+    .secondDisplay{
+        flex-direction: row;
+    }
+    
 }

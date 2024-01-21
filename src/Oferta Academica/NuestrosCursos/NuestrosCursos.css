@@ -29,7 +29,6 @@
     height: auto;
 }
 
-
 .Workshop{
     background-color: #D22EB6;
     border-radius: 15px;
@@ -77,4 +76,26 @@
 
 .pageNumerator {
     margin: 48px 0 0 0;
+}
+
+@media (max-width: 500px){
+    .nuestrosCursosSection{
+        padding: 20px 0 0 0;
+        margin: 0;
+    }
+    .nuestrosH2 {
+        margin: 0 0 16px 0;
+    }
+    .tagsDivs{
+        padding: 0 20px;
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 8px;
+    }
+    .tagsCourse {
+        font-size: 14px;
+    }
+    .cantidadDeCursos{
+        margin: 48px 0 16px 0;
+    }
 }

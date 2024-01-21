@@ -9,11 +9,11 @@
 }
 
 .violetButton{
-    margin: auto;
     display: flex;
     width: fit-content;
     padding: 0 40px;
     height: 48px;
+    margin: 32px auto;
     align-items: center;
     background-color: #5E4DCD;
     border: #5E4DCD solid 1px;
@@ -43,7 +43,7 @@
         justify-content: left;
         align-items: left;
         flex-wrap: nowrap;
-        gap: 20px;
+        gap: 20px
     }
     .violetButton{
         margin: 32px 20px;

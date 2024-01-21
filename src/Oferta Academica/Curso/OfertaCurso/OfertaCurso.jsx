@@ -4,16 +4,18 @@ const OfertaCurso = ({precioArg,precioUsd}) => {
     return(
     <section className='offerSection'>
         <div className='offerBackground'>
-            <div className='pricerDiv firstPricerDiv'>
+            <div className='pricerDiv borderDiv'>
                 <h4 className='zones'>ARGENTINA</h4>
                 <h3 className='price'>{precioArg}</h3> 
                 <p className='body1'>Pesos Argentinos</p>
             </div>
-            <div className='pricerDiv'>
+            <span className='coloredBorder hiddenInPC'></span>
+            <div className='pricerDiv borderDiv secondPricerDiv'>
                 <h4 className='zones'>OTROS PAÍSES</h4>
                 <h3 className='price'>{precioUsd}</h3>  
                 <p className='body1'>Dólares Estadounidenses</p>
             </div>
+            <span className='coloredBorder hiddenInPC'></span>
             <div className='paymentOptions'>
                 <h4 className='body1'>Medios de Pago Habilitados</h4>
                 <div className='paymentLogoContainer'>

@@ -21,8 +21,37 @@
     font-weight: var(--semibold-weight);
     font-size: 44px;
     margin-bottom: 20px;
+    text-align: left;
 }
 
 .mainHeroP{
     margin: 20px 0 30px 0;
+    text-align: left;
+    font-weight: var(--regular-weight);
+    font-size: 16px;
+    color: var(--secondary-font-color);
+    line-height: 150%;
+}
+
+@media (max-width: 500px) {
+    .heroSection {
+        background-position-x: -110px;
+        padding: 0px 20px 0px 20px;
+    }
+    .heroMainDiv{
+        width: 100%;
+    }
+    .mainH2, .ofertaGradientPhone {
+        font-size: 43px;
+        margin: 0;
+        padding: 0;
+    }
+    .mainH2{
+        margin-bottom: 24px;
+    }
+    .mainHeroP {
+        margin: 0 0 40px 0;
+        padding: 0%;
+    }
+
 }

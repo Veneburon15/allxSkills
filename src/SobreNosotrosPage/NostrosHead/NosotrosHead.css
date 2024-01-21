@@ -13,3 +13,14 @@
 .heroTextAbout {
     margin-bottom: 40px;
 }
+
+@media (max-width: 500px){
+    .aboutUsHeadSection{
+        padding: 0 20px;
+        height: 100vh;
+        background: none;
+    }
+    .headOferta{
+        font-size: 40px;
+    }
+}

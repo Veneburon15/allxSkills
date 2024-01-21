@@ -1,7 +1,3 @@
-/* *{
-    border: solid 1px var(--main-font-color);
-} */
-
 .courseDetailHeroSection {
     padding: 0px 80px ;
 }
@@ -104,4 +100,45 @@
     display: flex;
     gap: 24px;
     align-items: center;
+}
+
+@media (max-width: 500px){
+    .courseDetailHeroSection{
+        padding: 93px 20px 0 20px;
+    }
+    .divSectionContainer{
+        margin: 0;
+        padding: 0;
+        flex-direction: column;
+    }
+    .divSectionContainer{
+        gap: 46px;
+    }
+    .topInnerDiv{
+        width: 320px;
+        flex-wrap: wrap;
+    }
+    .fecha, .dateAbreviation{
+        margin-bottom: 24px;
+    }
+    .inscriptionButton{
+        margin: 0;
+    }
+    .centerDivDetailHero{
+        width: 100%;
+    }
+    .dropdownDetailDeployer{
+        padding: 0 24px;
+    }
+
+    .bellowDivDetailHero{
+        flex-direction: column;
+        gap: 24px;
+    }
+    .certificationBadgeDiv {
+        gap: 10px;
+    }
+    .badgeText{
+        font-size: 16px;
+    }
 }

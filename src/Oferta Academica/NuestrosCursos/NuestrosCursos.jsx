@@ -12,14 +12,14 @@ const NuestrosCursos = () => {
         if(filtro === tipo){
         setFiltro(null)
       }else{
-            setFiltro(tipo);
+          setFiltro(tipo);
         }
     };
 
     return(
         <section className="nuestrosCursosSection" id="explora">
             <h2 className="nuestrosH2">Explora Nuestros Cursos</h2>
-            <p className="nuestrosP">Sumérgete en nuestra oferta académica y <strong>elige entre una amplia gama</strong> de cursos diseñados para <br /> satisfacer tus necesidades de desarrollo profesional y personal.</p>
+            <p className="nuestrosP hiddenInPhone">Sumérgete en nuestra oferta académica y <strong>elige entre una amplia gama</strong> de cursos diseñados para <br /> satisfacer tus necesidades de desarrollo profesional y personal.</p>
             <p className="nuestroPBellow">Filtar por tipo de curso</p>
             <div className="tagsDivs">
               <button onClick={() => handleFilter('')} className="tagsCourse todos">Todos</button>

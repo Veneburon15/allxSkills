@@ -33,3 +33,24 @@
 .aboutUsIconContainer img {
     width: 46px;
 }
+
+@media (max-width: 500px){
+    .aboutUsOfferSection{
+        padding: 48px 0 48px 0;
+    }
+    .elementContainer{
+        display: flex;
+        flex-direction: column;
+        gap: 24px;
+    }
+    .aboutUsIconContainer{
+        display: flex;
+        flex-direction: row;
+        gap: 24px;
+        padding: 0 20px;
+        width: 90%;
+    }
+    .aboutUsIconContainer img {
+        width: 32px;
+    }
+}
