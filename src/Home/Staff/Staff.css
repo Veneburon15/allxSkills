@@ -1,9 +1,10 @@
 .staffSection {
     display: flex;
     flex-direction: row;
-    padding: 56px 0;
-    margin: 0 80px;
+    padding: 30px 80px;
+    margin: 0;
     justify-content: space-evenly;
+    background-color: #080808;
 }
 
 @media (max-width: 500px){
