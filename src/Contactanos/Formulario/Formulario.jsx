@@ -44,8 +44,8 @@ const Formulario = () => {
             <input type="hidden" name="_captcha" value="false" />
             <div className="belowFormDiv">
               <div className="belowTextDiv">
-                <p>* Indica que los campos son obligatorios</p>
-                <p>Al hacer clic en enviar autorizas el uso de datos personales</p>
+                <p>* Indica los campos obligatorios</p>
+                <p>Al hacer click en enviar autorizas el uso de datos personales</p>
               </div>
               <div className="sendForm">
                 <button type="submit">Enviar</button>

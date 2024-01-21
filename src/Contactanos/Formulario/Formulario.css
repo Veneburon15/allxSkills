@@ -84,12 +84,11 @@
     align-items: center;
     gap: 10px;
     padding: 0px 22px 0 12px;
-    height: 46px;
+    height: fit-content;
     background-color: #D22EB6;
     border-radius: 6px;
     border: solid 1px #D22EB6;;
 }
-
 
 .sendForm:hover{
     background-color: #A53692;
@@ -114,4 +113,46 @@
     width: 75%;
     text-align: center;
     border-top: 2px solid #404040;
+}
+
+@media (max-width: 500px){
+    .contactFormSection{
+        background: none;
+        margin: 24px 0 0 0;
+        padding: 0 20px;
+    }
+    .formContainer{
+        width: 100%;
+    }
+    .formChildren{
+        justify-content: start;
+    }
+    .contactH1{
+        width: 100%;
+        margin: 0;
+    }
+    .contactForm{
+        margin: 24px 0 32px 0;
+        padding: 0;
+        justify-content: left;
+        align-items:start;
+    }
+    .topFormDiv{
+        flex-direction: column;
+        width: 100%;
+    }
+    .topFormDiv input{
+        width: 95%;
+    }
+    .emailFormInput, .messageFormInput{
+        width: 148%;
+    }
+    .belowFormDiv{
+        flex-direction: column;
+        gap: 24px;
+    }
+    .socialMediaDiv h3{
+        font-size: 23px;
+        width: 100%;
+    }
 }
