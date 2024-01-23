@@ -1,4 +1,129 @@
-nav {
+nav{
+    height: 90px;
+    display: flex;
+    align-items: center;
+    margin: 0 20px;
+    background-color: transparent;
+    justify-content: space-between;
+}
+.links{
+    position: absolute;
+    top: -700px;
+    left: -2000px;
+    right: 0;
+    margin: 0 auto;
+    text-align: center;
+    gap: 50px;
+    transition: all .5s ease;
+}
+.links.active{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    margin: 0 auto;
+    top: 30%;
+    left: 0;
+    right: 0;
+    text-align: center;
+    gap: 35px;
+    z-index: 2;
+}
+.links.active li{
+    display: block;
+}
+
+
+.logoDiv{
+    display: flex;
+    align-items: center;
+}
+.logoDiv img{
+    height: 40px;
+    z-index: 2;
+}
+
+.navFont {
+    display: flex;
+    gap: 5px;
+    font-weight: var(--semibold-weight);
+    font-size: 16px;
+    color: var(--main-font-color);
+    line-height: 120%;
+    list-style: none;
+    font-size: 14px;
+    font-weight: var(--semibold-weight);
+}
+.links.active .navFont{
+    font-size: 20px;
+}
+.contactButton {
+    font-weight: var(--semibold-weight);
+    font-size: 16px;
+    color: var(--main-font-color);
+    height: 35px;
+    width: max-content;
+    padding: 10px 20px;
+    font-size: 14px;
+    background-color: transparent;
+    border: #FEFEFE solid 1px;
+    border-radius: 6px;
+    line-height: auto;
+}
+.contactButton:hover {
+    background-color: #D22EB6;
+    border: #D22EB6 solid 1px;
+}
+
+.burger{
+    z-index: 2;
+}
+.initial{
+    position: absolute;
+    background-color: #282828;
+    top: -700px;
+    left: -2000px;
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+    transition: all .6s ease;
+    border-radius: 0 0 80% 0;
+
+}
+.initial.active{
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+@media (min-width:800px)
+{
+    nav{
+        margin: 0 80px;
+    }
+    .burger{
+        display: none;
+    }
+    .links{
+        position: initial;
+        margin-right: 0px;
+    }
+    .links li {
+        display: inline;
+    }
+}
+
+/* @media (max-width:800px)
+{
+    .logoDiv{
+        height: 30px;
+    }
+    .links{
+        margin: 0;
+    }
+} */
+/* nav {
     display: flex;
     align-items: center;
     height: 90px;
@@ -16,7 +141,7 @@ nav {
     height: 40px;
 }
 
-.navbarMenu {
+.links {
     display: flex;
     align-items: center;
     gap: 50px;
@@ -33,24 +158,6 @@ nav {
     list-style: none;
     font-size: 14px;
     font-weight: var(--semibold-weight);
-}
-
-.navFont.dropdown-toggle {
-    display: flex;
-    align-items: center;
-    gap: 5px;
-    font-weight: var(--semibold-weight);
-    font-size: 16px;
-    color: var(--main-font-color);
-    line-height: 120%;
-    list-style: none;
-    font-size: 14px;
-    font-weight: var(--semibold-weight);
-    cursor: pointer;
-}
-
-.dropdownIcon {
-    width: 12px;
 }
 
 .contactButton {
@@ -75,59 +182,46 @@ nav {
     border: #D22EB6 solid 1px;
 }
 
-.nav-item.dropdown {
-    position: relative;
-    display: inline-block;
+.initial{
+    position: absolute;
+    background-color: #FEFEFE;
+    top: -700px;
+    left: -1000px;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
 }
-
-.dropdown-menu {
-    display: none;
-    position: fixed;
-    top: 90px;
+.initial.active{
+    top: 0;
     left: 0;
     width: 100%;
-    background-color: transparent;
-    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
-    flex-direction: row;
-    flex-wrap: wrap;
+    height: 100%;
+
 }
 
-.dropdown-menu.show {
-    display: flex;
+@media (min-width:800px)
+{
+    .burger{
+        display: none;
+    }
 }
 
-.column {
-    flex: 1;
-    padding: 10px;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    align-items: flex-start;
-}
-
-.dropdown-menu a:hover {
-    background-color: transparent;
-    
-}
-
-.dropdown-item {
-    display: flex;
-    flex-direction: column;
-    width: 100%; 
-    margin-bottom: 10px;
-    margin-top: 15px;
-}
-.dropdown-item h4 {
-    margin-bottom: 8px;
-}
-
-.section {
-    margin-bottom: 10px;
-}
-
-.nav-item.dropdown.open .dropdown-menu {
-    display: flex;
-}
-.dropdown-item,.dropdown-tittle{
-    margin-left: 15rem;
-}
+@media (max-width: 800px){
+    .navbarMenu{
+        position: absolute;
+        top: -700px;
+        left: -2000px;
+        margin: 0 auto;
+        text-align: center;
+    }
+    .navbarMenu.active{
+        width: 100%;
+        display: block;
+        position: absolute;
+        margin: 0 auto;
+        top: 30%;
+        left: 0;
+        right: 0;
+        text-align: center;
+    }
+} */
