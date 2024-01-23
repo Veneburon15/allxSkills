@@ -14,7 +14,7 @@ nav{
     margin: 0 auto;
     text-align: center;
     gap: 50px;
-    transition: all .5s ease;
+    transition: all .6s ease;
 }
 .links.active{
     width: 100%;
@@ -86,7 +86,7 @@ nav{
     width: 100%;
     height: 100%;
     z-index: 1;
-    transition: all .6s ease;
+    transition: all .5s ease;
     border-radius: 0 0 80% 0;
 
 }

@@ -19,7 +19,9 @@
     .contactFormMainSection {
         background: none;
     }
-    .buttonPCHidden{
+    .contactFormMainSection button{
         font-size: 16px;
+        font-weight: var(--semibold-weight);
+        padding: 0 20px;
     }
 }

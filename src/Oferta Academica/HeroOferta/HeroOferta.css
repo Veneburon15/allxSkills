@@ -16,7 +16,7 @@
     width: 50vw;
 }
 
-.mainH2{
+.mainH2O{
     font-family: var(--fuente);
     font-weight: var(--semibold-weight);
     font-size: 44px;
@@ -41,16 +41,18 @@
     .heroMainDiv{
         width: 100%;
     }
-    .mainH2, .ofertaGradientPhone {
-        font-size: 43px;
+    .ofertaGradientPhone {
         margin: 0;
         padding: 0;
     }
-    .mainH2{
-        margin-bottom: 24px;
+    .heroMainDiv h2{
+        margin-bottom: 20px;
+        font-size: 40px;
+        font-weight: var(--semibold-weight);
+        line-height: 100%;
     }
-    .mainHeroP {
-        margin: 0 0 40px 0;
+    .heroMainDiv p {
+        margin: 0 0 30px 0;
         padding: 0%;
     }
 

@@ -3,8 +3,8 @@ import './Newsletter.css'
 const Newsletter = () => {
     return (
         <section className='newsletterSection'>
+            <h3 className='newsletterP hiddenInPC'>¡Suscríbete a nuestro boletín!</h3>
             <h3 className='hiddenInPhone'>¡Eleva tus habilidades con nosotros!</h3>
-            <p className='hiddenInPC'>¡Suscríbete a nuestro boletín!</p>
             <p className='hiddenInPhone'>Recibe contenido exclusivo, actualizaciones y oportunidades de desarrollo personal y profesional en tu bandeja de entrada</p>
             <form className='suscribeForm'>
                 <label htmlFor="email">

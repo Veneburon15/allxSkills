@@ -67,10 +67,14 @@ form{
         background-position: center;
         background-size: cover;      
     }
+    .newsletterSection h3 {
+        font-weight: var(--semibold-weight);
+        font-size: 30px;
+        margin-bottom: 25px;
+    }
     .hiddenInPC{
         padding: 0 20px;
         text-align: center;
-        font-size: 27px;
         font-weight: var(--semibold-weight);
     }
     .suscribeForm {
