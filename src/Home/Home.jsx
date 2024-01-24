@@ -9,12 +9,11 @@ import Newsletter from './Upgrade/Newsletter'
 import Cursos from '../async'
 import WhatsappButton from '../Function_components/WhatsappButton/WhatsappButton'
 
-
 function Home() { 
   const cursosContainer = []
   for (let i = 0; i < 3; i++) {
       const curso = Cursos[i];
-      cursosContainer.push(<Workshop key={curso.id} curso={curso} />);
+      cursosContainer.push(<Workshop key={curso.id} curso={curso}/>);
     }
 
   return (

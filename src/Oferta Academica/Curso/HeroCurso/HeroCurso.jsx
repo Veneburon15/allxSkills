@@ -1,6 +1,7 @@
 import DropdownIcon from '../../../Assets/Iconos/arrow-navbarDropdown.svg'
 import './HeroCurso.css'
 import pHCertificate from '../../../Assets/Iconos/ph_certificate.svg'
+// import {Accordion, AccordionItem} from "@nextui-org/accordion";
 
 const HeroCurso = ({tipo,nombre,slogan,fechaLarga,fecha,objetivos,contenido,horarioDias,horarioHoras,duracion}) => {
     return(
@@ -22,30 +23,54 @@ const HeroCurso = ({tipo,nombre,slogan,fechaLarga,fecha,objetivos,contenido,hora
                             <h3 className='body3'>Objetivos</h3> 
                             <img src={DropdownIcon} alt="Dropdown Icon" className='dropdownIcon drop'/>
                         </div>
-                        {/* <p className='body1'>{objetivos}</p> */}
+                        <p className='body1'>{objetivos}</p>
                     </div>
                     <div className='courseInfo'>
                         <div className='dropdownDetailDeployer'>
                             <h3 className='body3'>Contenido</h3> 
                             <img src={DropdownIcon} alt="Dropdown Icon" className='dropdownIcon drop'/>
                         </div>
-                        {/* <p className='body1'>{contenido}</p> */}
+                        <p className='body1'>{contenido}</p>
                     </div>
                     <div className='courseInfo'>
                         <div className='dropdownDetailDeployer'>
                             <h3 className='body3'>Horario</h3> 
                             <img src={DropdownIcon} alt="Dropdown Icon" className='dropdownIcon drop'/>
                         </div>
-                        {/* <p className='body1'>{horarioDias} <br /> {horarioHoras} </p> */}
+                        <p className='body1'>{horarioDias} <br /> {horarioHoras} </p>
                     </div> 
                     <div className='courseInfo'>
                         <div className='dropdownDetailDeployer'>
                             <h3 className='body3'>Duración</h3> 
                             <img src={DropdownIcon} alt="Dropdown Icon" className='dropdownIcon drop'/>
                         </div>
-                        {/* <p className='body1'>{duracion}</p> */}
-                    </div>
+                        <p className='body1'>{duracion}</p>
+    </div>
+                    {/* <Accordion className='centerDivDetailHero'>
+                        <AccordionItem key="1" aria-label="Accordion 1" title="Objetivos" className='dropdownDetailDeployer'>
+                            <div className='courseInfo'>
+                                <p className='body1'>{objetivos}</p>
+                            </div>
+                        </AccordionItem>
+                        <AccordionItem key="2" aria-label="Accordion 2" title="Contenido" className=' dropdownDetailDeployer'>
+                            <div className='courseInfo'>
+                                <p className='body1'>{contenido}</p>
+                            </div>
+                        </AccordionItem>
+                        <AccordionItem key="3" aria-label="Accordion 3" title="Horario" className=' dropdownDetailDeployer'>
+                            <div className='courseInfo'>
+                                <p className='body1'>{horarioDias}</p>
+                            </div>
+                        </AccordionItem>
+                        <AccordionItem key="4" aria-label="Accordion 4" title="Duración" className=' dropdownDetailDeployer'>
+                            <div className='courseInfo'>
+                                <p className='body1'>{duracion}</p>
+                            </div>
+                        </AccordionItem>
+                    </Accordion> */}
+
                 </div>
+
             </div> 
             <div className='bellowDivDetailHero'>
                 <p className='body2'>Los cupos son limitados. Máximo 10 participantes. <br  className='hiddenInPhone'/> Las clases se graban y quedan a disposición del asistente.</p>

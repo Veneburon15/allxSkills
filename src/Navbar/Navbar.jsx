@@ -16,16 +16,16 @@ const Navbar = () => {
                 <img src={Logo} alt="Logo Allxskills" />
             </Link>
             <ul className={`links ${clicked ? 'active' : ''}`}>
-                <li onClick={handleClick}>
+                <li >
                     <NavLink to='/OfertaAcademica' className='navFont'> Oferta Académica </NavLink>
                 </li>
-                <li onClick={handleClick}>
+                <li >
                     <NavLink to='/SobreNosotros' className='navFont'> Sobre Nosotros </NavLink>
                 </li>
-                <li onClick={handleClick}>
+                <li >
                     <NavLink to='/SoftSkills' className='navFont'> ¿Por qué Soft Skills? </NavLink>
                 </li>
-                <li onClick={handleClick}>
+                <li >
                     <NavLink to='/Contactanos' className="contactButton"> Contáctanos </NavLink>
                 </li>
             </ul>

@@ -16,10 +16,11 @@
   font-size: 44px;
   margin-bottom: 20px;
   font-weight: var(--semibold-weight);
+  line-height: 100%;
 }
 
 .textDivSoft p {
-  margin-bottom: 30px;
+  margin-bottom: 24px;
 }
 
 .heroPinkText {

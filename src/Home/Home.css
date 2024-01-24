@@ -43,7 +43,11 @@
         justify-content: left;
         align-items: left;
         flex-wrap: nowrap;
-        gap: 20px
+        gap: 20px;
+        overflow-x: auto;
+    }
+    .cursosContainerHome::-webkit-scrollbar{
+        width: 0;
     }
     .violetButton{
         margin: 32px 20px;

@@ -73,9 +73,6 @@
     flex-direction: row;
     justify-content: space-between;
     padding: 10px 24px;
-    border-bottom: solid #323232 2px;
-    height: 56px;
-    align-items: center;
     background-color: transparent;
 }
 
