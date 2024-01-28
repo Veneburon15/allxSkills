@@ -11,7 +11,7 @@ const Cursos = [
         fecha: '20/29', 
         objetivos: 'Introducir el concepto de inteligencia emocional. Entender por qué es esencial para gestionar cambios. Comprender cómo afecta el cambio a nuestras emociones. Identificar etapas emocionales comunes durante un proceso de cambio. Aprender herramientas prácticas para gestionar el cambio usando la IE. Desarrollar habilidades para la autoconfianza y automotivación. Definir qué significa "éxito" en el contexto de gestionar cambios. Establecer metas y crear un plan de acción.', 
         contenido: '¿Qué es la inteligencia emocional? La relación entre inteligencia emocional y cambio. Acercamiento al Autoconocimiento. Las etapas emocionales del cambio: negacion, resistencia, exploración y aceptación. Impacto de las creencias limitantes. Técnicas de autorregulación: respiración, mindfulness y visualización. Autoconfianza y automotivación como motor interno. El éxito en la gestión del cambio: Más allá del resultado final. Objetivos, organización, recursos y estrategias emocionales.',
-        horarioDias: 'Martes y jueves',
+        horarioDias: 'Martes y Jueves',
         horarioHoras: '18:00 a 20:00 (GMT-3), Hora de Argentina',
         precioArg:'AR$ 44.500',
         precioUsd:'U$S 45'
