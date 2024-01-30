@@ -1,9 +1,46 @@
 import DropdownIcon from '../../../Assets/Iconos/arrow-navbarDropdown.svg'
 import './HeroCurso.css'
 import pHCertificate from '../../../Assets/Iconos/ph_certificate.svg'
-// import {Accordion, AccordionItem} from "@nextui-org/accordion";
+import { useState } from 'react'
+// import {Accordion, AccordionItem} from "@nextui-org/accordion"; 
 
 const HeroCurso = ({tipo,nombre,slogan,fechaLarga,fecha,objetivos,contenido,horarioDias,horarioHoras,duracion}) => {
+    const [acordeonObjetivos, setAcordeonObjetivos] = useState(false);
+    const [acordeonContenido, setAcordeonContenido] = useState(false);
+    const [acordeonHorario, setAcordeonHorario] = useState(false);
+    const [acordeonDuracion, setAcordeonDuracion] = useState(false); 
+
+const    handleOpen = (e) => { 
+     
+        if(e.target.id === 'objetivos'){
+            setAcordeonObjetivos(!acordeonObjetivos)
+            setAcordeonContenido(false)
+            setAcordeonHorario(false)
+            setAcordeonDuracion(false) 
+            console.log("objetivoss")
+        }else{
+            if(e.target.id === 'contenido'){
+                setAcordeonObjetivos(false)
+                setAcordeonContenido(!acordeonContenido)
+                setAcordeonHorario(false)
+                setAcordeonDuracion(false)
+            }else{
+                if(e.target.id === 'horarios'){
+                    setAcordeonObjetivos(false)
+                    setAcordeonContenido(false)
+                    setAcordeonHorario(!acordeonHorario)
+                    setAcordeonDuracion(false)
+                }else{
+                    if(e.target.id === 'duracion'){
+                        setAcordeonObjetivos(false)
+                        setAcordeonContenido(false)
+                        setAcordeonHorario(false)
+                        setAcordeonDuracion(!acordeonDuracion)
+                    }   
+                }
+            }
+        }
+    }
     return(
         <section className='courseDetailHeroSection'>
             <div className='divSectionContainer'>
@@ -21,54 +58,31 @@ const HeroCurso = ({tipo,nombre,slogan,fechaLarga,fecha,objetivos,contenido,hora
                     <div className='courseInfo'>
                         <div className='dropdownDetailDeployer'>
                             <h3 className='body3'>Objetivos</h3> 
-                            <img src={DropdownIcon} alt="Dropdown Icon" className='dropdownIcon drop'/>
+                            <img src={DropdownIcon} alt="Dropdown Icon" className='dropdownIcon drop' id='objetivos' onClick={handleOpen}/>
                         </div>
-                        <p className='body1'>{objetivos}</p>
+                        <p className={acordeonObjetivos ? "body1" : "body1 hide"}>{objetivos}</p>
                     </div>
                     <div className='courseInfo'>
                         <div className='dropdownDetailDeployer'>
                             <h3 className='body3'>Contenido</h3> 
-                            <img src={DropdownIcon} alt="Dropdown Icon" className='dropdownIcon drop'/>
+                            <img src={DropdownIcon} alt="Dropdown Icon" className='dropdownIcon drop' id='contenido'onClick={handleOpen}/>
                         </div>
-                        <p className='body1'>{contenido}</p>
+                        <p className={acordeonContenido ? "body1" : "body1 hide "}>{contenido}</p>
                     </div>
                     <div className='courseInfo'>
                         <div className='dropdownDetailDeployer'>
                             <h3 className='body3'>Horario</h3> 
-                            <img src={DropdownIcon} alt="Dropdown Icon" className='dropdownIcon drop'/>
+                            <img src={DropdownIcon} alt="Dropdown Icon" className='dropdownIcon drop' id='horarios' onClick={handleOpen}/>
                         </div>
-                        <p className='body1'>{horarioDias} <br /> {horarioHoras} </p>
+                        <p className={acordeonHorario ? "body1" : "body1 hide "}>{horarioDias}</p>
                     </div> 
                     <div className='courseInfo'>
                         <div className='dropdownDetailDeployer'>
                             <h3 className='body3'>Duración</h3> 
-                            <img src={DropdownIcon} alt="Dropdown Icon" className='dropdownIcon drop'/>
+                            <img src={DropdownIcon} alt="Dropdown Icon" className='dropdownIcon drop' id='duracion' onClick={handleOpen}/>
                         </div>
-                        <p className='body1'>{duracion}</p>
-    </div>
-                    {/* <Accordion className='centerDivDetailHero'>
-                        <AccordionItem key="1" aria-label="Accordion 1" title="Objetivos" className='dropdownDetailDeployer'>
-                            <div className='courseInfo'>
-                                <p className='body1'>{objetivos}</p>
-                            </div>
-                        </AccordionItem>
-                        <AccordionItem key="2" aria-label="Accordion 2" title="Contenido" className=' dropdownDetailDeployer'>
-                            <div className='courseInfo'>
-                                <p className='body1'>{contenido}</p>
-                            </div>
-                        </AccordionItem>
-                        <AccordionItem key="3" aria-label="Accordion 3" title="Horario" className=' dropdownDetailDeployer'>
-                            <div className='courseInfo'>
-                                <p className='body1'>{horarioDias}</p>
-                            </div>
-                        </AccordionItem>
-                        <AccordionItem key="4" aria-label="Accordion 4" title="Duración" className=' dropdownDetailDeployer'>
-                            <div className='courseInfo'>
-                                <p className='body1'>{duracion}</p>
-                            </div>
-                        </AccordionItem>
-                    </Accordion> */}
-
+                        <p className={acordeonDuracion ? "body1" : "body1 hide "}>{duracion}</p>
+                    </div>
                 </div>
 
             </div> 
