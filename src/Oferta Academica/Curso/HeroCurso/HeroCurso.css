@@ -99,6 +99,12 @@
     align-items: center;
 }
 
+/* .courseInfo .body1, .hide{
+    transition: all .6s ease;
+} */
+
+
+
 @media (max-width: 500px){
     .courseDetailHeroSection{
         padding: 93px 20px 0 20px;
