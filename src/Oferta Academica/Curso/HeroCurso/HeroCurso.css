@@ -11,6 +11,8 @@
     padding-top: 50px;
 }
 
+/* seccion izquierda *****************/
+
 .topDivDetailHero{
     display: flex;
     flex-direction: column;
@@ -28,19 +30,21 @@
 }
 
 .topDivDetailHero h3 {
-    margin-bottom: 24px;
+    margin-bottom: 15px;
     font-size: 28px;
-}
-
-.topInnerDiv{
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    padding-top : 56px;
 }
 
 .fechaLarga{
     font-weight: var(--semibold-weight);
+}
+
+/* seccion de las fechas y boton de inscripcion ************/
+.topInnerDiv{
+    padding-top : 56px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
 }
 
 .fecha {
@@ -55,7 +59,6 @@
 }
 
 .inscriptionButton{
-    margin-left: 50px;
     background-color: transparent;
     border: solid 2px var(--main-font-color);
 }
@@ -72,8 +75,13 @@
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    padding: 10px 24px;
+    padding: 15px 24px;
     background-color: transparent;
+    cursor: pointer;
+}
+
+.courseInfo{
+    border-bottom: 2px solid #242527;
 }
 
 .courseInfo p {
@@ -83,6 +91,10 @@
 
 .drop {
     width: 16px;
+}
+
+.rotate{
+    transform: rotate(-180deg)
 }
 
 .bellowDivDetailHero {
@@ -99,11 +111,9 @@
     align-items: center;
 }
 
-/* .courseInfo .body1, .hide{
-    transition: all .6s ease;
-} */
-
-
+.hide{
+    display: none;
+}
 
 @media (max-width: 500px){
     .courseDetailHeroSection{
@@ -145,6 +155,3 @@
         font-size: 16px;
     }
 } 
-.hide{
-    display: none;
-}

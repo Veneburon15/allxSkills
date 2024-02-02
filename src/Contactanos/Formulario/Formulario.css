@@ -68,9 +68,6 @@
 .belowFormDiv {
     display: flex;
     flex-direction: row;
-    align-items: center;
-    justify-content: center;
-    align-items: center;
     gap: 44px;
 }
 
@@ -78,16 +75,30 @@
     font-size: 12px;
 }
 
+.rebootButton{
+    margin-top: 10px;
+    height: 0;
+    border: none;
+}
+
 .sendForm {
     display: flex;
     justify-content: center;
     align-items: center;
+    flex-direction: row;
     gap: 10px;
-    padding: 0px 22px 0 12px;
     height: fit-content;
+    width: max-content;
+    padding: 10px 35px;
     background-color: #D22EB6;
     border-radius: 6px;
     border: solid 1px #D22EB6;;
+    line-height: auto;
+}
+
+.sendText{
+    font-weight: var(--semibold-weight);
+    color: var(--main-font-color);
 }
 
 .sendForm:hover{
@@ -95,12 +106,15 @@
     cursor: pointer;
 }
 
-.sendForm input {
-    background-color: transparent;
-    font-weight: var(--semibold-weight);
-    font-size: 16px;
-    color: var(--main-font-color);
+.sendedForm{
+    background-color: #5E4DCD;
+    border-color: #5E4DCD;
 }
+.sendedForm:hover{
+    background-color: #553f99;
+    border-color: #553f99;
+}
+
 
 .socialMediaDiv{
     display: flex;
@@ -145,11 +159,19 @@
         width: 95%;
     }
     .emailFormInput, .messageFormInput{
-        width: 148%;
+        width: 235%;
     }
     .belowFormDiv{
         flex-direction: column;
-        gap: 24px;
+        gap: 10px;
+        width: 100%;
+        justify-content: center;
+        align-items: center;
+        height: 100px;
+        padding-bottom: 32px;
+    }
+    .belowTextDiv{
+        width: 95%;
     }
     .socialMediaDiv h3{
         font-size: 23px;

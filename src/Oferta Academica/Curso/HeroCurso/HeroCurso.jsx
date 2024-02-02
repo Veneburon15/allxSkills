@@ -10,27 +10,27 @@ const HeroCurso = ({tipo,nombre,slogan,fechaLarga,fecha,objetivos,contenido,hora
     const [acordeonDuracion, setAcordeonDuracion] = useState(false); 
 
 const handleOpen = (e) => { 
-        if(e.target.id === 'objetivos'){
+        if(e.target.id === 'objetivos' || e.target.id === 'objetivosDrop' || e.target.id === 'objetivosH3'){
             setAcordeonObjetivos(!acordeonObjetivos)
             setAcordeonContenido(false)
             setAcordeonHorario(false)
-            setAcordeonDuracion(false) 
+            setAcordeonDuracion(false)        
         }
         else{
-            if(e.target.id === 'contenido'){
+            if(e.target.id === 'contenido' || e.target.id === 'contenidoDrop' || e.target.id === 'contenidoH3'){
                 setAcordeonObjetivos(false)
                 setAcordeonContenido(!acordeonContenido)
                 setAcordeonHorario(false)
                 setAcordeonDuracion(false)
             }else{
-                if(e.target.id === 'horarios'){
+                if(e.target.id === 'horarios' || e.target.id === 'horariosDrop' || e.target.id === 'horariosH3'){
                     setAcordeonObjetivos(false)
                     setAcordeonContenido(false)
                     setAcordeonHorario(!acordeonHorario)
                     setAcordeonDuracion(false)
                 }
                 else{
-                    if(e.target.className === 'dropdownDetailDeployer' || 'body3' || 'dropdownIcon'){
+                    if(e.target.className === 'duracion' || e.target.id === 'duracionDrop' || e.target.id === 'duracionH3'){
                         setAcordeonObjetivos(false)
                         setAcordeonContenido(false)
                         setAcordeonHorario(false)
@@ -47,40 +47,40 @@ const handleOpen = (e) => {
                     <h4 className={`tag ${tipo}`}  id="tag">{tipo}</h4>
                     <h2 className='courseDetailH2'>{nombre}:</h2>
                     <h3>{slogan}</h3>
+                    <p className='fechaLarga'>{fechaLarga}</p>
                     <div className='topInnerDiv'>
                         <p className='fecha'>{fecha}</p>
-                        <p className='dateAbreviation'>FEB</p>
                         <button className='inscriptionButton'>Inscríbete Ahora</button>
                     </div>
                 </div>
                 <div className='centerDivDetailHero'>
-                    <div className='courseInfo'  >
-                        <div className='dropTop dropdownDetailDeployer'>
-                            <h3 className='body3'>Objetivos</h3> 
-                            <img src={DropdownIcon} alt="Dropdown Icon" className='dropdownIcon drop' id='objetivos' onClick={handleOpen}/>
+                    <div className='courseInfo'>
+                        <div className='dropdownDetailDeployer' id='objetivosDrop'  onClick={handleOpen}>
+                            <h3 className='body3' id='objetivosH3'  onClick={handleOpen}>Objetivos</h3> 
+                            <img src={DropdownIcon} alt="Dropdown Icon" className={acordeonObjetivos ? "dropdownIcon drop rotate" : "dropdownIcon drop"} id='objetivos'  onClick={handleOpen}/>
                         </div>
                         <p className={acordeonObjetivos ? "body1" : "body1 hide"}>{objetivos}</p>
                     </div>
                     <div className='courseInfo'>
-                        <div className='dropdownDetailDeployer' onClick={handleOpen}>
-                            <h3 className='body3' onClick={handleOpen}>Contenido</h3> 
-                            <img src={DropdownIcon} alt="Dropdown Icon" className='dropdownIcon drop' id='contenido'onClick={handleOpen}/>
+                        <div className='dropdownDetailDeployer' id='contenidoDrop'  onClick={handleOpen}>
+                            <h3 className='body3' id='contenidoH3'  onClick={handleOpen}>Contenido</h3> 
+                            <img src={DropdownIcon} alt="Dropdown Icon" className={acordeonContenido ? "dropdownIcon drop rotate" : "dropdownIcon drop"} id='contenido'  onClick={handleOpen}/>
                         </div>
-                        <p className={acordeonContenido ? "body1" : "body1 hide "}>{contenido}</p>
+                        <p className={acordeonContenido ? "body1" : "body1 hide"}>{contenido}</p>
                     </div>
                     <div className='courseInfo'>
-                        <div className='dropdownDetailDeployer' onClick={handleOpen}>
-                            <h3 className='body3' onClick={handleOpen}>Horario</h3> 
-                            <img src={DropdownIcon} alt="Dropdown Icon" className='dropdownIcon drop' id='horarios' onClick={handleOpen}/>
+                        <div className='dropdownDetailDeployer' id='horariosDrop'  onClick={handleOpen}>
+                            <h3 className='body3' id='horariosH3'  onClick={handleOpen}>Horario</h3> 
+                            <img src={DropdownIcon} alt="Dropdown Icon" className={acordeonHorario ? "dropdownIcon drop rotate" : "dropdownIcon drop"} id='horarios'  onClick={handleOpen}/>
                         </div>
-                        <p className={acordeonHorario ? "body1" : "body1 hide "}>{horarioDias}</p>
+                        <p className={acordeonHorario ? "body1" : "body1 hide"}>{horarioDias} <br /> {horarioHoras}</p>
                     </div> 
                     <div className='courseInfo'>
-                        <div className='dropdownDetailDeployer' onClick={handleOpen}>
-                            <h3 className='body3' onClick={handleOpen}>Duración</h3> 
-                            <img src={DropdownIcon} alt="Dropdown Icon" className='dropdownIcon drop' id='duracion' onClick={handleOpen}/>
+                        <div className='dropdownDetailDeployer' id='duracionDrop'  onClick={handleOpen}>
+                            <h3 className='body3' id='duracionH3'  onClick={handleOpen}>Duración</h3> 
+                            <img src={DropdownIcon} alt="Dropdown Icon" className={acordeonDuracion ? "dropdownIcon drop rotate" : "dropdownIcon drop"} id='duracion'  onClick={handleOpen}/>
                         </div>
-                        <p className={acordeonDuracion ? "body1" : "body1 hide "}>{duracion}</p>
+                        <p className={acordeonDuracion ? "body1" : "body1 hide"}>{duracion}</p>
                     </div>
                 </div>
 
