@@ -30,7 +30,7 @@ const handleOpen = (e) => {
                     setAcordeonDuracion(false)
                 }
                 else{
-                    if(e.target.className === 'duracion' || e.target.id === 'duracionDrop' || e.target.id === 'duracionH3'){
+                    if(e.target.id === 'duracion' || e.target.id === 'duracionDrop' || e.target.id === 'duracionH3'){
                         setAcordeonObjetivos(false)
                         setAcordeonContenido(false)
                         setAcordeonHorario(false)
@@ -59,31 +59,30 @@ const handleOpen = (e) => {
                             <h3 className='body3' id='objetivosH3'  onClick={handleOpen}>Objetivos</h3> 
                             <img src={DropdownIcon} alt="Dropdown Icon" className={acordeonObjetivos ? "dropdownIcon drop rotate" : "dropdownIcon drop"} id='objetivos'  onClick={handleOpen}/>
                         </div>
-                        <p className={acordeonObjetivos ? "body1" : "body1 hide"}>{objetivos}</p>
+                        <p className={acordeonObjetivos ? "body1 shown" : "body1 hide"}>{objetivos}</p>
                     </div>
                     <div className='courseInfo'>
                         <div className='dropdownDetailDeployer' id='contenidoDrop'  onClick={handleOpen}>
                             <h3 className='body3' id='contenidoH3'  onClick={handleOpen}>Contenido</h3> 
                             <img src={DropdownIcon} alt="Dropdown Icon" className={acordeonContenido ? "dropdownIcon drop rotate" : "dropdownIcon drop"} id='contenido'  onClick={handleOpen}/>
                         </div>
-                        <p className={acordeonContenido ? "body1" : "body1 hide"}>{contenido}</p>
+                        <p className={acordeonContenido ? "body1 shown" : "body1 hide"}>{contenido}</p>
                     </div>
                     <div className='courseInfo'>
                         <div className='dropdownDetailDeployer' id='horariosDrop'  onClick={handleOpen}>
                             <h3 className='body3' id='horariosH3'  onClick={handleOpen}>Horario</h3> 
                             <img src={DropdownIcon} alt="Dropdown Icon" className={acordeonHorario ? "dropdownIcon drop rotate" : "dropdownIcon drop"} id='horarios'  onClick={handleOpen}/>
                         </div>
-                        <p className={acordeonHorario ? "body1" : "body1 hide"}>{horarioDias} <br /> {horarioHoras}</p>
+                        <p className={acordeonHorario ? "body1 shown" : "body1 hide"}>{horarioDias} <br /> {horarioHoras}</p>
                     </div> 
                     <div className='courseInfo'>
                         <div className='dropdownDetailDeployer' id='duracionDrop'  onClick={handleOpen}>
                             <h3 className='body3' id='duracionH3'  onClick={handleOpen}>Duración</h3> 
                             <img src={DropdownIcon} alt="Dropdown Icon" className={acordeonDuracion ? "dropdownIcon drop rotate" : "dropdownIcon drop"} id='duracion'  onClick={handleOpen}/>
                         </div>
-                        <p className={acordeonDuracion ? "body1" : "body1 hide"}>{duracion}</p>
+                        <p className={acordeonDuracion ? "body1 shown" : "body1 hide"}>{duracion}</p>
                     </div>
                 </div>
-
             </div> 
             <div className='bellowDivDetailHero'>
                 <p className='body2'>Los cupos son limitados. Máximo 10 participantes. <br  className='hiddenInPhone'/> Las clases se graban y quedan a disposición del asistente.</p>

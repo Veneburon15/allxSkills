@@ -16,23 +16,24 @@ nav{
     gap: 50px;
     transition: all .6s ease;
 }
-.links.active{
-    width: 100%;
-    display: flex;
-    flex-direction: column;
-    position: absolute;
-    margin: 0 auto;
-    top: 30%;
-    left: 0;
-    right: 0;
-    text-align: center;
-    gap: 35px;
-    z-index: 2;
+@media (max-width:500px){
+    .links.active{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        position: absolute;
+        margin: 0 auto;
+        top: 30%;
+        left: 0;
+        right: 0;
+        text-align: center;
+        gap: 35px;
+        z-index: 2;
+    }
+    .links.active li{
+        display: block;
+    }
 }
-.links.active li{
-    display: block;
-}
-
 
 .logoDiv{
     display: flex;
@@ -54,8 +55,10 @@ nav{
     font-size: 14px;
     font-weight: var(--semibold-weight);
 }
-.links.active .navFont{
-    font-size: 20px;
+@media (max-width:500px){
+    .links.active .navFont{
+        font-size: 20px;
+    }
 }
 .contactButton {
     font-weight: var(--semibold-weight);
@@ -111,5 +114,8 @@ nav{
     }
     .links li {
         display: inline;
+    }
+    .initial{
+        display: none;
     }
 }

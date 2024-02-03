@@ -159,7 +159,7 @@
         width: 95%;
     }
     .emailFormInput, .messageFormInput{
-        width: 235%;
+        width: 177%;
     }
     .belowFormDiv{
         flex-direction: column;

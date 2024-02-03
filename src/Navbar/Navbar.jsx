@@ -17,16 +17,16 @@ const Navbar = () => {
             </Link>
             <ul className={`links ${clicked ? 'active' : ''}`}>
                 <li >
-                    <NavLink to='/OfertaAcademica' className='navFont'> Oferta Académica </NavLink>
+                    <NavLink to='/OfertaAcademica' className='navFont' onClick={handleClick}> Oferta Académica </NavLink>
                 </li>
                 <li >
-                    <NavLink to='/SobreNosotros' className='navFont'> Sobre Nosotros </NavLink>
+                    <NavLink to='/SobreNosotros' className='navFont' onClick={handleClick}> Sobre Nosotros </NavLink>
                 </li>
                 <li >
-                    <NavLink to='/SoftSkills' className='navFont'> ¿Por qué Soft Skills? </NavLink>
+                    <NavLink to='/SoftSkills' className='navFont' onClick={handleClick}> ¿Por qué Soft Skills? </NavLink>
                 </li>
                 <li >
-                    <NavLink to='/Contactanos' className="contactButton"> Contáctanos </NavLink>
+                    <NavLink to='/Contactanos' className="contactButton" onClick={handleClick}> Contáctanos </NavLink>
                 </li>
             </ul>
             <div className='burger'>
