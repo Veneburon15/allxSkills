@@ -4,3 +4,7 @@ ul {
     align-items: center;
     gap: 7px;
 }
+
+.threads {
+    width: 20px;
+}
