@@ -1,0 +1,20 @@
+.regretMain {
+    margin: 0 80px 80px 80px;
+    display: flex;
+    flex-direction: column;
+}
+
+.regretMain h2{
+    font-size: 40px;
+    margin: 20px 0 50px 0;
+    font-weight: var(--bold-weight);
+}
+
+.regretMain h3{
+    font-size: 30px;
+    margin: 15px 0;
+}
+
+.regretMain p {
+    margin-bottom: 15px;
+}

@@ -9,6 +9,8 @@ import Contactanos from './Contactanos/Contactanos';
 import SoftSkillsPage from './SoftSkillsPage/SoftSkillsPage'; 
 import Curso from './Oferta Academica/Curso/Curso';
 import SobreNosotros from './SobreNosotrosPage/SobreNostros';
+import TerminosYCondiciones from './TerminosYCondiciones/TerminosYCondiciones';
+import BotonArrepentimiento from './BotonArrepentimiento/BotonArrepentimiento';
 
 function App() {
   return (
@@ -20,13 +22,12 @@ function App() {
         <Route path="/" element={<Home />} />
         <Route path="/ofertaAcademica" element={<OfertaAcademica />}/> 
         <Route path="/curso/:cursoId" element={<Curso />}/>
-        {/* <Route path="/ofertaAcademica/AllCourses" element={</>}/> */}
-        {/* <Route path="/ofertaAcademica/InteligenciaEmocional" element={</>}/> */}
-        {/* <Route path="/ofertaAcademica/HabilidadesInterpersonales" element={</>}/> */}
         <Route path='/sobreNosotros' element={<SobreNosotros/>}/>
         <Route path='/softSkills' element={<SoftSkillsPage/>} />
         <Route path='/contactanos' element={<Contactanos/>}/>
         <Route path='*' element={<h2>Página en construcción</h2>}/>
+        <Route path='/terminosYCondiciones' element={<TerminosYCondiciones/>}/>
+        <Route path='/botonArrepentimiento' element={<BotonArrepentimiento/>}/>
       </Routes>
       <Footer/>
     </BrowserRouter>
