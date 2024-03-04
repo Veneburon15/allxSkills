@@ -6,7 +6,6 @@ import BurguerNavBar from '../Function_components/BurguerNavBar/BurguerNavBar';
 
 const Navbar = () => {
     const [clicked, setClicked] = useState(false);
-    console.log(clicked)
     const handleClick = () => {
         setClicked(!clicked)
     }
