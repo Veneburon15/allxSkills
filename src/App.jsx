@@ -10,7 +10,8 @@ import SoftSkillsPage from './SoftSkillsPage/SoftSkillsPage';
 import Curso from './Oferta Academica/Curso/Curso';
 import SobreNosotros from './SobreNosotrosPage/SobreNostros';
 import TerminosYCondiciones from './TerminosYCondiciones/TerminosYCondiciones';
-import BotonArrepentimiento from './BotonArrepentimiento/BotonArrepentimiento';
+import BotonArrepentimiento from './BotonArrepentimiento/BotonArrepentimiento'; 
+import Pago from './Oferta Academica/Curso/Pago/Pago';
 
 function App() {
   return (
@@ -28,6 +29,7 @@ function App() {
         <Route path='*' element={<h2>Página en construcción</h2>}/>
         <Route path='/terminosYCondiciones' element={<TerminosYCondiciones/>}/>
         <Route path='/botonArrepentimiento' element={<BotonArrepentimiento/>}/>
+        <Route path='/pagar/:id' element={<Pago/>}/>
       </Routes>
       <Footer/>
     </BrowserRouter>
