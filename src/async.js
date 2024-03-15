@@ -14,7 +14,7 @@ const Cursos = [
         horarioDias: 'Martes y Jueves',
         horarioHoras: '18:00 a 20:00 (GMT-3), Hora de Argentina',
         precioArg:'AR$ 44.500',
-        precioUsd:'U$S 45'
+        precioUsd:'45'
     },
     {
         id: 2,
@@ -31,7 +31,7 @@ const Cursos = [
         horarioDias: '',
         horarioHoras: '',
         precioArg:'AR$ 14.850',
-        precioUsd:'US$ 15'
+        precioUsd:'15'
     },
     {
         id: 3,
@@ -49,7 +49,7 @@ const Cursos = [
         horarioDias: '',
         horarioHoras: '',
         precioArg:'AR$ 44.550',
-        precioUsd:'US$ 45'
+        precioUsd:'45'
     }, 
     {
         id: 4,
@@ -67,7 +67,7 @@ const Cursos = [
         horarioDias: '',
         horarioHoras: '',
         precioArg:'AR$ 79.200',
-        precioUsd:'US$ 80'
+        precioUsd:'80'
     }, 
     {
         id: 5,
@@ -84,7 +84,7 @@ const Cursos = [
         horarioDias: '',
         horarioHoras: '',
         precioArg:'AR$ 44.550',
-        precioUsd:'US$ 45'
+        precioUsd:'45'
     },
     {
         id: 6,
@@ -101,7 +101,7 @@ const Cursos = [
         horarioDias: '',
         horarioHoras: '',
         precioArg:'AR$ 44.550',
-        precioUsd:'US$ 45'
+        precioUsd:'45'
     },
     {
         id: 7,
@@ -118,7 +118,7 @@ const Cursos = [
         horarioDias: '',
         horarioHoras: '',
         precioArg:'AR$ 14.850',
-        precioUsd:'US$ 15'
+        precioUsd:'15'
     }, 
     {
         id: 8,
@@ -135,7 +135,7 @@ const Cursos = [
         horarioDias: '',
         horarioHoras: '',
         precioArg:'AR$ 44.550',
-        precioUsd:'US$ 45'
+        precioUsd:'45'
     }, 
     {
         id: 9,

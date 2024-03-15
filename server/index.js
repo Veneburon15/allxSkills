@@ -18,10 +18,8 @@ app.post('/api/checkout', async (req, res) => {
             description: 'Curso de SoftSkills',
             payment_method: id,
             confirm: true,
-            return_url: 'http://localhost:3000/payment/success' // URL de retorno
+            return_url: 'http://localhost:3000/payment/success' 
         });
-
-        console.log(paymentIntent);
         res.send({ message: "Successful Payment" });
     } catch (error) {
         console.error(error);

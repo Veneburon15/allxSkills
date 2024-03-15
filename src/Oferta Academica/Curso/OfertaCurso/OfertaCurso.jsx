@@ -15,7 +15,7 @@ const OfertaCurso = ({ precioArg, precioUsd,id }) => {
                 <span className='coloredBorder hiddenInPC'></span>
                 <div className='pricerDiv borderDiv secondPricerDiv'>
                     <h4 className='zones'>OTROS PAÍSES</h4>
-                    <h3 className='price'>{precioUsd}</h3>
+                    <h3 className='price'>US$ {precioUsd}</h3>
                     <p className='body1'>Dólares Estadounidenses</p>
                 </div>
                 <span className='coloredBorder hiddenInPC'></span>
